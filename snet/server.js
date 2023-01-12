@@ -523,6 +523,7 @@ if (doFlags.doCreateServer) {
         let o = url.parse(e.url).pathname;
         t.writeHead(200);
         t.write("v0.3");
+        t.end();
     });
     n.listen(process.env.PORT || 8080)
 };
