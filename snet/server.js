@@ -522,7 +522,7 @@ if (doFlags.doCreateServer) {
     let n = require("http").createServer(async function(e, t) {
         let o = url.parse(e.url).pathname;
         t.writeHead(200);
-        t.write("v0.2");
+        t.write("v0.3");
     });
     n.listen(process.env.PORT || 8080)
 };
