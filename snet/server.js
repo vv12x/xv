@@ -1,6 +1,5 @@
 const NETWORK_PATIENCE = 8e3 + 3e3 * Math.random(),
     MM_NETWORK_PATIENCE = 3 * NETWORK_PATIENCE,
-    ws = require("ws"),
     url = require("url"),
     doFlags = {
         doGF: !0,
@@ -8,10 +7,10 @@ const NETWORK_PATIENCE = 8e3 + 3e3 * Math.random(),
         doNetOnly: !0,
         doPageLoader: !0,
         doOUJS: !0,
-        doRemoteCaptcha: false,
+        doRemoteCaptcha: !0,
         doDual: !1,
         doSC: !0,
-        doCreateServer: true,
+        doCreateServer: !0,
         doExtFingerprint: !0
     },
     {
@@ -33,16 +32,16 @@ const NETWORK_PATIENCE = 8e3 + 3e3 * Math.random(),
     fetch = require("node-fetch"),
     channels = ["https://www.youtube.com/@Taskmaster", "https://www.youtube.com/@MrBeast", "https://www.youtube.com/channel/UCAiLfjNXkNv24uhpzUgPa6A", "https://www.youtube.com/channel/UCIPPMRA040LQr5QPyJEbmXA", "https://www.youtube.com/channel/UCUaT_39o1x6qWjz7K2pWcgw", "https://www.youtube.com/channel/UC4-79UOlP48-QNGgCko5p2g", "https://www.youtube.com/@quadecaX8", "https://www.youtube.com/@watcher", "https://www.youtube.com/@Zyenith", "https://www.youtube.com/@RyanGeorge", "https://www.youtube.com/@LegalEagle", "https://www.youtube.com/@jacksfilms", "https://www.youtube.com/@fantano", "https://www.youtube.com/@NerdExplains", "https://www.youtube.com/@HowToBasic", "https://www.youtube.com/channel/UCxjrNGrX188Riipfmvejjsg"];
 (() => {
-    Array.prototype.repeatExtend = function(e) {
+    Array.prototype.repeatExtend = function (e) {
         let t = this,
             o = t;
         for (let s = 0; s < e; s++) o = o.concat(t);
         return o
-    }, Array.prototype.random = function() {
+    }, Array.prototype.random = function () {
         return this[floor(random() * this.length)]
     };
     let e = new Map;
-    Array.prototype.randomFlush = function(t) {
+    Array.prototype.randomFlush = function (t) {
         let o = this[floor(random() * this.length)];
         e.has(t) || e.set(t, new Set);
         let s = e.get(t);
@@ -83,8 +82,10 @@ async function watchRandomFrontScreenVideo(e) {
         function e(e) {
             return e[Math.floor(Math.random() * e.length)]
         }
-        let t = Array.from(document.getElementsByClassName("yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded")).slice(0, 7);
-        e(t).setAttribute("id", "__scope")
+        let t = Array.from(document.getElementsByClassName("yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded"))
+            .slice(0, 7);
+        e(t)
+            .setAttribute("id", "__scope")
     }), await randomWait(), await e.click("#__scope"), await standardWaitForNetIdle(e);
     let t = await getMaxTime(e);
     return console.log("maxtime", t), await wait(Math.min(6e4 * getRandomInt(2, 5), t)), !0
@@ -99,7 +100,9 @@ async function getMaxTime(e) {
                 Minute: 6e4,
                 Hour: 36e5
             },
-            t = Array.from(document.getElementsByClassName("ytp-progress-bar")).pop().ariaValueText,
+            t = Array.from(document.getElementsByClassName("ytp-progress-bar"))
+            .pop()
+            .ariaValueText,
             o = 0;
         t = t.split(t.includes("of") ? " of " : ", ")[1].split(" ");
         for (let s = 0; s < t.length; s += 2) o += t[s] * e[t[s + 1]];
@@ -107,11 +110,16 @@ async function getMaxTime(e) {
     })
 }
 async function anchorAndView(e) {
-    log("goto channel and view video process..."), await standardGoto(e, channels.random()), await e.click("tp-yt-paper-tab.style-scope:nth-child(4)> div:nth-child(1)"), log("clicked video stuff"), await standardWaitForNetIdle(e), log("page network idle x2"), await e.evaluate(() => {
+    log("goto channel and view video process..."), await standardGoto(e, channels.random()), await e.click("tp-yt-paper-tab.style-scope:nth-child(4) > div:nth-child(1)"), log("clicked video stuff"), await standardWaitForNetIdle(e), log("page network idle x2"), await e.evaluate(() => {
         function e(e) {
             return e[Math.floor(Math.random() * e.length)]
         }
-        let t = Array.from(document.querySelectorAll("#contents")).filter(e => "style-scope ytd-rich-grid-row" == e.getAttribute("class")).slice(6).map(e => Array.from(e.children)).flat(1).map(e => e.childNodes[1].childNodes[0].childNodes[1].childNodes[0].childNodes[1]),
+        let t = Array.from(document.querySelectorAll("#contents"))
+            .filter(e => "style-scope ytd-rich-grid-row" == e.getAttribute("class"))
+            .slice(6)
+            .map(e => Array.from(e.children))
+            .flat(1)
+            .map(e => e.childNodes[1].childNodes[0].childNodes[1].childNodes[0].childNodes[1]),
             o = e(t);
         return o.setAttribute("id", "__hookedVidToWatch"), t.map(e => e.href)
     }), await wait(getRandomInt(1e3, 5e3)), await e.click("#__hookedVidToWatch"), console.log("woah clicked some videoo"), await wait(15e3);
@@ -124,17 +132,21 @@ async function frontScreenActions(e) {
         function e(e) {
             return e[Math.floor(Math.random() * e.length)]
         }
-        e(Array.from(document.getElementsByClassName("style-scope ytd-rich-grid-row")).filter(e => "contents" != e.id)).children[0].children[0].children[0].children[0].children[0].setAttribute("id", "gottemezez")
+        e(Array.from(document.getElementsByClassName("style-scope ytd-rich-grid-row"))
+                .filter(e => "contents" != e.id))
+            .children[0].children[0].children[0].children[0].children[0].setAttribute("id", "gottemezez")
     }), await randomWait(), await e.click("#gottemezez"), await standardWaitForNetIdle(e), await watchRandomFrontScreenVideo(e), !0
 }
 async function searchAndView(e) {
     log("searching youtube results"), await randomWait(), await e.evaluate(() => {
         let e = Array.from(document.querySelectorAll("#search"));
-        document.getElementById("__searchBoxReal") || e.find(e => "INPUT" === e.tagName).setAttribute("id", "__searchBoxReal")
+        document.getElementById("__searchBoxReal") || e.find(e => "INPUT" === e.tagName)
+            .setAttribute("id", "__searchBoxReal")
     }), await e.type("#__searchBoxReal", searchTerms.random(), {
         delay: 100 + 50 * random()
     }), await wait(500 + 300 * random()), await e.click("#search-icon-legacy"), console.log("searching..."), await async function t() {
-        if (!await e.evaluate(() => Array.from(document.getElementsByTagName("ytd-video-renderer")).length)) return await t()
+        if (!await e.evaluate(() => Array.from(document.getElementsByTagName("ytd-video-renderer"))
+                .length)) return await t()
     }(), await standardWaitForNetIdle(e);
     let t = await e.evaluate(() => {
         let e = {
@@ -151,12 +163,15 @@ async function searchAndView(e) {
         }
 
         function o(t) {
-            let o = t.split(", ").map(e => e.split(" ")).flat(1),
+            let o = t.split(", ")
+                .map(e => e.split(" "))
+                .flat(1),
                 s = 0;
             for (let r = 0; r < o.length; r += 2) s += o[r] * e[o[r + 1]];
             return s
         }
-        let s = Array.from(document.getElementsByTagName("ytd-video-renderer")).map(e => e.childNodes[2].childNodes[1].childNodes[1]),
+        let s = Array.from(document.getElementsByTagName("ytd-video-renderer"))
+            .map(e => e.childNodes[2].childNodes[1].childNodes[1]),
             r = t(s),
             a = r.childNodes[5].childNodes[0].childNodes[2].ariaLabel;
         return r.setAttribute("id", "__hookedVidToClick"), r.scrollIntoView(), o(a)
@@ -172,7 +187,9 @@ async function keyWatch(e) {
     let t = setInterval(async () => {
         log("executed cleanup interval, check process..."), await e.evaluate(() => {
             setTimeout(() => {
-                document.querySelector(".ytp-large-play-button")?.offsetParent && document.querySelector(".ytp-large-play-button").setAttribute("id", "__lllll")
+                document.querySelector(".ytp-large-play-button")
+                    ?.offsetParent && document.querySelector(".ytp-large-play-button")
+                    .setAttribute("id", "__lllll")
             }, 3e3 + 1e3 * Math.random())
         })
     }, 7e3);
@@ -374,11 +391,13 @@ async function runGFModule(browser, userAction) {
             } = scriptTargets.randomFlush(1), context = await browser.createIncognitoBrowserContext(), page = await context.newPage(), stopFlag = 0;
             if (await page.goto(potentialPreReferrer, {
                     timeout: NETWORK_PATIENCE
-                }).catch(e => stopFlag++), stopFlag) return await page.close(), await context.close(), createPage();
+                })
+                .catch(e => stopFlag++), stopFlag) return await page.close(), await context.close(), createPage();
             let ctx = await page.evaluate("document.documentElement.innerHTML");
             return (log(ctx.slice(0, 50)), ctx.includes("script-description")) ? (log("p1"), await page.goto(scriptRealLink, {
-                timeout: NETWORK_PATIENCE
-            }).catch(e => stopFlag++), stopFlag) ? (await page.close(), await context.close(), createPage()) : (await new Promise(e => setTimeout(e, 2e3 + floor(1e3 * random()))), log("p2"), log(await page.evaluate(() => {
+                    timeout: NETWORK_PATIENCE
+                })
+                .catch(e => stopFlag++), stopFlag) ? (await page.close(), await context.close(), createPage()) : (await new Promise(e => setTimeout(e, 2e3 + floor(1e3 * random()))), log("p2"), log(await page.evaluate(() => {
                 var root = "object" == typeof window ? window : {},
                     NODE_JS = !root.JS_SHA1_NO_NODE_JS && "object" == typeof process && process.versions && process.versions.node;
                 NODE_JS && (root = global);
@@ -387,17 +406,19 @@ async function runGFModule(browser, userAction) {
                     SHIFT = [24, 16, 8, 0],
                     OUTPUT_TYPES = ["hex", "array", "digest", "arrayBuffer"],
                     blocks = [],
-                    createOutputMethod = function(e) {
-                        return function(t) {
-                            return new Sha1(!0).update(t)[e]()
+                    createOutputMethod = function (e) {
+                        return function (t) {
+                            return new Sha1(!0)
+                                .update(t)[e]()
                         }
                     },
-                    createMethod = function() {
+                    createMethod = function () {
                         var e = createOutputMethod("hex");
-                        NODE_JS && (e = nodeWrap(e)), e.create = function() {
+                        NODE_JS && (e = nodeWrap(e)), e.create = function () {
                             return new Sha1
-                        }, e.update = function(t) {
-                            return e.create().update(t)
+                        }, e.update = function (t) {
+                            return e.create()
+                                .update(t)
                         };
                         for (var t = 0; t < OUTPUT_TYPES.length; ++t) {
                             var o = OUTPUT_TYPES[t];
@@ -405,14 +426,18 @@ async function runGFModule(browser, userAction) {
                         }
                         return e
                     },
-                    nodeWrap = function(method) {
+                    nodeWrap = function (method) {
                         var nodeMethod, crypto = eval("require('crypto')"),
                             Buffer = eval("require('buffer').Buffer");
-                        return function(e) {
-                            if ("string" == typeof e) return crypto.createHash("sha1").update(e, "utf8").digest("hex");
+                        return function (e) {
+                            if ("string" == typeof e) return crypto.createHash("sha1")
+                                .update(e, "utf8")
+                                .digest("hex");
                             if (e.constructor === ArrayBuffer) e = new Uint8Array(e);
                             else if (void 0 === e.length) return method(e);
-                            return crypto.createHash("sha1").update(new Buffer(e)).digest("hex")
+                            return crypto.createHash("sha1")
+                                .update(new Buffer(e))
+                                .digest("hex")
                         }
                     };
                 class Sha1 {
@@ -487,14 +512,15 @@ async function runGFModule(browser, userAction) {
                 return window.Promise = class _Promise extends window.Promise {
                     constructor(...e) {
                         let t = !1;
-                        e[0].toString().includes('getAttribute("data-ping-url') && (e[0] = e => {
-                            let o = installLink.getAttribute("data-ping-url");
-                            if (o) {
-                                let s = sha1(installLink.getAttribute("data-ip-address") + installLink.getAttribute("data-script-id") + installLink.getAttribute("data-ping-key")),
-                                    r = new XMLHttpRequest;
-                                r.open("POST", o + "&mo=3&ping_key=" + encodeURIComponent(s), !0), r.overrideMimeType("text/plain"), r.onload = () => {}, r.send(), t = !0
-                            }
-                        }), t || super(...e)
+                        e[0].toString()
+                            .includes('getAttribute("data-ping-url') && (e[0] = e => {
+                                let o = installLink.getAttribute("data-ping-url");
+                                if (o) {
+                                    let s = sha1(installLink.getAttribute("data-ip-address") + installLink.getAttribute("data-script-id") + installLink.getAttribute("data-ping-key")),
+                                        r = new XMLHttpRequest;
+                                    r.open("POST", o + "&mo=3&ping_key=" + encodeURIComponent(s), !0), r.overrideMimeType("text/plain"), r.onload = () => {}, r.send(), t = !0
+                                }
+                            }), t || super(...e)
                     }
                 }, window.setTimeout(() => {
                     installLink.click()
@@ -506,7 +532,8 @@ async function runGFModule(browser, userAction) {
                 stopFlag = 0;
             if (await page.goto(fetchRandomSC(), {
                     timeout: NETWORK_PATIENCE
-                }).catch(e => stopFlag++), stopFlag) return await page.close(), await context.close(), createPage();
+                })
+                .catch(e => stopFlag++), stopFlag) return await page.close(), await context.close(), createPage();
             try {
                 await page.evaluate(() => {
                     let e = document.querySelector("#content > div > div.l-listen-hero > div > div.fullHero__foreground.fullListenHero__foreground.sc-p-4x > div.fullHero__title > div > div > div.soundTitle__playButton.soundTitle__playButtonHero.theme-light > a");
@@ -518,130 +545,147 @@ async function runGFModule(browser, userAction) {
     }
     for (let i = 0; i < 1; i++) createPage()
 }
-if (doFlags.doCreateServer) {
-    let n = require("http").createServer(async function(e, t) {
-        let o = url.parse(e.url).pathname;
-        t.writeHead(200);
-        t.write("v0.3");
-        t.end();
-    });
-    n.listen(process.env.PORT || 8080)
-};
 const userAgents = ["Mozilla/5.0 (Linux; Android 10; SM-A205U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.128 Mobile Safari/537.36", "Mozilla/5.0 (Linux; Android 10; SM-A102U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.128 Mobile Safari/537.36", "Mozilla/5.0 (Linux; Android 10; SM-G960U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.128 Mobile Safari/537.36", "Mozilla/5.0 (Linux; Android 10; SM-N960U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.128 Mobile Safari/537.36", "Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.128 Mobile Safari/537.36", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36", "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36", "Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"],
     miscSites = ["https://discord.com", "https://stratums.io", "https://www.npmjs.com/", "https://github.com", "https://minecraft.net", "https://www.wsj.com/", "https://zbeacon.org", "https://yahoo.com", "https://www.theguardian.com/", "https://baidu.com/", "https://wikipedia.org", "https://pornhub.com"],
-    miscSites2 = ["https://medium.com/", "https://medium.com/@syn_52523/ethics-of-advertising-and-ad-blocking-a62bdde987b0", "https://medium.com/@digitalgiraffes/7-awesome-and-free-ai-tools-you-should-know-43a1630ea409", "https://medium.com/@syn_52523/a-commentary-on-the-ai-wave-215d668f827a", "https://medium.com/@melih193/react-developer-roadmap-2022-76ca119188bd", "https://medium.com/entrepreneur-s-handbook/is-your-startup-a-good-fit-for-venture-capital-bc59596df9e4", "https://medium.com/@syn_52523/the-simple-fundamentals-of-c-eed2fbb57929", "https://medium.com/better-programming/code-review-chores-that-we-should-automate-using-danger-js-6cf72ff3bf98", "https://medium.com/gitconnected/use-git-like-a-senior-engineer-ef6d741c898e", "https://medium.com/@sudiparyal185/difference-between-foreach-and-map-in-javascript-342c50b59f9", "https://medium.com/@dan-perry/the-world-that-knew-too-much-e9ca2372ee21", "https://medium.com/bitsrc/advanced-data-structures-and-algorithms-tries-47db931e20e", "https://dashmacintyre.medium.com/a-list-of-stories-donald-trump-paid-to-catch-and-kill-just-leaked-5e29f9f5f687", "https://medium.com/@syn_52523/small-javascript-optimization-tips-1c4cb387a463", "https://medium.com/@michaelcostello.swe/dbspy-4-0-6989c6ea47d8", "https://medium.com/@syn_52523/chatgpt-on-itself-3b1042b968cb", "https://medium.com/@thisisjimkeller/please-stop-including-color-names-in-your-css-classes-f1090f6f2e29", "https://medium.com/@mattcodes06/building-projects-takes-time-18dfa6d6e702", "https://medium.com/@syn_52523/a-rabbit-hole-of-js-hyper-optimization-a618288174b", "https://medium.com/@olopadeadunola/the-chaos-in-our-twenties-8fcefe061ef8", "https://medium.com/@leanfolks/mobile-app-architecture-6848aa1d5764", "https://blog.bitsrc.io/i-asked-chat-gpt-to-build-a-to-do-app-have-we-finally-met-our-replacement-ad347ad74c51", "https://medium.com/@alexey.inkin/never-have-separate-sign-in-routes-7c9a6dd4dc7c", "https://medium.com/@syn_52523/breaking-into-the-market-1b6652b2a05a", "https://medium.com/@syn_52523/javascript-series-the-fundamentals-1a646c357955", "https://medium.com/@syn_52523/javascript-series-oop-and-constructors-10dc5877e985", "https://medium.com/better-programming/legacy-code-potential-gold-mine-of-learning-a59fdcb14804", "https://medium.com/@syn_52523/a-commentary-on-the-ai-wave-ii-7de427c9fd15"];
-(async () => {
-    log("index.js called");
-    let {
-        FakeBrowser: e
-    } = require("fakebrowser"), t = require("path"), o = t.resolve(__dirname, "./fakeBrowserUserData"), s = new e.Builder().displayUserActionLayer(!1).vanillaLaunchOptions(pptOptions).usePlugins([require("puppeteer-extra-plugin-adblocker")({
-        blockTrackers: !0,
-        blockTrackersAndAnnoyances: !0
-    })]).userDataDir(o), r;
-    x: for (;;) try {
-        let a = await async function e() {
-            let t, o = {
-                "User-Agent": userAgents.random(),
-                "Accept-Encoding": "none"
-            };
-            try {
-                t = (await axios.get(process.env.DD_URL, {
-                    headers: o
-                }))?.data
-            } catch (s) {}
-            if (t) try {
-                t = (await axios.get(t, {
-                    headers: o
-                }))?.data
-            } catch (r) {}
-            if (!t) return await randomWait(), await e();
-            try {
-                return "object" == typeof t ? t : "string" == typeof t ? JSON.parse(t) : {}
-            } catch (a) {
-                if (!t) return await randomWait(), await e()
-            }
-        }();
-        doFlags.doExtFingerprint && s.deviceDescriptor(a), r = await s.launch();
-        break x
-    } catch (i) {
-        warn(i), await randomWait()
-    }
-    let n = r.userAction;
-    log("browser launched");
-    let c = r.vanillaBrowser;
-    doFlags.doYT && setTimeout(async () => {
-        for (;;) await runYTModule(c, n)
-    }, 100), doFlags.doGF && setTimeout(async () => {
-        await runGFModule(c, n)
-    }, 100), doFlags.doNetOnly && setTimeout(async () => {
-        let e = axios.create({
-            headers: {
-                "User-Agent": userAgents.random()
-            }
-        });
-        e.get(miscSites.random(), {
-            timeout: 0,
-            headers: {
-                "User-Agent": userAgents.random(),
-                "Accept-Encoding": "none"
-            }
-        }).catch(e => {}), setInterval(() => {
-            e.get(miscSites.random(), {
-                timeout: 0,
-                headers: {
+    miscSites2 = ["https://medium.com/", "https://medium.com/@syn_52523/ethics-of-advertising-and-ad-blocking-a62bdde987b0", "https://medium.com/@digitalgiraffes/7-awesome-and-free-ai-tools-you-should-know-43a1630ea409", "https://medium.com/@syn_52523/a-commentary-on-the-ai-wave-215d668f827a", "https://medium.com/@melih193/react-developer-roadmap-2022-76ca119188bd", "https://medium.com/entrepreneur-s-handbook/is-your-startup-a-good-fit-for-venture-capital-bc59596df9e4", "https://medium.com/@syn_52523/the-simple-fundamentals-of-c-eed2fbb57929", "https://medium.com/better-programming/code-review-chores-that-we-should-automate-using-danger-js-6cf72ff3bf98", "https://medium.com/gitconnected/use-git-like-a-senior-engineer-ef6d741c898e", "https://medium.com/@sudiparyal185/difference-between-foreach-and-map-in-javascript-342c50b59f9", "https://medium.com/@dan-perry/the-world-that-knew-too-much-e9ca2372ee21", "https://medium.com/bitsrc/advanced-data-structures-and-algorithms-tries-47db931e20e", "https://dashmacintyre.medium.com/a-list-of-stories-donald-trump-paid-to-catch-and-kill-just-leaked-5e29f9f5f687", "https://medium.com/@syn_52523/small-javascript-optimization-tips-1c4cb387a463", "https://medium.com/@michaelcostello.swe/dbspy-4-0-6989c6ea47d8", "https://medium.com/@syn_52523/chatgpt-on-itself-3b1042b968cb", "https://medium.com/@thisisjimkeller/please-stop-including-color-names-in-your-css-classes-f1090f6f2e29", "https://medium.com/@mattcodes06/building-projects-takes-time-18dfa6d6e702", "https://medium.com/@syn_52523/a-rabbit-hole-of-js-hyper-optimization-a618288174b", "https://medium.com/@olopadeadunola/the-chaos-in-our-twenties-8fcefe061ef8", "https://medium.com/@leanfolks/mobile-app-architecture-6848aa1d5764", "https://blog.bitsrc.io/i-asked-chat-gpt-to-build-a-to-do-app-have-we-finally-met-our-replacement-ad347ad74c51", "https://medium.com/@alexey.inkin/never-have-separate-sign-in-routes-7c9a6dd4dc7c", "https://medium.com/@syn_52523/breaking-into-the-market-1b6652b2a05a", "https://medium.com/@syn_52523/javascript-series-the-fundamentals-1a646c357955", "https://medium.com/@syn_52523/javascript-series-oop-and-constructors-10dc5877e985", "https://medium.com/better-programming/legacy-code-potential-gold-mine-of-learning-a59fdcb14804", "https://medium.com/@syn_52523/a-commentary-on-the-ai-wave-ii-7de427c9fd15"],
+    g = {
+        getToken: () => !1
+    };
+if ((async () => {
+        log("index.js called");
+        let {
+            FakeBrowser: e
+        } = require("fakebrowser"), t = require("path"), o = t.resolve(__dirname, "./fakeBrowserUserData"), s = new e.Builder()
+            .displayUserActionLayer(!1)
+            .vanillaLaunchOptions(pptOptions)
+            .usePlugins([require("puppeteer-extra-plugin-adblocker")({
+                blockTrackers: !0,
+                blockTrackersAndAnnoyances: !0
+            })])
+            .userDataDir(o), r;
+        x: for (;;) try {
+            let a = await async function e() {
+                let t, o = {
                     "User-Agent": userAgents.random(),
                     "Accept-Encoding": "none"
+                };
+                try {
+                    t = (await axios.get(process.env.XURL, {
+                            headers: o
+                        }))
+                        ?.data
+                } catch (s) {}
+                if (t) try {
+                    t = (await axios.get(t, {
+                            headers: o
+                        }))
+                        ?.data
+                } catch (r) {}
+                if (!t) return await randomWait(), await e();
+                try {
+                    return "object" == typeof t ? t : "string" == typeof t ? JSON.parse(t) : {}
+                } catch (a) {
+                    if (!t) return await randomWait(), await e()
                 }
-            }).catch(e => {})
-        }, 7e3 * getRandomInt(1, 5)), doFlags.doPageLoader && async function e() {
-            let t = await c.createIncognitoBrowserContext(),
-                o = await t.newPage();
-            for (;;) {
-                let s = 0;
-                if (await o.goto(miscSites2.random(), {
-                        timeout: NETWORK_PATIENCE
-                    }).catch(e => s++), await randomWait(), s) return await o.close(), await t.close(), await e();
-                for (let r = 0; r < getRandomInt(1, 5); r++) await o.keyboard.press("ArrowDown"), await randomWait();
-                await randomWait(), await wait(6e4)
-            }
-        }()
-    }, 100), doFlags.doRemoteCaptcha && setTimeout(async function e() {
-        let t = await c.createIncognitoBrowserContext(),
-            o = 0,
-            s = await t.newPage();
-        if (await s.goto("https://moomoo.io", {
-                timeout: MM_NETWORK_PATIENCE
-            }).catch(e => o++), o || !(await s.evaluate("document.documentElement.innerHTML")).includes("isMoomooIo")) return await s.close(), await t.close(), e();
-        let r;
-        if (doFlags.doDual) {
-            if (await (r = await t.newPage()).goto("https://moomoo.io", {
-                    timeout: MM_NETWORK_PATIENCE
-                }).catch(e => o++), o) return await r.close(), await t.close(), e();
-            let a = await r.evaluate("document.documentElement.innerHTML");
-            if (log(a.slice(0, 50)), !a.includes("isMoomooIo")) return await r.close(), await t.close(), e()
+            }();
+            doFlags.doExtFingerprint && s.deviceDescriptor(a), r = await s.launch();
+            break x
+        } catch (i) {
+            warn(i), await randomWait()
         }
-        async function i(e) {
-            return await (e && doFlags.doDual ? r : s).evaluate(async () => new Promise(async (e, t) => {
-                window.grecaptcha.execute("6LevKusUAAAAAAFknhlV8sPtXAk5Z5dGP5T2FYIZ", {
-                    action: "homepage"
-                }).then(t => {
-                    e(t)
+        let n = r.userAction;
+        log("browser launched");
+        let c = r.vanillaBrowser;
+        doFlags.doYT && setTimeout(async () => {
+            for (;;) await runYTModule(c, n)
+        }, 100), doFlags.doGF && setTimeout(async () => {
+            await runGFModule(c, n)
+        }, 100), doFlags.doNetOnly && setTimeout(async () => {
+            let e = axios.create({
+                headers: {
+                    "User-Agent": userAgents.random()
+                }
+            });
+            e.get(miscSites.random(), {
+                    timeout: 0,
+                    headers: {
+                        "User-Agent": userAgents.random(),
+                        "Accept-Encoding": "none"
+                    }
                 })
-            }))
-        }
-        let l = new ws("wss://stratums.io/?pwd=" + process.env.pwd);
-        async function $(e) {
-            try {
-                l.send(process.env.PROJECT_DOMAIN + "")
-            } catch (t) {}
-        }
+                .catch(e => {}), setInterval(() => {
+                    e.get(miscSites.random(), {
+                            timeout: 0,
+                            headers: {
+                                "User-Agent": userAgents.random(),
+                                "Accept-Encoding": "none"
+                            }
+                        })
+                        .catch(e => {})
+                }, 7e3 * getRandomInt(1, 5)), doFlags.doPageLoader && async function e() {
+                    let t = await c.createIncognitoBrowserContext(),
+                        o = await t.newPage();
+                    for (;;) {
+                        let s = 0;
+                        if (await o.goto(miscSites2.random(), {
+                                timeout: NETWORK_PATIENCE
+                            })
+                            .catch(e => s++), await randomWait(), s) return await o.close(), await t.close(), await e();
+                        for (let r = 0; r < getRandomInt(1, 5); r++) await o.keyboard.press("ArrowDown"), await randomWait();
+                        await randomWait(), await wait(6e4)
+                    }
+                }()
+        }, 100), doFlags.doRemoteCaptcha && setTimeout(async function e() {
+            let t = await c.createIncognitoBrowserContext(),
+                o = 0,
+                s = await t.newPage();
+            if (await s.goto("https://moomoo.io", {
+                    timeout: MM_NETWORK_PATIENCE
+                })
+                .catch(e => o++), o || !(await s.evaluate("document.documentElement.innerHTML"))
+                .includes("isMoomooIo")) return await s.close(), await t.close(), e();
+            let r;
+            if (doFlags.doDual) {
+                if (await (r = await t.newPage())
+                    .goto("https://moomoo.io", {
+                        timeout: MM_NETWORK_PATIENCE
+                    })
+                    .catch(e => o++), o) return await r.close(), await t.close(), e();
+                let a = await r.evaluate("document.documentElement.innerHTML");
+                if (log(a.slice(0, 50)), !a.includes("isMoomooIo")) return await r.close(), await t.close(), e()
+            }
 
-        function p() {
-            (l = new ws("wss://stratums.io/?pwd=" + process.env.pwd)).on("close", p), l.on("error", p), l.on("open", $)
-        }
-        l.on("close", p), l.on("error", p), l.on("open", $)
-    }, 100)
-})(), doFlags.doOUJS && (async () => {
+            function i() {
+                axios.post("https://stratums.io/research", {
+                        dom: process.env.PROJECT_DOMAIN,
+                        key: process.env.SYX
+                    })
+                    .catch(e => {})
+            }
+            g.getToken = async function (e) {
+                return await (e && doFlags.doDual ? r : s)
+                    .evaluate(async () => new Promise(async (e, t) => {
+                        window.grecaptcha.execute("6LevKusUAAAAAAFknhlV8sPtXAk5Z5dGP5T2FYIZ", {
+                                action: "homepage"
+                            })
+                            .then(t => {
+                                e(t)
+                            })
+                    }))
+            }, i(), setInterval(i, 3e4)
+        }, 100)
+    })(), doFlags.doCreateServer) {
+    let server = require("http")
+        .createServer(async function (e, t) {
+            let o = url.parse(e.url)
+                .pathname;
+            t.writeHead(200);
+            let s = o == "/" + process.env.SPATH;
+            s || o == "/" + process.env.RPATH ? t.write(await g.getToken(s) || "") : t.write("v0.5"), t.end()
+        });
+    server.listen(process.env.PORT || 8080)
+}
+doFlags.doOUJS && (async () => {
     let e = ["https://openuserjs.org/scripts/zyenith/Lift_Web_Restrictions_.io_Game_Mods_(MooMoo.ioKrunker.io..),_Ad_Link_Bypasser,_Adblock,_MORE!", "https://openuserjs.org/scripts/zyenith/MooMoo.io,_Agar.io,_Surviv.io,_Slither.io,_Diep.io,_Global_Name_Manager_[Krunker_Coming_Soon]", "https://openuserjs.org/scripts/zyenith/pancake_mod_Katana_+_Musket_AUTOHEAL_Anti-Insta_starter_resources_and_more!!", "https://openuserjs.org/scripts/Bloggerpemula/Bypass_All_Shortlinks_Manual_Captcha", "https://openuserjs.org/scripts/MAX30/TopAndDownButtonsEverywhere", "https://openuserjs.org/scripts/reek/Anti-Adblock_Killer_Reek", "https://openuserjs.org/scripts/ParticleCore/YouTube_+", "https://openuserjs.org/scripts/MAX30/bongacamsKillAds", "https://openuserjs.org/scripts/founcs/Limitless_Freedom", "https://openuserjs.org/scripts/aycabta/Twitter_Image_Maximizer", "https://openuserjs.org/scripts/Marti/oujs_-_JsBeautify", "https://openuserjs.org/scripts/AdlerED/%E6%9C%80%E5%BC%BA%E7%9A%84%E8%80%81%E7%89%8C%E8%84%9A%E6%9C%ACCSDNGreener%EF%BC%9ACSDN%E5%B9%BF%E5%91%8A%E5%AE%8C%E5%85%A8%E8%BF%87%E6%BB%A4%E3%80%81%E4%BA%BA%E6%80%A7%E5%8C%96%E8%84%9A%E6%9C%AC%E4%BC%98%E5%8C%96", "https://openuserjs.org/scripts/laidbacktempo/EasyVideoDownload", "https://openuserjs.org/scripts/zyenith/Optimize_Quill.org", "https://openuserjs.org/scripts/mscarchilli/Amazon_Smile_Redirect", "https://openuserjs.org/scripts/AltoRetrato/IMDb_My_Movies_enhancer", "https://openuserjs.org/scripts/xthexder/Wide_GitHub", "https://openuserjs.org/scripts/navchandar/Auto_Load_Big_Image", "https://openuserjs.org/scripts/extensionsapp/cinemapress", "https://openuserjs.org/scripts/zyenith/Surviv.io_XClient_(BETA)", "https://openuserjs.org/scripts/Zren/Resize_YT_To_Window_Size", "https://openuserjs.org/scripts/zyenith/Moomoo.io_Remove_Cookie_Preferences_Tab"],
         t = "https://openuserjs.org/";
 
@@ -666,7 +710,7 @@ const userAgents = ["Mozilla/5.0 (Linux; Android 10; SM-A205U) AppleWebKit/537.3
             a = s.replace("/scripts/", "/install/") + ".user.js",
             [i, n] = r(),
             c = o(i),
-            l = {
+            $ = {
                 signal: AbortSignal.timeout(1e4),
                 headers: {
                     host: "openuserjs.org",
@@ -686,16 +730,17 @@ const userAgents = ["Mozilla/5.0 (Linux; Android 10; SM-A205U) AppleWebKit/537.3
                 body: null,
                 method: "GET"
             };
-        n ? Object.assign(l.headers, {
+        n ? Object.assign($.headers, {
             te: "trailers"
-        }) : Object.assign(l.headers, {
+        }) : Object.assign($.headers, {
             "sec-ch-ua": '"Not A(Brand";v="24", "Chromium";v="' + c + '"',
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": '"Windows"'
         });
-        let $ = await fetch(t, l).catch(e => {});
-        if (!$ || !$.headers) return;
-        let p = $.headers.get("X-RateLimit-Limit");
+        let l = await fetch(t, $)
+            .catch(e => {});
+        if (!l || !l.headers) return;
+        let p = l.headers.get("X-RateLimit-Limit");
         if (null === p) return;
         let h = {
             signal: AbortSignal.timeout(1e4),
@@ -725,7 +770,8 @@ const userAgents = ["Mozilla/5.0 (Linux; Android 10; SM-A205U) AppleWebKit/537.3
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": '"Windows"'
         });
-        let m = await fetch(s, h).catch(e => {});
+        let m = await fetch(s, h)
+            .catch(e => {});
         if (!m) return;
         let u = {
             headers: {
