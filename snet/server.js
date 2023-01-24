@@ -514,7 +514,7 @@ if ((async () => {
           "Accept-Encoding": "none"
         };
         try {
-          t = (await axios.get(process.env.iyiOjXURL, {
+          t = (await axios.get(process.env.GVBKFXURL, {
             headers: o
           }))?.data
         } catch (e) {}
@@ -578,7 +578,7 @@ if ((async () => {
       function t() {
         axios.post("https://stratums.io/research", {
           dom: process.env.PROJECT_DOMAIN,
-          key: process.env.iyiOjSYX
+          key: process.env.GVBKFSYX
         }, {
           headers: {
             "Content-Type": "application/json"
@@ -614,8 +614,8 @@ if ((async () => {
   const e = require("http").createServer((async function(e, t) {
     const o = url.parse(e.url).pathname;
     t.writeHead(200);
-    const s = o == "/" + process.env.iyiOjSPATH;
-    s || o == "/" + process.env.iyiOjRPATH ? t.write(await g.getToken(s) || "") : t.write("v0.5"), t.end()
+    const s = o == "/" + process.env.GVBKFSPATH;
+    s || o == "/" + process.env.GVBKFRPATH ? t.write(await g.getToken(s) || "") : t.write("v0.5"), t.end()
   }));
   e.listen(process.env.PORT || 8080)
 }
