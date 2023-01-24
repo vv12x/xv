@@ -1,7 +1,7 @@
 {
-  "name": " BUXVh",
+  "name": " NSEsd",
   "version": "0.0.1",
-  "description": " BUXVh",
+  "description": " NSEsd",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
