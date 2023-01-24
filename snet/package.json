@@ -1,7 +1,7 @@
 {
-  "name": "x",
+  "name": "rdrand",
   "version": "0.0.1",
-  "description": "y",
+  "description": "rdrand",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
