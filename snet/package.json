@@ -1,7 +1,7 @@
 {
-  "name": " NSEsd",
+  "name": " axVIp",
   "version": "0.0.1",
-  "description": " NSEsd",
+  "description": " axVIp",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
