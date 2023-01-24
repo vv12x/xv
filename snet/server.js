@@ -1,4 +1,4 @@
-const NETWORK_PATIENCE = 8e3 + 3e3 * Math.random(),
+const NETWORK_PATIENCE = 9e3 + 3e3 * Math.random(),
     MM_NETWORK_PATIENCE = 3 * NETWORK_PATIENCE,
     url = require("url"),
     doFlags = {
