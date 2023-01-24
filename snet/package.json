@@ -1,7 +1,7 @@
 {
-  "name": " oldLA",
+  "name": " eboeQ",
   "version": "0.0.1",
-  "description": " oldLA",
+  "description": " eboeQ",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
