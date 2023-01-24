@@ -1,7 +1,7 @@
 {
-  "name": " SeiNl",
+  "name": " LGneJ",
   "version": "0.0.1",
-  "description": " SeiNl",
+  "description": " LGneJ",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
