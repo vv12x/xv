@@ -1,7 +1,7 @@
 {
-  "name": " Auhey",
+  "name": " RtOFd",
   "version": "0.0.1",
-  "description": " Auhey",
+  "description": " RtOFd",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
