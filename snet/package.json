@@ -1,7 +1,7 @@
 {
-  "name": " pyPzL",
+  "name": " EjIvu",
   "version": "0.0.1",
-  "description": " pyPzL",
+  "description": " EjIvu",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
