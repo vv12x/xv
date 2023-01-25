@@ -1,7 +1,7 @@
 {
-  "name": " YuhDY",
+  "name": " IMOcg",
   "version": "0.0.1",
-  "description": " YuhDY",
+  "description": " IMOcg",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
