@@ -1,4 +1,4 @@
-fakeBrowserUserData/
-.glitchdotcom.json
-node_modules
 .node-gyp
+.glitchdotcom.json
+fakeBrowserUserData/
+node_modules
