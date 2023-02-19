@@ -1,5 +1,4 @@
 const puppeteer = require("puppeteer");
-require("fs").writeFileSync(".replit", `run = "bash start.sh"`);
 
 (async () => {
   const browser = await puppeteer.launch(
